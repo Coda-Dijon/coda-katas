@@ -1,0 +1,25 @@
+10.wtf-http/src/wtf-router.ts
+  s_2386233b5aab5a::t_655bed02f9ac28 1-54
+10.wtf-http/src/routes/materiel.ts
+  s_2386233b5aab5a::t_a89b050ae2a60b 1,5,7,9-18,20-29,31-35,37-41
+10.wtf-http/src/routes/vaisseaux.ts
+  s_2386233b5aab5a::t_c7c1d8cc6a5e20 1,5,7,9-18,20-22,24-35,37-41
+10.wtf-http/src/routes/personnages.ts
+  s_2386233b5aab5a::t_92b9710b440a4b 1,5,7,9-12,14-18,20-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "43ddf89e5238bf5ce3a1d4badfdf060b3dd068d9",
+  "prompts": {},
+  "sessions": {
+    "s_2386233b5aab5a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59765caa-4ce6-4fa5-a4a4-7c21ed1bf3a5",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
