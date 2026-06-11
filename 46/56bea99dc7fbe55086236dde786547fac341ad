@@ -1,0 +1,30 @@
+10.wtf-http/src/app.ts
+  s_2386233b5aab5a::t_35810570e0288c 9-17
+10.wtf-http/tests/helpers.ts
+  s_2386233b5aab5a::t_e1ecbcda72fb2f 20-21,28-30,32,35
+10.wtf-http/README.md
+  s_2386233b5aab5a::t_12aef2b758055b 108,112-113,115,119,123
+  s_2386233b5aab5a::t_96ca459b4382d5 39-71
+  s_2386233b5aab5a::t_82225abddf545a 295,301,304-305,310,313,322,325,328,331-332,346-347,361-362,367,370,380,383,386-387,401-402,416-417,423-424,429,438,441,444-445,458-459,472-473,478-479,485
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "4656bea99dc7fbe55086236dde786547fac341ad",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2386233b5aab5a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59765caa-4ce6-4fa5-a4a4-7c21ed1bf3a5",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
