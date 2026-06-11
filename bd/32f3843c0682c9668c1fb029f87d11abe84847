@@ -1,0 +1,50 @@
+10.wtf-http/src/data.ts
+  s_2386233b5aab5a::t_00c89c42ec6dc4 1-51
+10.wtf-http/src/server.ts
+  s_2386233b5aab5a::t_a4241448bccc04 1-7
+10.wtf-http/vite.config.ts
+  s_2386233b5aab5a::t_d27c6c58c8f021 1-14
+10.wtf-http/tests/personnages.test.ts
+  s_2386233b5aab5a::t_d792bb68696701 1-107
+10.wtf-http/src/routes/personnages.ts
+  s_2386233b5aab5a::t_c989d80b39be2e 1-65
+10.wtf-http/package-lock.json
+  s_2386233b5aab5a::t_ad7918e3d384d8 1-2726
+10.wtf-http/src/routes/vaisseaux.ts
+  s_2386233b5aab5a::t_68b5640e7cf467 1-64
+10.wtf-http/src/app.ts
+  s_2386233b5aab5a::t_e1a9ae9d811a3b 1-15
+10.wtf-http/package.json
+  s_2386233b5aab5a::t_4d8b2ac7d789e9 1-20,23-24
+  s_2386233b5aab5a::t_ad7918e3d384d8 21-22
+10.wtf-http/tests/vaisseaux.test.ts
+  s_2386233b5aab5a::t_968c767d697f2d 1-107
+10.wtf-http/tests/materiel.test.ts
+  s_2386233b5aab5a::t_19802f6113742b 1-105
+10.wtf-http/src/types.ts
+  s_2386233b5aab5a::t_95c65439524b2e 1-31
+10.wtf-http/tests/special.test.ts
+  s_2386233b5aab5a::t_7de56f5f6e99cc 1-67
+10.wtf-http/src/routes/materiel.ts
+  s_2386233b5aab5a::t_c05a8808dc5c46 1-64
+10.wtf-http/tests/helpers.ts
+  s_2386233b5aab5a::t_c73099ea6537ae 1-40
+10.wtf-http/tsconfig.json
+  s_2386233b5aab5a::t_6143930e205749 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "bd32f3843c0682c9668c1fb029f87d11abe84847",
+  "prompts": {},
+  "sessions": {
+    "s_2386233b5aab5a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59765caa-4ce6-4fa5-a4a4-7c21ed1bf3a5",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
