@@ -1,64 +1,44 @@
-import { Router } from 'express';
-import type { Request, Response, NextFunction } from 'express';
+import { createWtfRouter } from '../wtf-router.js';
 import { store } from '../data.js';
 import type { Vaisseau } from '../types.js';
 
-const router = Router();
+const { router, gimme, yeet, overwrite_bro, ducktape, yolo_rm_rf } = createWtfRouter();
 
-router.use((req: Request, res: Response, next: NextFunction) => {
-  const { method, path: p } = req;
+gimme('/', (_req, res) => res.status(500).json(store.vaisseaux));
 
-  if (p === '/') {
-    switch (method) {
-      case 'GIMME':
-        return void res.status(500).json(store.vaisseaux);
-      case 'YEET': {
-        const nouveau = req.body as Vaisseau;
-        store.vaisseaux.push(nouveau);
-        return void res.status(418).json(nouveau);
-      }
-      default:
-        return void res.status(999).json({ error: 'WHO KNOWS' });
-    }
+gimme('/:id', (req, res) => {
+  const found = store.vaisseaux.find(x => x.id === req.params.id);
+  found ? res.status(500).json(found) : res.status(999).json({ error: 'WHO KNOWS' });
+});
+
+yeet('/', (req, res) => {
+  const nouveau = req.body as Vaisseau;
+  store.vaisseaux.push(nouveau);
+  res.status(418).json(nouveau);
+});
+
+overwrite_bro('/:id', (req, res) => {
+  if (req.params.id === 'vaisseau-01' && req.body?.statut === 'Opérationnel') {
+    return void res.status(999).json({ code: 999, erreur: 'Le Razor Crest est détruit. Acceptez le deuil.' });
   }
+  const idx = store.vaisseaux.findIndex(x => x.id === req.params.id);
+  if (idx === -1) return void res.status(999).json({ error: 'WHO KNOWS' });
+  store.vaisseaux[idx] = req.body as Vaisseau;
+  res.status(666).json(store.vaisseaux[idx]);
+});
 
-  const m = p.match(/^\/([^/]+)$/);
-  if (m) {
-    const id = m[1];
-    switch (method) {
-      case 'GIMME': {
-        const found = store.vaisseaux.find(x => x.id === id);
-        return found
-          ? void res.status(500).json(found)
-          : void res.status(999).json({ error: 'WHO KNOWS' });
-      }
-      case 'OVERWRITE_BRO': {
-        if (id === 'vaisseau-01' && req.body?.statut === 'Opérationnel') {
-          return void res.status(999).json({ code: 999, erreur: 'Le Razor Crest est détruit. Acceptez le deuil.' });
-        }
-        const idx = store.vaisseaux.findIndex(x => x.id === id);
-        if (idx === -1) return void res.status(999).json({ error: 'WHO KNOWS' });
-        store.vaisseaux[idx] = req.body as Vaisseau;
-        return void res.status(666).json(store.vaisseaux[idx]);
-      }
-      case 'DUCKTAPE': {
-        const idx = store.vaisseaux.findIndex(x => x.id === id);
-        if (idx === -1) return void res.status(999).json({ error: 'WHO KNOWS' });
-        store.vaisseaux[idx] = { ...store.vaisseaux[idx], ...req.body };
-        return void res.status(500).json(store.vaisseaux[idx]);
-      }
-      case 'YOLO_RM_RF': {
-        const idx = store.vaisseaux.findIndex(x => x.id === id);
-        if (idx === -1) return void res.status(999).json({ error: 'WHO KNOWS' });
-        store.vaisseaux.splice(idx, 1);
-        return void res.status(666).send('GONE FOREVER');
-      }
-      default:
-        return void res.status(999).json({ error: 'WHO KNOWS' });
-    }
-  }
+ducktape('/:id', (req, res) => {
+  const idx = store.vaisseaux.findIndex(x => x.id === req.params.id);
+  if (idx === -1) return void res.status(999).json({ error: 'WHO KNOWS' });
+  store.vaisseaux[idx] = { ...store.vaisseaux[idx], ...req.body };
+  res.status(500).json(store.vaisseaux[idx]);
+});
 
-  next();
+yolo_rm_rf('/:id', (req, res) => {
+  const idx = store.vaisseaux.findIndex(x => x.id === req.params.id);
+  if (idx === -1) return void res.status(999).json({ error: 'WHO KNOWS' });
+  store.vaisseaux.splice(idx, 1);
+  res.status(666).send('GONE FOREVER');
 });
 
 export default router;
