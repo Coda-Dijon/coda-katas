@@ -253,5 +253,192 @@ L'implémentation conforme DOIT gérer les cas suivants :
 
 ---
 
+---
+
+## 6. Requêtes curl de test
+
+> Pour tester le protocole HTTP/WTF, `curl` accepte des verbes personnalisés via l'option `-X`. C'est légal. C'est peut-être même une bonne idée.
+
+### 6.1 Serveur de base (port 3000)
+
+```bash
+# GIMME / → 500 INTERNAL PAIN
+curl -X GIMME http://localhost:3000/ -v
+
+# YEET /wtf → 418 I'M A TEAPOT
+curl -X YEET http://localhost:3000/wtf \
+  -H "Content-Type: application/json" \
+  -d '{"message": "chaos en production"}' -v
+
+# YOLO_RM_RF /prod → 666 GONE FOREVER
+curl -X YOLO_RM_RF http://localhost:3000/prod -v
+
+# Route inconnue → 999 WHO KNOWS
+curl -X SNIFF http://localhost:3000/inexistant -v
+```
+
+---
+
+### 6.2 MandoAPI — Personnages (port 1138)
+
+```bash
+# GIMME /personnages → 500 : liste tous les personnages
+curl -X GIMME http://localhost:1138/personnages -v
+
+# GIMME /personnages/:id → 500 : un personnage par ID
+curl -X GIMME http://localhost:1138/personnages/mando-01 -v
+
+# GIMME /personnages/:id inexistant → 999 WHO KNOWS
+curl -X GIMME http://localhost:1138/personnages/mando-99 -v
+
+# YEET /personnages → 418 : crée un nouveau personnage
+curl -X YEET http://localhost:1138/personnages \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "mando-11",
+    "nom": "The Armorer",
+    "alias": "La Forgeron",
+    "espece": "Humain",
+    "faction": "Mandalorien",
+    "statut": "Vivante",
+    "apparitions": [1, 2, 3],
+    "this_is_the_way": true
+  }' -v
+
+# OVERWRITE_BRO /personnages/:id → 666 : remplace un personnage entier
+curl -X OVERWRITE_BRO http://localhost:1138/personnages/mando-04 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "mando-04",
+    "nom": "Cara Dune",
+    "alias": "—",
+    "espece": "Humain",
+    "faction": "New Republic Marshal",
+    "statut": "Vivante",
+    "apparitions": [1, 2],
+    "this_is_the_way": false
+  }' -v
+
+# DUCKTAPE /personnages/:id → 500 : mise à jour partielle
+curl -X DUCKTAPE http://localhost:1138/personnages/mando-06 \
+  -H "Content-Type: application/json" \
+  -d '{"statut": "En fuite"}' -v
+
+# YOLO_RM_RF /personnages/:id → 666 : supprime un personnage
+curl -X YOLO_RM_RF http://localhost:1138/personnages/mando-08 -v
+
+# YOLO_RM_RF sur Grogu → protection spéciale
+curl -X YOLO_RM_RF http://localhost:1138/personnages/mando-02 -v
+# Attendu : { "code": 666, "erreur": "This is the Way. On ne supprime pas Grogu." }
+```
+
+---
+
+### 6.3 MandoAPI — Vaisseaux (port 1138)
+
+```bash
+# GIMME /vaisseaux → 500 : liste tous les vaisseaux
+curl -X GIMME http://localhost:1138/vaisseaux -v
+
+# GIMME /vaisseaux/:id → 500 : un vaisseau par ID
+curl -X GIMME http://localhost:1138/vaisseaux/vaisseau-02 -v
+
+# YEET /vaisseaux → 418 : enregistre un nouveau vaisseau
+curl -X YEET http://localhost:1138/vaisseaux \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "vaisseau-06",
+    "nom": "Outland TIE Fighter",
+    "type": "Chasseur TIE modifié",
+    "fabricant": "Sienar Fleet Systems",
+    "statut": "Opérationnel",
+    "proprietaire": "mando-10",
+    "hyperdrive": false,
+    "armement": ["canons laser doubles"]
+  }' -v
+
+# OVERWRITE_BRO /vaisseaux/:id → 666 : remplace les specs complètes
+curl -X OVERWRITE_BRO http://localhost:1138/vaisseaux/vaisseau-03 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "vaisseau-03",
+    "nom": "Slave I (Firespray)",
+    "type": "Vaisseau de chasse",
+    "fabricant": "Kuat Systems Engineering",
+    "statut": "En maintenance",
+    "proprietaire": "mando-08",
+    "hyperdrive": true,
+    "armement": ["canons laser", "torpilles à protons", "mines sismiques"]
+  }' -v
+
+# OVERWRITE_BRO sur Razor Crest avec statut Opérationnel → refus
+curl -X OVERWRITE_BRO http://localhost:1138/vaisseaux/vaisseau-01 \
+  -H "Content-Type: application/json" \
+  -d '{"statut": "Opérationnel"}' -v
+# Attendu : { "code": 999, "erreur": "Le Razor Crest est détruit. Acceptez le deuil." }
+
+# DUCKTAPE /vaisseaux/:id → 500 : réparation partielle
+curl -X DUCKTAPE http://localhost:1138/vaisseaux/vaisseau-04 \
+  -H "Content-Type: application/json" \
+  -d '{"statut": "Neutralisé"}' -v
+
+# YOLO_RM_RF /vaisseaux/:id → 666 : désenregistre un vaisseau
+curl -X YOLO_RM_RF http://localhost:1138/vaisseaux/vaisseau-05 -v
+```
+
+---
+
+### 6.4 MandoAPI — Matériel (port 1138)
+
+```bash
+# GIMME /materiel → 500 : liste tout le matériel
+curl -X GIMME http://localhost:1138/materiel -v
+
+# GIMME /materiel/:id → 500 : un équipement par ID
+curl -X GIMME http://localhost:1138/materiel/materiel-01 -v
+
+# YEET /materiel → 418 : ajoute un équipement
+curl -X YEET http://localhost:1138/materiel \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "materiel-09",
+    "nom": "Spear of Mandalore",
+    "type": "Arme",
+    "description": "Lance en Beskar pur. Casse les sabres laser. Divise les fandoms.",
+    "proprietaire": "mando-03",
+    "origine": "Mandalore",
+    "valeur_en_credits": "incalculable"
+  }' -v
+
+# OVERWRITE_BRO /materiel/:id → 666 : remplace une fiche complète
+curl -X OVERWRITE_BRO http://localhost:1138/materiel/materiel-08 \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "materiel-08",
+    "nom": "Imperial Remnant E-Web",
+    "type": "Arme lourde",
+    "description": "Canon lourd. Très lourd. Maintenant à la New Republic.",
+    "proprietaire": "mando-01",
+    "origine": "Empire",
+    "valeur_en_credits": "confisqué"
+  }' -v
+
+# DUCKTAPE /materiel/:id → 500 : modification partielle
+curl -X DUCKTAPE http://localhost:1138/materiel/materiel-03 \
+  -H "Content-Type: application/json" \
+  -d '{"statut": "En recharge"}' -v
+
+# DUCKTAPE sur la Darksaber avec changement de propriétaire → refus
+curl -X DUCKTAPE http://localhost:1138/materiel/materiel-02 \
+  -H "Content-Type: application/json" \
+  -d '{"proprietaire": "mando-01"}' -v
+# Attendu : { "code": 418, "erreur": "La Darksaber ne se transmet que par combat. Pas par DUCKTAPE." }
+
+# YOLO_RM_RF /materiel/:id → 666 : supprime un équipement
+curl -X YOLO_RM_RF http://localhost:1138/materiel/materiel-07 -v
+```
+
+---
+
 *Approuvé par l'Internet Engineering WTF Task Force (IEWTF)*
 *23 mars 2026, 3h17 du matin — quelque part dans un datacenter en feu*
