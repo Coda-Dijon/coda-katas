@@ -17,17 +17,22 @@ export async function stopServer(server: Server): Promise<void> {
   });
 }
 
+// llhttp rejects unknown HTTP method tokens — the WTF verb goes in X-WTF-Method header.
+// The server middleware in app.ts copies it into req.method before routing.
 export async function wtf(
   baseUrl: string,
   method: string,
   path: string,
   body?: unknown,
 ): Promise<{ status: number; body: unknown }> {
-  const init: RequestInit = { method };
+  const headers: Record<string, string> = { 'X-WTF-Method': method };
+  const init: RequestInit = { method: 'POST', headers };
+
   if (body !== undefined) {
+    headers['Content-Type'] = 'application/json';
     init.body = JSON.stringify(body);
-    init.headers = { 'Content-Type': 'application/json' };
   }
+
   const res = await fetch(`${baseUrl}${path}`, init);
   const text = await res.text();
   let parsed: unknown;

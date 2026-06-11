@@ -36,6 +36,39 @@ Le protocole HTTP/WTF repose sur trois principes fondamentaux :
 
 ---
 
+### 2.1 La contrainte de transport — Addendum RFC-WTF-0001-T
+
+> *Une ironie tragique a été découverte lors de la première implémentation de référence.*
+
+HTTP/WTF prétend remplacer HTTP. Pourtant, il doit transiter sur HTTP/1.1. Et HTTP/1.1 a une opinion très arrêtée sur les noms de méthodes.
+
+Le parser HTTP de Node.js (`llhttp`, utilisé depuis Node.js 12) maintient une liste blanche de méthodes légitimes : `GET`, `POST`, `PUT`, `DELETE`, etc. Tout verbe absent de cette liste provoque une réponse `400 Bad Request` **au niveau du parser réseau**, avant même que le code applicatif soit exécuté.
+
+```
+# Tentative naïve
+GIMME /personnages HTTP/1.1
+Host: localhost:1138
+
+# Résultat immédiat — sans passer par Express, sans passer par votre code
+HTTP/1.1 400 Bad Request
+```
+
+L'IEWTF a adopté en urgence l'**Addendum de Transport RFC-WTF-0001-T** :
+
+> **Le verbe WTF DOIT être transporté dans l'en-tête `X-WTF-Method`.**
+> Le verbe HTTP réel de la requête (`POST`, etc.) sert de véhicule silencieux et est ignoré par le routeur.
+> Un middleware d'entrée lit `X-WTF-Method` et l'injecte dans `req.method` avant tout routing.
+
+| Couche | Ce qui transite | Exemple |
+|---|---|---|
+| Transport HTTP/1.1 | Méthode standard ignorée | `POST /personnages` |
+| En-tête WTF | Le vrai verbe | `X-WTF-Method: GIMME` |
+| Routeur applicatif | Lit `req.method` après injection | `req.method === 'GIMME'` ✓ |
+
+**Note pour les puristes :** oui, c'est ironique. Le protocole censé tuer HTTP doit se plier à HTTP pour exister. L'IEWTF l'accepte. La souffrance est le fondement du standard.
+
+---
+
 ## 3. Tableau de correspondance officiel HTTP → HTTP/WTF
 
 Le tableau ci-dessous constitue la référence normative du protocole HTTP/WTF. Toute implémentation doit s'y conformer strictement, ou presque.
@@ -72,20 +105,22 @@ Votre mission, si vous l'acceptez (vous n'avez pas le choix), est d'implémenter
 **Étape 5** — Livrer en production sans tests. C'est la voie HTTP/WTF.
 
 ```js
-// server.js — implémentation de référence conforme RFC-WTF-0001
+// server.js — implémentation de référence conforme RFC-WTF-0001 + Addendum -T
 const http = require('http');
 
 const server = http.createServer((req, res) => {
+  // Addendum RFC-WTF-0001-T : le verbe WTF transite via X-WTF-Method
+  const method = req.headers['x-wtf-method'] ?? req.method;
 
-  if (req.url === '/' && req.method === 'GIMME') {
+  if (req.url === '/' && method === 'GIMME') {
     res.writeHead(500, { 'Content-Type': 'text/plain' });
     res.end('Ca marche mais je souffre.');
 
-  } else if (req.url === '/wtf' && req.method === 'YEET') {
+  } else if (req.url === '/wtf' && method === 'YEET') {
     res.writeHead(418, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({ status: 'teapot', chaos: Math.random() > 0.5 }));
 
-  } else if (req.url === '/prod' && req.method === 'YOLO_RM_RF') {
+  } else if (req.url === '/prod' && method === 'YOLO_RM_RF') {
     res.writeHead(666, { 'Content-Type': 'text/plain' });
     res.end('Supprimé. Sans backup. Bonne chance.');
 
@@ -257,24 +292,25 @@ L'implémentation conforme DOIT gérer les cas suivants :
 
 ## 6. Requêtes curl de test
 
-> Pour tester le protocole HTTP/WTF, `curl` accepte des verbes personnalisés via l'option `-X`. C'est légal. C'est peut-être même une bonne idée.
+> Le parser HTTP de Node.js (llhttp) refuse les noms de méthode non-standard avant même qu'Express les voie. Le verbe WTF transite donc dans l'en-tête `X-WTF-Method` — un middleware le copie dans `req.method` avant le routing.
 
 ### 6.1 Serveur de base (port 3000)
 
 ```bash
 # GIMME / → 500 INTERNAL PAIN
-curl -X GIMME http://localhost:3000/ -v
+curl -X POST http://localhost:3000/ -H "X-WTF-Method: GIMME" -v
 
 # YEET /wtf → 418 I'M A TEAPOT
-curl -X YEET http://localhost:3000/wtf \
+curl -X POST http://localhost:3000/wtf \
+  -H "X-WTF-Method: YEET" \
   -H "Content-Type: application/json" \
   -d '{"message": "chaos en production"}' -v
 
 # YOLO_RM_RF /prod → 666 GONE FOREVER
-curl -X YOLO_RM_RF http://localhost:3000/prod -v
+curl -X POST http://localhost:3000/prod -H "X-WTF-Method: YOLO_RM_RF" -v
 
 # Route inconnue → 999 WHO KNOWS
-curl -X SNIFF http://localhost:3000/inexistant -v
+curl -X POST http://localhost:3000/inexistant -H "X-WTF-Method: SNIFF" -v
 ```
 
 ---
@@ -283,16 +319,17 @@ curl -X SNIFF http://localhost:3000/inexistant -v
 
 ```bash
 # GIMME /personnages → 500 : liste tous les personnages
-curl -X GIMME http://localhost:1138/personnages -v
+curl -X POST http://localhost:1138/personnages -H "X-WTF-Method: GIMME" -v
 
 # GIMME /personnages/:id → 500 : un personnage par ID
-curl -X GIMME http://localhost:1138/personnages/mando-01 -v
+curl -X POST http://localhost:1138/personnages/mando-01 -H "X-WTF-Method: GIMME" -v
 
 # GIMME /personnages/:id inexistant → 999 WHO KNOWS
-curl -X GIMME http://localhost:1138/personnages/mando-99 -v
+curl -X POST http://localhost:1138/personnages/mando-99 -H "X-WTF-Method: GIMME" -v
 
 # YEET /personnages → 418 : crée un nouveau personnage
-curl -X YEET http://localhost:1138/personnages \
+curl -X POST http://localhost:1138/personnages \
+  -H "X-WTF-Method: YEET" \
   -H "Content-Type: application/json" \
   -d '{
     "id": "mando-11",
@@ -306,7 +343,8 @@ curl -X YEET http://localhost:1138/personnages \
   }' -v
 
 # OVERWRITE_BRO /personnages/:id → 666 : remplace un personnage entier
-curl -X OVERWRITE_BRO http://localhost:1138/personnages/mando-04 \
+curl -X POST http://localhost:1138/personnages/mando-04 \
+  -H "X-WTF-Method: OVERWRITE_BRO" \
   -H "Content-Type: application/json" \
   -d '{
     "id": "mando-04",
@@ -320,15 +358,16 @@ curl -X OVERWRITE_BRO http://localhost:1138/personnages/mando-04 \
   }' -v
 
 # DUCKTAPE /personnages/:id → 500 : mise à jour partielle
-curl -X DUCKTAPE http://localhost:1138/personnages/mando-06 \
+curl -X POST http://localhost:1138/personnages/mando-06 \
+  -H "X-WTF-Method: DUCKTAPE" \
   -H "Content-Type: application/json" \
   -d '{"statut": "En fuite"}' -v
 
 # YOLO_RM_RF /personnages/:id → 666 : supprime un personnage
-curl -X YOLO_RM_RF http://localhost:1138/personnages/mando-08 -v
+curl -X POST http://localhost:1138/personnages/mando-08 -H "X-WTF-Method: YOLO_RM_RF" -v
 
 # YOLO_RM_RF sur Grogu → protection spéciale
-curl -X YOLO_RM_RF http://localhost:1138/personnages/mando-02 -v
+curl -X POST http://localhost:1138/personnages/mando-02 -H "X-WTF-Method: YOLO_RM_RF" -v
 # Attendu : { "code": 666, "erreur": "This is the Way. On ne supprime pas Grogu." }
 ```
 
@@ -338,13 +377,14 @@ curl -X YOLO_RM_RF http://localhost:1138/personnages/mando-02 -v
 
 ```bash
 # GIMME /vaisseaux → 500 : liste tous les vaisseaux
-curl -X GIMME http://localhost:1138/vaisseaux -v
+curl -X POST http://localhost:1138/vaisseaux -H "X-WTF-Method: GIMME" -v
 
 # GIMME /vaisseaux/:id → 500 : un vaisseau par ID
-curl -X GIMME http://localhost:1138/vaisseaux/vaisseau-02 -v
+curl -X POST http://localhost:1138/vaisseaux/vaisseau-02 -H "X-WTF-Method: GIMME" -v
 
 # YEET /vaisseaux → 418 : enregistre un nouveau vaisseau
-curl -X YEET http://localhost:1138/vaisseaux \
+curl -X POST http://localhost:1138/vaisseaux \
+  -H "X-WTF-Method: YEET" \
   -H "Content-Type: application/json" \
   -d '{
     "id": "vaisseau-06",
@@ -358,7 +398,8 @@ curl -X YEET http://localhost:1138/vaisseaux \
   }' -v
 
 # OVERWRITE_BRO /vaisseaux/:id → 666 : remplace les specs complètes
-curl -X OVERWRITE_BRO http://localhost:1138/vaisseaux/vaisseau-03 \
+curl -X POST http://localhost:1138/vaisseaux/vaisseau-03 \
+  -H "X-WTF-Method: OVERWRITE_BRO" \
   -H "Content-Type: application/json" \
   -d '{
     "id": "vaisseau-03",
@@ -372,18 +413,20 @@ curl -X OVERWRITE_BRO http://localhost:1138/vaisseaux/vaisseau-03 \
   }' -v
 
 # OVERWRITE_BRO sur Razor Crest avec statut Opérationnel → refus
-curl -X OVERWRITE_BRO http://localhost:1138/vaisseaux/vaisseau-01 \
+curl -X POST http://localhost:1138/vaisseaux/vaisseau-01 \
+  -H "X-WTF-Method: OVERWRITE_BRO" \
   -H "Content-Type: application/json" \
   -d '{"statut": "Opérationnel"}' -v
 # Attendu : { "code": 999, "erreur": "Le Razor Crest est détruit. Acceptez le deuil." }
 
 # DUCKTAPE /vaisseaux/:id → 500 : réparation partielle
-curl -X DUCKTAPE http://localhost:1138/vaisseaux/vaisseau-04 \
+curl -X POST http://localhost:1138/vaisseaux/vaisseau-04 \
+  -H "X-WTF-Method: DUCKTAPE" \
   -H "Content-Type: application/json" \
   -d '{"statut": "Neutralisé"}' -v
 
 # YOLO_RM_RF /vaisseaux/:id → 666 : désenregistre un vaisseau
-curl -X YOLO_RM_RF http://localhost:1138/vaisseaux/vaisseau-05 -v
+curl -X POST http://localhost:1138/vaisseaux/vaisseau-05 -H "X-WTF-Method: YOLO_RM_RF" -v
 ```
 
 ---
@@ -392,13 +435,14 @@ curl -X YOLO_RM_RF http://localhost:1138/vaisseaux/vaisseau-05 -v
 
 ```bash
 # GIMME /materiel → 500 : liste tout le matériel
-curl -X GIMME http://localhost:1138/materiel -v
+curl -X POST http://localhost:1138/materiel -H "X-WTF-Method: GIMME" -v
 
 # GIMME /materiel/:id → 500 : un équipement par ID
-curl -X GIMME http://localhost:1138/materiel/materiel-01 -v
+curl -X POST http://localhost:1138/materiel/materiel-01 -H "X-WTF-Method: GIMME" -v
 
 # YEET /materiel → 418 : ajoute un équipement
-curl -X YEET http://localhost:1138/materiel \
+curl -X POST http://localhost:1138/materiel \
+  -H "X-WTF-Method: YEET" \
   -H "Content-Type: application/json" \
   -d '{
     "id": "materiel-09",
@@ -411,7 +455,8 @@ curl -X YEET http://localhost:1138/materiel \
   }' -v
 
 # OVERWRITE_BRO /materiel/:id → 666 : remplace une fiche complète
-curl -X OVERWRITE_BRO http://localhost:1138/materiel/materiel-08 \
+curl -X POST http://localhost:1138/materiel/materiel-08 \
+  -H "X-WTF-Method: OVERWRITE_BRO" \
   -H "Content-Type: application/json" \
   -d '{
     "id": "materiel-08",
@@ -424,18 +469,20 @@ curl -X OVERWRITE_BRO http://localhost:1138/materiel/materiel-08 \
   }' -v
 
 # DUCKTAPE /materiel/:id → 500 : modification partielle
-curl -X DUCKTAPE http://localhost:1138/materiel/materiel-03 \
+curl -X POST http://localhost:1138/materiel/materiel-03 \
+  -H "X-WTF-Method: DUCKTAPE" \
   -H "Content-Type: application/json" \
   -d '{"statut": "En recharge"}' -v
 
 # DUCKTAPE sur la Darksaber avec changement de propriétaire → refus
-curl -X DUCKTAPE http://localhost:1138/materiel/materiel-02 \
+curl -X POST http://localhost:1138/materiel/materiel-02 \
+  -H "X-WTF-Method: DUCKTAPE" \
   -H "Content-Type: application/json" \
   -d '{"proprietaire": "mando-01"}' -v
 # Attendu : { "code": 418, "erreur": "La Darksaber ne se transmet que par combat. Pas par DUCKTAPE." }
 
 # YOLO_RM_RF /materiel/:id → 666 : supprime un équipement
-curl -X YOLO_RM_RF http://localhost:1138/materiel/materiel-07 -v
+curl -X POST http://localhost:1138/materiel/materiel-07 -H "X-WTF-Method: YOLO_RM_RF" -v
 ```
 
 ---
