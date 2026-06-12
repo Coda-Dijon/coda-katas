@@ -1,0 +1,42 @@
+10.wtf-http/README.md
+  s_2386233b5aab5a::t_0a5c7b1b9c3a4a 64,74,76-105
+  h_0a88d9aba8622a 272,276,279,284,287,296,299,302,305,319,333,338,341,351,354,357,371,385,391,396,405,408,411,424,437,442,448
+  s_2386233b5aab5a::t_b116adc91d1602 270
+10.wtf-http/src/wtf-router.ts
+  s_2386233b5aab5a::t_ac8367ab11cf99 1-14,16,37-40,42-43,45-50
+10.wtf-http/tests/special.test.ts
+  s_2386233b5aab5a::t_a55aa341b2ffe3 2
+10.wtf-http/package.json
+  s_2386233b5aab5a::t_8b4f9ea6d7087e 13
+10.wtf-http/src/app.ts
+  s_2386233b5aab5a::t_4f545f9d5242fb 1,5,7-11,13-14,16-73,75-76,78
+10.wtf-http/tests/materiel.test.ts
+  s_2386233b5aab5a::t_97a2a98bdb7fe2 2
+10.wtf-http/tests/helpers.ts
+  s_2386233b5aab5a::t_05b86c2b269407 1,4,7-8,13,19,26-60
+10.wtf-http/tests/personnages.test.ts
+  s_2386233b5aab5a::t_4e77e0df8ba830 2
+10.wtf-http/tests/vaisseaux.test.ts
+  s_2386233b5aab5a::t_0e1757e5458dc7 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "afc955c89a3387a60cc36a93823fd91ae24989cb",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2386233b5aab5a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59765caa-4ce6-4fa5-a4a4-7c21ed1bf3a5",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
