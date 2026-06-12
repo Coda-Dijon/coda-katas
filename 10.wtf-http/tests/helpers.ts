@@ -1,45 +1,61 @@
-import type { AddressInfo } from 'node:net';
-import type { Server } from 'node:http';
+import net from 'node:net';
 import { app } from '../src/app.js';
 
-export async function startServer(): Promise<{ server: Server; baseUrl: string }> {
+export async function startServer(): Promise<{ server: net.Server; baseUrl: string }> {
   return new Promise(resolve => {
     const server = app.listen(0, () => {
-      const { port } = server.address() as AddressInfo;
-      resolve({ server, baseUrl: `http://localhost:${port}` });
+      const addr = server.address() as net.AddressInfo;
+      resolve({ server, baseUrl: `http://localhost:${addr.port}` });
     });
   });
 }
 
-export async function stopServer(server: Server): Promise<void> {
+export async function stopServer(server: net.Server): Promise<void> {
   return new Promise((resolve, reject) => {
     server.close(err => (err ? reject(err) : resolve()));
   });
 }
 
-// llhttp rejects unknown HTTP method tokens — the WTF verb goes in X-WTF-Method header.
-// The server middleware in app.ts copies it into req.method before routing.
+// Send the real WTF method directly over raw TCP — no llhttp in the way.
 export async function wtf(
   baseUrl: string,
   method: string,
   path: string,
   body?: unknown,
 ): Promise<{ status: number; body: unknown }> {
-  const headers: Record<string, string> = { 'X-WTF-Method': method };
-  const init: RequestInit = { method: 'POST', headers };
+  const url = new URL(baseUrl);
+  const port = parseInt(url.port, 10);
+  const host = url.hostname;
 
-  if (body !== undefined) {
-    headers['Content-Type'] = 'application/json';
-    init.body = JSON.stringify(body);
-  }
+  return new Promise((resolve, reject) => {
+    const socket = net.createConnection({ port, host }, () => {
+      let req = `${method} ${path} HTTP/1.1\r\nHost: ${host}:${port}\r\n`;
 
-  const res = await fetch(`${baseUrl}${path}`, init);
-  const text = await res.text();
-  let parsed: unknown;
-  try {
-    parsed = JSON.parse(text);
-  } catch {
-    parsed = text;
-  }
-  return { status: res.status, body: parsed };
+      if (body !== undefined) {
+        const bodyStr = JSON.stringify(body);
+        req += `Content-Type: application/json\r\nContent-Length: ${Buffer.byteLength(bodyStr, 'utf8')}\r\n\r\n${bodyStr}`;
+      } else {
+        req += '\r\n';
+      }
+
+      socket.write(req);
+    });
+
+    let response = Buffer.alloc(0);
+    socket.on('data', chunk => { response = Buffer.concat([response, chunk]); });
+
+    socket.on('end', () => {
+      const raw = response.toString('utf8');
+      const statusLine = raw.slice(0, raw.indexOf('\r\n'));
+      const statusCode = parseInt(statusLine.split(' ')[1], 10);
+      const headerEnd = raw.indexOf('\r\n\r\n');
+      const bodyStr = headerEnd !== -1 ? raw.slice(headerEnd + 4) : '';
+      let parsed: unknown;
+      try { parsed = JSON.parse(bodyStr); } catch { parsed = bodyStr; }
+      resolve({ status: statusCode, body: parsed });
+    });
+
+    socket.setTimeout(5000, () => { socket.destroy(); reject(new Error('WTF request timeout')); });
+    socket.on('error', reject);
+  });
 }

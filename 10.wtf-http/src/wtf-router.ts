@@ -1,7 +1,19 @@
-import { Router } from 'express';
-import type { Request, Response, NextFunction } from 'express';
+export interface WtfRequest {
+  method: string;
+  path: string;
+  headers: Record<string, string>;
+  params: Record<string, string>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  body: any;
+}
 
-type WtfHandler = (req: Request, res: Response) => void;
+export interface WtfResponse {
+  status(code: number): WtfResponse;
+  json(data: unknown): void;
+  send(text: string): void;
+}
+
+export type WtfHandler = (req: WtfRequest, res: WtfResponse) => void;
 
 interface Route {
   method: string;
@@ -21,20 +33,21 @@ function pathToRegex(path: string): { re: RegExp; paramNames: string[] } {
 
 export function createWtfRouter() {
   const routes: Route[] = [];
-  const router = Router();
 
-  // Single use() that dispatches all WTF verbs — router.all() would reject custom method names
-  router.use((req: Request, res: Response, next: NextFunction) => {
-    const pathMatches = routes.filter(r => r.re.test(req.path));
-    if (pathMatches.length === 0) return next();
+  const router = {
+    dispatch(req: WtfRequest, res: WtfResponse): boolean {
+      const pathMatches = routes.filter(r => r.re.test(req.path));
+      if (pathMatches.length === 0) return false;
 
-    const route = pathMatches.find(r => r.method === req.method);
-    if (!route) return void res.status(999).json({ error: 'WHO KNOWS' });
+      const route = pathMatches.find(r => r.method === req.method);
+      if (!route) { res.status(999).json({ error: 'WHO KNOWS' }); return true; }
 
-    const match = req.path.match(route.re)!;
-    route.paramNames.forEach((name, i) => { req.params[name] = match[i + 1]; });
-    route.handler(req, res);
-  });
+      const match = req.path.match(route.re)!;
+      route.paramNames.forEach((name, i) => { req.params[name] = match[i + 1]; });
+      route.handler(req, res);
+      return true;
+    },
+  };
 
   function on(method: string) {
     return (path: string, handler: WtfHandler) => {

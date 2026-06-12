@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeAll, afterAll, beforeEach } from 'vitest';
-import type { Server } from 'node:http';
+import type { Server } from 'node:net';
 import { startServer, stopServer, wtf } from './helpers.js';
 import { resetStore } from '../src/data.js';
 
