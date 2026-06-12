@@ -1,0 +1,18 @@
+{
+  "name": "mando-api",
+  "version": "1.0.0",
+  "description": "MandoAPI — Implémentation de référence HTTP/WTF",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^4.1.8"
+  }
+}
