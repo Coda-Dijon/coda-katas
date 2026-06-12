@@ -1,0 +1,42 @@
+10.wtf-http/src/server.ts
+  s_2386233b5aab5a::t_c44966aa4fe605 1-7
+10.wtf-http/README.md
+  h_0a88d9aba8622a 64,74,77-78,80-102,104-105,270,272,276,279,284,287,296,299,302,305,319,333,338,341,351,354,357,371,385,391,396,405,408,411,424,437,442,448
+10.wtf-http/package.json
+  s_2386233b5aab5a::t_53506dbdae12fd 1-18
+10.wtf-http/src/types.ts
+  s_2386233b5aab5a::t_87b0c406fcdbd4 1-31
+10.wtf-http/tsconfig.json
+  s_2386233b5aab5a::t_09caeeae8fc58b 1-12
+10.wtf-http/src/wtf-router.ts
+  s_2386233b5aab5a::t_c2c7247ebf23be 1-71
+10.wtf-http/tests/helpers.ts
+  s_2386233b5aab5a::t_099f175bb1034c 1-62
+10.wtf-http/src/data.ts
+  s_2386233b5aab5a::t_52c77a541b6214 1-51
+10.wtf-http/tests/personnages.test.ts
+  s_2386233b5aab5a::t_530dc889c0f527 1-21
+10.wtf-http/src/app.ts
+  s_2386233b5aab5a::t_2d6a53b58a727a 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "05cc3d94a6487bbb4824557b89a2e8dc64e874c9",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2386233b5aab5a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59765caa-4ce6-4fa5-a4a4-7c21ed1bf3a5",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
