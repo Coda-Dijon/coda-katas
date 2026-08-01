@@ -12,6 +12,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [Bowling Game](07.bowling-kata/README.md)
 - [Mars Rover](08.mars-rover/README.md)
 - [Algorithmique Wars](09.algos-star-wars/README.md)
+- [Algorithme de Luhn](11.luhn/README.md)
 
 ## Http
 - [curl-quests](https://github.com/lite-quests/curl-quests/)
