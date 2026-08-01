@@ -1,0 +1,7 @@
+# .NET
+bin/
+obj/
+
+# Rider
+.idea
+*.user
