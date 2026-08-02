@@ -1,6 +1,8 @@
-﻿using System.Security.Cryptography;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using CSharpFunctionalExtensions;
+using static System.Linq.Enumerable;
+using static System.Security.Cryptography.RandomNumberGenerator;
+using static System.String;
 
 namespace Luhn;
 
@@ -14,8 +16,14 @@ public partial class LuhnNumber : ValueObject
             ? ParseSafely(potentialLuhnNumber)
             : InvalidNumber();
 
+    public static string Generate(NumberSize n)
+        => Range(0, n.Size - 1)
+            .Select(_ => GetInt32(0, 10))
+            .ToArray()
+            .Map(digits => $"{Concat(digits)}{GenerateCheckDigit(digits)}");
+
     private static bool IsValidFormat(string potentialLuhnNumber)
-        => !string.IsNullOrWhiteSpace(potentialLuhnNumber)
+        => !IsNullOrWhiteSpace(potentialLuhnNumber)
            && OnlyNumberRegex().IsMatch(Sanitize(potentialLuhnNumber));
 
     private static Result<LuhnNumber> ParseSafely(string potentialLuhnNumber)
@@ -26,7 +34,7 @@ public partial class LuhnNumber : ValueObject
 
     private static Result<LuhnNumber> ToResult(int[] sanitizedNumber)
         => IsValidSumOfNumbers(CheckSum(sanitizedNumber))
-            ? Result.Success(new LuhnNumber(string.Concat(sanitizedNumber)))
+            ? Result.Success(new LuhnNumber(Concat(sanitizedNumber)))
             : InvalidNumber();
 
     private static int CheckSum(int[] sanitizedNumber)
@@ -55,17 +63,6 @@ public partial class LuhnNumber : ValueObject
 
     [GeneratedRegex("^[0-9]+$")]
     private static partial Regex OnlyNumberRegex();
-
-    public static string Generate(NumberSize n)
-    {
-        var digits = Enumerable.Range(0, n.Size - 1)
-            .Select(_ => RandomNumberGenerator.GetInt32(0, 10))
-            .ToArray();
-
-        var checkSum = GenerateCheckDigit(digits);
-
-        return $"{string.Concat(digits)}{checkSum}";
-    }
 
     private static int GenerateCheckDigit(int[] digits)
         => CheckSum(digits.Append(0).ToArray())
