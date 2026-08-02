@@ -24,11 +24,11 @@ public partial class LuhnNumber : ValueObject
             .Map(ToResult);
 
     private static Result<LuhnNumber> ToResult(int[] sanitizedNumber)
-        => IsValidSumOfNumbers(SumNumbers(sanitizedNumber))
+        => IsValidSumOfNumbers(CheckSum(sanitizedNumber))
             ? Result.Success(new LuhnNumber(string.Concat(sanitizedNumber)))
             : InvalidNumber();
 
-    private static int SumNumbers(int[] sanitizedNumber)
+    private static int CheckSum(int[] sanitizedNumber)
         => sanitizedNumber
             .Reverse()
             .Select(Digit)
