@@ -1,0 +1,19 @@
+11.luhn/README.md
+  s_e1b2aba202ba88::t_39d3d5796296d3 57-68,74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "9c260b990f1c32fafa55865d530f2d500a930b43",
+  "prompts": {},
+  "sessions": {
+    "s_e1b2aba202ba88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60825a38-6f2a-46ed-9e5e-0b27afa33c77",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
