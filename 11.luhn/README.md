@@ -54,8 +54,21 @@ La somme de toutes les valeurs retenues doit être un multiple de 10 pour que le
 
 Avancez en **TDD** : commencez par les cas invalides les plus simples (chaîne vide, chaîne nulle), puis les cas où le format est mauvais, puis seulement ensuite attaquez le calcul de la somme de Luhn sur des numéros réels. Laissez les tests vous guider vers l'algorithme plutôt que de l'écrire d'un bloc.
 
+### **Bonus : génération de numéros valides**
+Une fois la validation en place, ajoutez une fonction capable de **générer** un numéro valide au sens de Luhn, de longueur `n` donnée.
+
+**Règles :**
+1. La fonction prend en entrée une longueur `n` (nombre de chiffres souhaité).
+2. Les `n - 1` premiers chiffres peuvent être tirés aléatoirement (ou fournis).
+3. Le **dernier chiffre** (chiffre de contrôle) doit être calculé pour que le numéro complet passe la validation de Luhn.
+4. Le numéro généré doit systématiquement être reconnu comme **valide** par votre fonction de validation : c'est le meilleur test de cohérence entre les deux fonctions.
+5. Une longueur invalide (`n <= 0`, par exemple) doit être rejetée.
+
+Cette fonction est un bon terrain pour une **property-based test** : générer des numéros pour plusieurs valeurs de `n`, puis vérifier que chacun d'eux est validé par votre parseur.
+
 ### **Objectifs pédagogiques**
 - Pratiquer le **TDD** sur un algorithme numérique non trivial.
 - Manipuler des **chaînes de caractères** (nettoyage, validation de format).
 - Représenter un résultat qui peut **échouer proprement**, sans exception pour un cas métier attendu.
 - Découper un calcul en petites fonctions **pures**.
+- Relier **génération** et **validation** pour renforcer la confiance dans l'algorithme (tests croisés).
