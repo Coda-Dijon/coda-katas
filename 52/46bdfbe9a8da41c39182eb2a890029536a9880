@@ -1,0 +1,14 @@
+11.luhn/src/Luhn/LuhnNumber.cs
+  h_0a88d9aba8622a 1-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "5246bdfbe9a8da41c39182eb2a890029536a9880",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
