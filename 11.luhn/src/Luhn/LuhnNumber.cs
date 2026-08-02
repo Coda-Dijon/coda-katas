@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Security.Cryptography;
+using System.Text.RegularExpressions;
 using CSharpFunctionalExtensions;
 
 namespace Luhn;
@@ -54,4 +55,19 @@ public partial class LuhnNumber : ValueObject
 
     [GeneratedRegex("^[0-9]+$")]
     private static partial Regex OnlyNumberRegex();
+
+    public static string Generate(NumberSize n)
+    {
+        var digits = Enumerable.Range(0, n.Size - 1)
+            .Select(_ => RandomNumberGenerator.GetInt32(0, 10))
+            .ToArray();
+
+        var checkSum = GenerateCheckDigit(digits);
+
+        return $"{string.Concat(digits)}{checkSum}";
+    }
+
+    private static int GenerateCheckDigit(int[] digits)
+        => CheckSum(digits.Append(0).ToArray())
+            .Map(sum => (10 - sum % 10) % 10);
 }
