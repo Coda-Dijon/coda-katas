@@ -1,0 +1,17 @@
+11.luhn/src/Luhn.Tests/NumberSizeShould.cs
+  h_0a88d9aba8622a 1-21
+11.luhn/src/Luhn/NumberSize.cs
+  h_0a88d9aba8622a 3,5,7,13-27
+  h_0a88d9aba8622a 9-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "594537ae8c2970fabf2fbe5c2eccd99cbb95b1e1",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
