@@ -18,6 +18,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [Algorithmique Wars](09.algos-star-wars/README.md)
 - [Algorithme de Luhn](11.luhn/README.md)
 - [Watermarking de texte](12.watermarking/README.md)
+- [Goat Numeral](14.goat-numeral/README.md)
 
 ## Refactoring
 - [Gilded Rose](13.gilded-rose/README.md)
