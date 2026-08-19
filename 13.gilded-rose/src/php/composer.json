@@ -1,0 +1,21 @@
+{
+  "name": "gilded/rose",
+  "require": {
+    "php": ">=8.1",
+    "pestphp/pest": "v4.2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Kata\\": "src/Kata",
+      "Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest"
+  }
+}
