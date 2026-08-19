@@ -1,0 +1,77 @@
+13.gilded-rose/src/php/composer.json
+  s_e1b2aba202ba88::t_8dde0d11fc1152 1-21
+13.gilded-rose/src/typescript/tsconfig.json
+  s_e1b2aba202ba88::t_3a52a0a61e5b14 1-13
+13.gilded-rose/src/java/pom.xml
+  s_e1b2aba202ba88::t_217f91e4809833 1-11,14-54
+  h_0a88d9aba8622a 12-13
+13.gilded-rose/src/typescript/package.json
+  s_e1b2aba202ba88::t_d3ed124a0c0540 1-16
+13.gilded-rose/src/php/phpunit.xml
+  s_e1b2aba202ba88::t_871d199bf118fb 1-14
+13.gilded-rose/src/java/src/main/java/com/gildedrose/GildedRose.java
+  s_e1b2aba202ba88::t_acea251f53ee03 1-62
+13.gilded-rose/README.md
+  s_e1b2aba202ba88::t_4486d28ee32662 1-61
+13.gilded-rose/src/java/src/test/java/com/gildedrose/GildedRoseTest.java
+  s_e1b2aba202ba88::t_9ef3edb8739bd3 1-18
+13.gilded-rose/src/php/src/Kata/GildedRose.php
+  s_e1b2aba202ba88::t_b2064240859a95 1-75
+13.gilded-rose/src/c#/GildedRose/Item.cs
+  s_e1b2aba202ba88::t_ede6f435423c60 1-17
+13.gilded-rose/src/c/test.c
+  s_e1b2aba202ba88::t_f2f9b39a3bd178 1-18
+13.gilded-rose/src/php/src/Kata/Item.php
+  s_e1b2aba202ba88::t_151f349359ab66 1-23
+README.md
+  h_0a88d9aba8622a 6,10-12,16-17,25-26
+  s_e1b2aba202ba88::t_524efd41a597d5 22-24
+  s_e1b2aba202ba88::t_c41ed3e7a73883 13-14,27
+13.gilded-rose/src/c#/GildedRose.sln
+  s_e1b2aba202ba88::t_a669b789fb5995 1-22
+13.gilded-rose/src/c#/GildedRose/GildedRose.cs
+  s_e1b2aba202ba88::t_4b1302b9274280 1-87
+13.gilded-rose/src/c#/GildedRose.Tests/GildedRose.Tests.csproj
+  s_e1b2aba202ba88::t_04b663b4a8056b 1-28
+13.gilded-rose/src/c/CMakeLists.txt
+  s_e1b2aba202ba88::t_998932e686586f 1-11
+13.gilded-rose/src/php/tests/GildedRoseTest.php
+  s_e1b2aba202ba88::t_088ef5fd04d4d8 1-13
+13.gilded-rose/src/c#/GildedRose.Tests/GildedRoseTest.cs
+  s_e1b2aba202ba88::t_0d8e3de8e3a4ef 1-18
+13.gilded-rose/src/c/gilded_rose.h
+  s_e1b2aba202ba88::t_66540369d1f124 1-14
+13.gilded-rose/src/typescript/gildedRose.spec.ts
+  s_e1b2aba202ba88::t_1787449b9aff21 1-13
+13.gilded-rose/src/typescript/gildedRose.ts
+  s_e1b2aba202ba88::t_46cefd07713c5a 1-76
+13.gilded-rose/src/c#/GildedRose/GildedRose.csproj
+  s_e1b2aba202ba88::t_84e409985cb0ae 1-9
+13.gilded-rose/src/java/src/main/java/com/gildedrose/Item.java
+  s_e1b2aba202ba88::t_43f70be7deeb94 1-18
+13.gilded-rose/src/c/gilded_rose.c
+  s_e1b2aba202ba88::t_8b8ccf70c8bf54 1-59
+13.gilded-rose/src/typescript/package-lock.json
+  s_e1b2aba202ba88::t_97831c11bc612b 1-1387
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "34614dd9b241cf00995362a9f1623c8064ba026d",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_e1b2aba202ba88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60825a38-6f2a-46ed-9e5e-0b27afa33c77",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
