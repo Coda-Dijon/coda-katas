@@ -19,6 +19,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 ## Algorithmique
 - [Algorithmique Wars](09.algos-star-wars/README.md)
 - [Goat Numeral](14.goat-numeral/README.md)
+- [Diamond Kata](18.diamond-kata/README.md)
 - [Algorithme de Luhn](11.luhn/README.md)
 - [Watermarking de texte](12.watermarking/README.md)
 
@@ -32,3 +33,12 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 ## Http
 - [curl-quests](https://github.com/lite-quests/curl-quests/)
 - [WTF Wars](10.wtf-http/README.md)
+
+## Autres sources
+- [Calendrier de l'Avent Coda - 2025](https://coda-dijon.github.io/advent-2025/)
+- [Advent Of Craft](https://github.com/advent-of-craft)
+- [Advent Of Code](https://adventofcode.com/)
+- [Coding Dojo](https://www.codingdojo.org/)
+- [Codingame](https://www.codingame.com/start/)
+- [Code Wars](https://www.codewars.com/)
+- [HackerRank](https://www.hackerrank.com/)
