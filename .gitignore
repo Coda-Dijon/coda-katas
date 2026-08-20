@@ -48,3 +48,6 @@ node_modules/
 
 # C#
 obj/
+
+# java
+target/
