@@ -1,0 +1,78 @@
+20.weather-resilience-kata/java/src/test/java/weather/FailingWeatherApi.java
+  s_b3e03b8064d26b::t_5dacb7d21ae397 1-19
+20.weather-resilience-kata/java/src/main/java/weather/WeatherApiException.java
+  s_b3e03b8064d26b::t_10ceccfe28dbf7 1-7
+20.weather-resilience-kata/facilitation/02.timeout.md
+  s_b3e03b8064d26b::t_4fdb417d14815b 1-20
+20.weather-resilience-kata/java/src/main/java/weather/WeatherDigestService.java
+  s_b3e03b8064d26b::t_0baf40d8c5c35a 1-13
+20.weather-resilience-kata/facilitation/06.circuit-breaker-half-open.md
+  s_b3e03b8064d26b::t_196454c124bede 1-6,16-17,49-65
+  s_b3e03b8064d26b::t_9fe8c22d40c3cd 7-15,18-48
+20.weather-resilience-kata/java/pom.xml
+  s_b3e03b8064d26b::t_022176632e7942 1-59
+20.weather-resilience-kata/facilitation/07.fallback-failover.md
+  s_b3e03b8064d26b::t_cf30a1f85c0d7b 1-20
+20.weather-resilience-kata/facilitation/08.composer-les-patterns.md
+  s_b3e03b8064d26b::t_8d06ebaad087d7 1-24
+20.weather-resilience-kata/java/src/test/java/weather/WeatherDigestServiceTest.java
+  s_b3e03b8064d26b::t_d108620a7a1e06 1-23
+20.weather-resilience-kata/java/src/main/java/weather/BackupWeatherApi.java
+  s_b3e03b8064d26b::t_2924b0e43cea4f 1-14
+20.weather-resilience-kata/facilitation/03.retry-simple.md
+  s_b3e03b8064d26b::t_57cca0ff328a71 1-21
+20.weather-resilience-kata/java/src/main/java/weather/Main.java
+  s_b3e03b8064d26b::t_eb8e8afd26b981 1-16
+20.weather-resilience-kata/facilitation/09.inspiration-librairies-resilience.md
+  s_b3e03b8064d26b::t_8bb0e62e929564 1-20
+20.weather-resilience-kata/java/src/main/java/weather/SystemClock.java
+  s_b3e03b8064d26b::t_bf5f12d9827849 1-10
+20.weather-resilience-kata/facilitation/10.synthese.md
+  s_b3e03b8064d26b::t_295031ea9d99df 1-28
+20.weather-resilience-kata/java/src/main/java/weather/WeatherApi.java
+  s_b3e03b8064d26b::t_b84b4135c696e4 1-5
+20.weather-resilience-kata/java/src/main/java/weather/ThreadSleeper.java
+  s_b3e03b8064d26b::t_e6b275a1ed997a 1-14
+20.weather-resilience-kata/facilitation/01.constat.md
+  s_b3e03b8064d26b::t_f026b136e1d9b9 1-7,22-36
+  s_b3e03b8064d26b::t_ccf7574de13ee0 8-21
+README.md
+  s_b3e03b8064d26b::t_4f32652d934477 29
+20.weather-resilience-kata/java/src/main/java/weather/Sleeper.java
+  s_b3e03b8064d26b::t_21b1f00c8c6a29 1-7
+20.weather-resilience-kata/java/src/main/java/weather/Clock.java
+  s_b3e03b8064d26b::t_ec44d8ebfed149 1-7
+20.weather-resilience-kata/facilitation/04.retry-backoff-jitter.md
+  s_b3e03b8064d26b::t_79b71cdf4364bf 1-24
+20.weather-resilience-kata/README.md
+  h_0a88d9aba8622a 6,21
+  s_b3e03b8064d26b::t_5e9f191daec23b 1-5,7-20,22-58
+20.weather-resilience-kata/java/src/main/java/weather/UnreliableWeatherApi.java
+  s_b3e03b8064d26b::t_ab94955060c174 1-33
+20.weather-resilience-kata/facilitation/05.circuit-breaker-closed-open.md
+  s_b3e03b8064d26b::t_23ef76a9d16895 1-5,16,28-40
+  s_b3e03b8064d26b::t_a5c5891efe272d 6-15,17-27
+20.weather-resilience-kata/java/src/main/java/weather/WeatherReport.java
+  s_b3e03b8064d26b::t_4f675350b3657b 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "c1b7b73970713aaf5a1878133fdafee9b94e9c13",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_b3e03b8064d26b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c184575-6a3b-4d95-8bbf-766cbe4567d1",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
