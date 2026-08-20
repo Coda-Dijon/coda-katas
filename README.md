@@ -14,6 +14,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [Bowling](07.bowling-kata/README.md)
 - [Mars Rover](08.mars-rover/README.md)
 - [Yahtzee](15.yahtzee/README.md)
+- [Money Problem](16.money-problem/README.md)
 
 ## Algorithmique
 - [Algorithmique Wars](09.algos-star-wars/README.md)
