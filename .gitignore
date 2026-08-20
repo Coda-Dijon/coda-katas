@@ -45,3 +45,6 @@ vendor/
 
 # node
 node_modules/
+
+# C#
+obj/
