@@ -8,7 +8,7 @@ C'est un kata de **refactoring** : vous partez d'un code qui fonctionne (avec un
 ### **Votre mission**
 En suivant les étapes de facilitation ci-dessous, vous allez construire, couche par couche et **à la main**, une pile de résilience complète :
 1. **Timeout** — ne jamais attendre indéfiniment une dépendance qui ne répond plus.
-2. **Retry** — retenter les échecs transitoires, d'abord simplement, puis avec un **backoff exponentiel et du jitter** pour ne pas aggraver une panne en cours.
+2. **Retry** — retenter *seulement* les échecs transitoires (selon le type d'exception ou le code d'erreur HTTP), d'abord simplement, puis avec un **backoff exponentiel et du jitter** pour ne pas aggraver une panne en cours.
 3. **Circuit Breaker** — détecter qu'une dépendance est durablement en échec (états `Closed` / `Open` / `Half-Open`) et arrêter de la solliciter le temps qu'elle récupère.
 4. **Fallback / Failover** — basculer vers un fournisseur de secours plutôt que d'échouer complètement.
 5. **Composition** — assembler ces patterns dans le bon ordre, et comprendre pourquoi cet ordre compte.
@@ -44,6 +44,7 @@ Une étape de lecture (non codée) vous fera ensuite comparer votre implémentat
 ### **Objectifs pédagogiques**
 - Comprendre et implémenter le pattern **Circuit Breaker** (états Closed / Open / Half-Open) popularisé par Michael Nygard dans *Release It!*.
 - Distinguer **Retry** et **Circuit Breaker** : deux réponses différentes à deux natures d'échec différentes (transitoire vs durable).
+- Savoir **quand ne pas retenter** : distinguer un échec transitoire (à retenter) d'un échec définitif pour la requête (à ne jamais retenter), sur la base du type d'exception ou d'un code d'erreur HTTP.
 - Implémenter un **backoff exponentiel avec jitter**, et comprendre pourquoi un retry naïf peut aggraver une panne.
 - Implémenter un **Timeout** et comprendre pourquoi c'est le socle de toute stratégie de résilience.
 - Implémenter un **Fallback / Failover** vers un fournisseur secondaire.
