@@ -34,6 +34,11 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [curl-quests](https://github.com/lite-quests/curl-quests/)
 - [WTF Wars](10.wtf-http/README.md)
 
+## Sql
+- [Les 3 enfants les plus sages](https://coda-dijon.github.io/advent-2025/?day=08)
+- [Démasquer l'elfe malveillant](https://coda-dijon.github.io/advent-2025/?day=21)
+- [SQL Murder Mystery](https://mystery.knightlab.com/)
+
 ## Autres sources
 - [Calendrier de l'Avent Coda - 2025](https://coda-dijon.github.io/advent-2025/)
 - [Advent Of Craft](https://github.com/advent-of-craft)
