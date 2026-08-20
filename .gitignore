@@ -45,3 +45,13 @@ vendor/
 
 # node
 node_modules/
+
+# C#
+obj/
+
+# java
+target/
+
+# kotlin
+.gradle/
+build/

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Yahtzee.Tests/Yahtzee.Tests.csproj" />
+  <Project Path="Yahtzee/Yahtzee.csproj" />
+</Solution>
