@@ -1,0 +1,28 @@
+README.md
+  h_0a88d9aba8622a 22,36-44
+  h_0a88d9aba8622a 35
+18.diamond-kata/README.md
+  h_0a88d9aba8622a 34
+  s_b3e03b8064d26b::t_1700758788ba3c 1-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7379d9fa656d32fec4c42e177c936cac336e1c14",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_b3e03b8064d26b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c184575-6a3b-4d95-8bbf-766cbe4567d1",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
