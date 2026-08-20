@@ -1,0 +1,26 @@
+14.goat-numeral/c#/GoatNumerals/GoatNumerals.csproj
+  h_0a88d9aba8622a 1-10
+14.goat-numeral/c#/GoatNumerals/GoatNumerals.cs
+  h_0a88d9aba8622a 1-53
+14.goat-numeral/c#/GoatNumerals.Tests/GoatNumerals.Tests.csproj
+  h_0a88d9aba8622a 1-32
+14.goat-numeral/c#/GoatNumerals.Tests/GoatNumeralsTest.cs
+  h_0a88d9aba8622a 1-57
+14.goat-numeral/c#/GoatNumerals.sln
+  h_0a88d9aba8622a 1-22
+14.goat-numeral/c#/global.json
+  h_0a88d9aba8622a 1-7
+14.goat-numeral/c#/step-by-step.md
+  h_0a88d9aba8622a 1-355
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "0a0db24b89c5323b33b4fba560788b1c5d4c6c9c",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
