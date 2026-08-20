@@ -1,0 +1,99 @@
+09.algos-star-wars/episode00/c/test_midichlorians.c
+  s_b3e03b8064d26b::t_f14a053f1329c1 1-23
+09.algos-star-wars/episode06/c/cloneSequence.h
+  s_b3e03b8064d26b::t_ffd1dff62e851b 1-10
+09.algos-star-wars/episode03/c/main.c
+  s_b3e03b8064d26b::t_71803f917abceb 1-10,13-16
+  s_b3e03b8064d26b::t_d1e3ea6ec73f46 11-12
+09.algos-star-wars/episode01/c/test_skywalkerPower.c
+  s_b3e03b8064d26b::t_1095b2feb102b2 1-27
+09.algos-star-wars/episode04/c/jediNames.c
+  s_b3e03b8064d26b::t_0c503ae0818d40 1-5
+09.algos-star-wars/episode02/c/findPlanet.h
+  s_b3e03b8064d26b::t_d71bf9f14597be 1-14
+09.algos-star-wars/episode03/c/test_droidStack.c
+  s_b3e03b8064d26b::t_e30f8331d3ac56 1-11,19-37
+  s_b3e03b8064d26b::t_498de7a6d3c7aa 12-18
+09.algos-star-wars/episode05/c/planets.c
+  s_b3e03b8064d26b::t_00f9fcb0a57e38 1-5
+09.algos-star-wars/episode06/c/test_cloneSequence.c
+  s_b3e03b8064d26b::t_46f75b5d31099d 1-54
+09.algos-star-wars/episode02/c/findPlanet.c
+  s_b3e03b8064d26b::t_5df8b85ebd5a44 1-5
+09.algos-star-wars/episode06/c/CMakeLists.txt
+  s_b3e03b8064d26b::t_2269bc58396ac5 1-20
+09.algos-star-wars/episode07/c/sithCode.h
+  s_b3e03b8064d26b::t_50d191e300860b 1-8
+09.algos-star-wars/episode00/c/CMakeLists.txt
+  s_b3e03b8064d26b::t_d9b578052be930 1-20
+09.algos-star-wars/episode07/c/main.c
+  s_b3e03b8064d26b::t_75577f16927938 1-8
+09.algos-star-wars/episode00/c/midichlorians.h
+  s_b3e03b8064d26b::t_6ddf24f42bf9b9 1-11
+09.algos-star-wars/episode04/c/CMakeLists.txt
+  s_b3e03b8064d26b::t_e676b1312de048 1-20
+09.algos-star-wars/episode03/c/droidStack.c
+  s_b3e03b8064d26b::t_8f725880ebd8c7 1-25
+09.algos-star-wars/episode05/c/planets.h
+  s_b3e03b8064d26b::t_6983b3d3ad1fe4 1-16
+09.algos-star-wars/episode06/c/main.c
+  s_b3e03b8064d26b::t_d2d5dfbaf706b7 1-15
+09.algos-star-wars/episode07/c/CMakeLists.txt
+  s_b3e03b8064d26b::t_1d7c32b0ea276f 1-20
+09.algos-star-wars/episode02/c/test_findPlanet.c
+  s_b3e03b8064d26b::t_cfa1bd0ff8add9 1-40
+09.algos-star-wars/episode05/c/CMakeLists.txt
+  s_b3e03b8064d26b::t_2dd2f631b8ad8e 1-20
+09.algos-star-wars/episode07/c/test_sithCode.c
+  s_b3e03b8064d26b::t_7b666b78fcf167 1-38
+09.algos-star-wars/episode02/c/CMakeLists.txt
+  s_b3e03b8064d26b::t_09d14bfc1c95a1 1-20
+09.algos-star-wars/episode01/c/CMakeLists.txt
+  s_b3e03b8064d26b::t_bd7bd745788d35 1-20
+09.algos-star-wars/episode01/c/skywalkerPower.h
+  s_b3e03b8064d26b::t_bfb32ab58ce075 1-13
+09.algos-star-wars/episode01/c/skywalkerPower.c
+  s_b3e03b8064d26b::t_9ec6bef2345f9a 1-5
+09.algos-star-wars/episode00/c/midichlorians.c
+  s_b3e03b8064d26b::t_989b454b7d7493 1-5
+09.algos-star-wars/episode03/c/droidStack.h
+  s_b3e03b8064d26b::t_a36b219105ed67 1-11
+09.algos-star-wars/episode04/c/main.c
+  s_b3e03b8064d26b::t_d2410868ed40c9 1-17
+09.algos-star-wars/episode02/c/main.c
+  s_b3e03b8064d26b::t_062bfa91363c9d 1-19
+09.algos-star-wars/episode05/c/main.c
+  s_b3e03b8064d26b::t_8bb03baff5dbad 1-15
+09.algos-star-wars/episode00/c/main.c
+  s_b3e03b8064d26b::t_5d20d693ee6c80 1-13
+09.algos-star-wars/episode01/c/main.c
+  s_b3e03b8064d26b::t_e28789f4e889c8 1-15
+09.algos-star-wars/episode05/c/test_planets.c
+  s_b3e03b8064d26b::t_5cb5c1b320cafe 1-62
+09.algos-star-wars/episode07/c/sithCode.c
+  s_b3e03b8064d26b::t_bd718acbccf264 1-5
+09.algos-star-wars/episode06/c/cloneSequence.c
+  s_b3e03b8064d26b::t_a823217ab98140 1-5
+09.algos-star-wars/episode03/c/CMakeLists.txt
+  s_b3e03b8064d26b::t_c534e0a74f7a43 1-20
+09.algos-star-wars/episode04/c/jediNames.h
+  s_b3e03b8064d26b::t_27e5b485059c11 1-11
+09.algos-star-wars/episode04/c/test_jediNames.c
+  s_b3e03b8064d26b::t_e475c3b7e50bc3 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e998abd0a61216bd7a20a6e9394f952518ea8197",
+  "prompts": {},
+  "sessions": {
+    "s_b3e03b8064d26b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c184575-6a3b-4d95-8bbf-766cbe4567d1",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
