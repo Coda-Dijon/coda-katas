@@ -59,3 +59,6 @@ Le code de départ (volontairement dense et peu lisible — **c'est le point de 
 - Découper une grosse fonction conditionnelle en **règles métier isolées et testables**, une par type d'article.
 - Vivre concrètement pourquoi du code non testé est un **risque** et un frein au changement, même pour une fonctionnalité en apparence simple (`"Conjured"`).
 - Manipuler du **code legacy multi-langage** avec les mêmes contraintes dans plusieurs écosystèmes.
+
+### Ressources
+- [Guide étape par étape](https://github.com/ythirion/scala-kata-logs/blob/main/GildedRoseKata/README.md)
