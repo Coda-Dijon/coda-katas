@@ -27,6 +27,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 
 ## Autre
 - [Écrire ses premiers tests](04.unit-tests/README.md)
+- [Refactoring du Bouchonnois](17.refactoring-du-bouchonnois/README.md)
 
 ## Http
 - [curl-quests](https://github.com/lite-quests/curl-quests/)
