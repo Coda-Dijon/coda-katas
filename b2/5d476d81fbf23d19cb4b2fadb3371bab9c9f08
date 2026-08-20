@@ -1,0 +1,14 @@
+13.gilded-rose/README.md
+  h_0a88d9aba8622a 62-64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b25d476d81fbf23d19cb4b2fadb3371bab9c9f08",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
