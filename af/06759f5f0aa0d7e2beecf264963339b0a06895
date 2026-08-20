@@ -1,0 +1,191 @@
+README.md
+  s_b3e03b8064d26b::t_e142214e8d8114 30
+17.refactoring-du-bouchonnois/README.md
+  s_b3e03b8064d26b::t_76c78d56a13e62 1-84
+.gitignore
+  h_0a88d9aba8622a 48-50
+  h_0a88d9aba8622a 47
+17.refactoring-du-bouchonnois/c#/Bouchonnois.Tests/Bouchonnois.Tests.csproj
+  h_0a88d9aba8622a 1-29
+17.refactoring-du-bouchonnois/c#/Bouchonnois.Tests/Doubles/PartieDeChasseRepositoryForTests.cs
+  h_0a88d9aba8622a 1-25
+17.refactoring-du-bouchonnois/c#/Bouchonnois.Tests/Service/PartieDeChasseServiceTests.cs
+  h_0a88d9aba8622a 1-1131
+17.refactoring-du-bouchonnois/c#/Bouchonnois.Tests/Service/ScenarioTests.cs
+  h_0a88d9aba8622a 1-116
+17.refactoring-du-bouchonnois/c#/Bouchonnois.Tests/Usings.cs
+  h_0a88d9aba8622a 1-2
+17.refactoring-du-bouchonnois/c#/Bouchonnois.sln
+  h_0a88d9aba8622a 1-22
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Bouchonnois.csproj
+  h_0a88d9aba8622a 1-9
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Domain/Chasseur.cs
+  h_0a88d9aba8622a 1-9
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Domain/Event.cs
+  h_0a88d9aba8622a 1-9
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Domain/PartieDeChasse.cs
+  h_0a88d9aba8622a 1-13
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Domain/PartieStatus.cs
+  h_0a88d9aba8622a 1-9
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Repository/IPartieDeChasseRepository.cs
+  h_0a88d9aba8622a 1-10
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/ChasseurInconnu.cs
+  h_0a88d9aba8622a 1-10
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/ImpossibleDeDémarrerUnePartieAvecUnChasseurSansBalle.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/ImpossibleDeDémarrerUnePartieSansChasseur.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/ImpossibleDeDémarrerUnePartieSansGalinettes.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/LaChasseEstDéjàEnCours.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/LaPartieDeChasseNexistePas.cs
+  h_0a88d9aba8622a 1-5
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/OnEstDéjàEnTrainDePrendreLapéro.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/OnPrendPasLapéroQuandLaPartieEstTerminée.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/OnTirePasPendantLapéroCestSacré.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/OnTirePasQuandLaPartieEstTerminée.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/QuandCestFiniCestFini.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/TasPlusDeBallesMonVieuxChasseALaMain.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Exceptions/TasTropPicoléMonVieuxTasRienTouché.cs
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/PartieDeChasseService.cs
+  h_0a88d9aba8622a 1-298
+17.refactoring-du-bouchonnois/c#/Bouchonnois/Service/Terrain.cs
+  h_0a88d9aba8622a 1-8
+17.refactoring-du-bouchonnois/java/pom.xml
+  h_0a88d9aba8622a 1-47
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/domain/Chasseur.java
+  h_0a88d9aba8622a 1-10
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/domain/Event.java
+  h_0a88d9aba8622a 1-11
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/domain/PartieDeChasse.java
+  h_0a88d9aba8622a 1-16
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/domain/PartieStatus.java
+  h_0a88d9aba8622a 1-5
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/repository/PartieDeChasseRepository.java
+  h_0a88d9aba8622a 1-11
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/PartieDeChasseService.java
+  h_0a88d9aba8622a 1-251
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/Terrain.java
+  h_0a88d9aba8622a 1-9
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/ChasseurInconnu.java
+  h_0a88d9aba8622a 1-7
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/ImpossibleDeDémarrerUnePartieAvecUnChasseurSansBalle.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/ImpossibleDeDémarrerUnePartieSansChasseur.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/ImpossibleDeDémarrerUnePartieSansGalinettes.java
+  h_0a88d9aba8622a 1-5
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/LaChasseEstDéjaEnCours.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/LaPartieDeChasseNexistePas.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/OnEstDéjaEnTrainDePrendreLapéro.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/OnPrendPasLapéroQuandLaPartieEstTerminée.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/OnTirePasPendantLapéroCestSacré.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/OnTirePasQuandLaPartieEstTerminee.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/QuandCestFiniCestFini.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/TasPlusDeBallesMonVieuxChasseALaMain.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/main/java/bouchonnois/service/exceptions/TasTropPicoledMonVieuxTasRienTouche.java
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/java/src/test/java/bouchonnois/tests/doubles/PartieDeChasseRepositoryForTests.java
+  h_0a88d9aba8622a 1-30
+17.refactoring-du-bouchonnois/java/src/test/java/bouchonnois/tests/service/PartieDeChasseServiceTests.java
+  h_0a88d9aba8622a 1-1257
+17.refactoring-du-bouchonnois/java/src/test/java/bouchonnois/tests/service/ScenarioTests.java
+  h_0a88d9aba8622a 1-120
+17.refactoring-du-bouchonnois/kotlin/.gitignore
+  h_0a88d9aba8622a 1-42
+17.refactoring-du-bouchonnois/kotlin/build.gradle.kts
+  h_0a88d9aba8622a 1-27
+17.refactoring-du-bouchonnois/kotlin/gradle.properties
+  h_0a88d9aba8622a 1
+17.refactoring-du-bouchonnois/kotlin/gradle/wrapper/gradle-wrapper.properties
+  h_0a88d9aba8622a 1-5
+17.refactoring-du-bouchonnois/kotlin/gradlew
+  h_0a88d9aba8622a 1-234
+17.refactoring-du-bouchonnois/kotlin/gradlew.bat
+  h_0a88d9aba8622a 1-89
+17.refactoring-du-bouchonnois/kotlin/settings.gradle.kts
+  h_0a88d9aba8622a 1-12
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/domain/Chasseur.kt
+  h_0a88d9aba8622a 1-7
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/domain/Event.kt
+  h_0a88d9aba8622a 1-10
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/domain/PartieDeChasse.kt
+  h_0a88d9aba8622a 1-12
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/domain/PartieStatus.kt
+  h_0a88d9aba8622a 1-8
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/repository/PartieDeChasseRepository.kt
+  h_0a88d9aba8622a 1-9
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/PartieDeChasseService.kt
+  h_0a88d9aba8622a 1-249
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/Terrain.kt
+  h_0a88d9aba8622a 1-6
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/ChasseurInconnu.kt
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/ImpossibleDeDémarrerUnePartieAvecUnChasseurSansBalle.kt
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/ImpossibleDeDémarrerUnePartieSansChasseur.kt
+  h_0a88d9aba8622a 1-3
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/ImpossibleDeDémarrerUnePartieSansGalinettes.kt
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/LaChasseEstDéjaEnCours.kt
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/LaPartieDeChasseNexistePas.kt
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/OnEstDéjaEnTrainDePrendreLapéro.kt
+  h_0a88d9aba8622a 1-3
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/OnPrendPasLapéroQuandLaPartieEstTerminée.kt
+  h_0a88d9aba8622a 1-3
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/OnTirePasPendantLapéroCestSacré.kt
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/OnTirePasQuandLaPartieEstTerminee.kt
+  h_0a88d9aba8622a 1-3
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/QuandCestFiniCestFini.kt
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/TasPlusDeBallesMonVieuxChasseALaMain.kt
+  h_0a88d9aba8622a 1-3
+17.refactoring-du-bouchonnois/kotlin/src/main/kotlin/bouchonnois/service/exceptions/TasTropPicoledMonVieuxTasRienTouche.kt
+  h_0a88d9aba8622a 1-4
+17.refactoring-du-bouchonnois/kotlin/src/test/kotlin/bouchonnois/tests/doubles/PartieDeChasseRepositoryForTests.kt
+  h_0a88d9aba8622a 1-22
+17.refactoring-du-bouchonnois/kotlin/src/test/kotlin/bouchonnois/tests/service/PartieDeChasseServiceTests.kt
+  h_0a88d9aba8622a 1-1341
+17.refactoring-du-bouchonnois/kotlin/src/test/kotlin/bouchonnois/tests/service/ScenarioTests.kt
+  h_0a88d9aba8622a 1-113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "af06759f5f0aa0d7e2beecf264963339b0a06895",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_b3e03b8064d26b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c184575-6a3b-4d95-8bbf-766cbe4567d1",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
