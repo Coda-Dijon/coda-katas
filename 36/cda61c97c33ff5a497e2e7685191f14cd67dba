@@ -1,0 +1,14 @@
+README.md
+  h_0a88d9aba8622a 37-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "36cda61c97c33ff5a497e2e7685191f14cd67dba",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
