@@ -1,0 +1,61 @@
+16.money-problem/README.md
+  s_b3e03b8064d26b::t_dab016c28b6a6b 1-2,5-15,17-20,22-23,26,29,32-58
+  h_0a88d9aba8622a 3-4,16,21,24-25,27-28,30-31
+15.yahtzee/README.md
+  s_b3e03b8064d26b::t_21707fc481df98 1-30
+README.md
+  s_b3e03b8064d26b::t_44beb68d2e99dd 17
+16.money-problem/c#/money-problem.Domain/Bank.cs
+  h_0a88d9aba8622a 1-37
+16.money-problem/c#/money-problem.Domain/Currency.cs
+  h_0a88d9aba8622a 1-9
+16.money-problem/c#/money-problem.Domain/MissingExchangeRateException.cs
+  h_0a88d9aba8622a 1-10
+16.money-problem/c#/money-problem.Domain/MoneyCalculator.cs
+  h_0a88d9aba8622a 1-8
+16.money-problem/c#/money-problem.Domain/money-problem.Domain.csproj
+  h_0a88d9aba8622a 1-10
+16.money-problem/c#/money-problem.Tests/BankShould.cs
+  h_0a88d9aba8622a 1-50
+16.money-problem/c#/money-problem.Tests/MoneyCalculatorShould.cs
+  h_0a88d9aba8622a 1-36
+16.money-problem/c#/money-problem.Tests/money-problem.Tests.csproj
+  h_0a88d9aba8622a 1-29
+16.money-problem/c#/money-problem.sln
+  h_0a88d9aba8622a 1-22
+16.money-problem/java/pom.xml
+  h_0a88d9aba8622a 1-48
+16.money-problem/java/src/main/java/money_problem/domain/Bank.java
+  h_0a88d9aba8622a 1-44
+16.money-problem/java/src/main/java/money_problem/domain/Currency.java
+  h_0a88d9aba8622a 1-5
+16.money-problem/java/src/main/java/money_problem/domain/MissingExchangeRateException.java
+  h_0a88d9aba8622a 1-7
+16.money-problem/java/src/main/java/money_problem/domain/MoneyCalculator.java
+  h_0a88d9aba8622a 1-15
+16.money-problem/java/src/test/java/money_problem/domain/BankTest.java
+  h_0a88d9aba8622a 1-46
+16.money-problem/java/src/test/java/money_problem/domain/MoneyCalculatorTest.java
+  h_0a88d9aba8622a 1-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "99888c739ecfb402d756f444b7b24da7e911723e",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_b3e03b8064d26b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c184575-6a3b-4d95-8bbf-766cbe4567d1",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
