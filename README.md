@@ -13,12 +13,13 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [String Calculator](05.stringCalculator/README.md)
 - [Bowling](07.bowling-kata/README.md)
 - [Mars Rover](08.mars-rover/README.md)
+- [Yahtzee](15.yahtzee/README.md)
 
 ## Algorithmique
 - [Algorithmique Wars](09.algos-star-wars/README.md)
+- [Goat Numeral](14.goat-numeral/README.md)
 - [Algorithme de Luhn](11.luhn/README.md)
 - [Watermarking de texte](12.watermarking/README.md)
-- [Goat Numeral](14.goat-numeral/README.md)
 
 ## Refactoring
 - [Gilded Rose](13.gilded-rose/README.md)
