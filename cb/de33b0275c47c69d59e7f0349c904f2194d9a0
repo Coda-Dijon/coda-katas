@@ -1,0 +1,29 @@
+README.md
+  s_e1b2aba202ba88::t_c8d0e1996ba183 16
+  h_0a88d9aba8622a 20
+15.yahtzee/README.md
+  s_e1b2aba202ba88::t_c35eac72e32256 1-12,14-20,24-25
+  h_0a88d9aba8622a 13,21-23
+  s_e1b2aba202ba88::t_9a6920f58c4521 26-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "cbde33b0275c47c69d59e7f0349c904f2194d9a0",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_e1b2aba202ba88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60825a38-6f2a-46ed-9e5e-0b27afa33c77",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
