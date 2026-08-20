@@ -1,0 +1,131 @@
+15.yahtzee/c#/Yahtzee/Domain/Yahtzee/Constrain.Input/Roll.cs
+  h_0a88d9aba8622a 1-51
+15.yahtzee/c#/Yahtzee/Domain/Yahtzee/Constrain.Input/YahtzeeCalculator.cs
+  h_0a88d9aba8622a 1-64
+15.yahtzee/c#/Yahtzee/Domain/Yahtzee/Original/YahtzeeCalculator.cs
+  h_0a88d9aba8622a 1-99
+15.yahtzee/java/pom.xml
+  h_0a88d9aba8622a 1-72
+15.yahtzee/ts/tsconfig.json
+  s_d191c402f4f23a::t_6d9e1c3914fd04 5
+  s_d191c402f4f23a::t_dbb495eb4ebd0e 4,6-7
+  s_d191c402f4f23a::t_95aa951fe57317 1-3
+  s_d191c402f4f23a::t_f855f50fd2803f 8-10
+  s_d191c402f4f23a::t_a7239152258f1a 11-12
+15.yahtzee/kotlin/build.gradle.kts
+  h_0a88d9aba8622a 1-35
+15.yahtzee/c#/Yahtzee/Domain/Yahtzee/Hollywood.Principle/YahtzeeCalculator.cs
+  h_0a88d9aba8622a 1-134
+15.yahtzee/c#/Yahtzee.Tests/DiceBuilder.cs
+  h_0a88d9aba8622a 1-16
+15.yahtzee/c#/Yahtzee.Tests/Constrain.Input/YahtzeeCalculatorTests.cs
+  h_0a88d9aba8622a 1-151
+15.yahtzee/c#/Yahtzee.Tests/Hollywood.Principle/YahtzeeCalculatorTests.cs
+  h_0a88d9aba8622a 1-211
+15.yahtzee/c#/Yahtzee.Tests/Yahtzee.Tests.csproj
+  h_0a88d9aba8622a 1-32
+15.yahtzee/ts/package.json
+  s_d191c402f4f23a::t_75ab893c930f84 15-16
+  h_0a88d9aba8622a 1-5,8-9,12-13,17
+  s_d191c402f4f23a::t_3611a18bf48efc 6-7,11,18
+  s_d191c402f4f23a::t_18c71783001ef1 10
+  s_d191c402f4f23a::t_ca195eb85a78b1 14
+.gitignore
+  h_0a88d9aba8622a 48-57
+  h_0a88d9aba8622a 47
+15.yahtzee/ts/vitest.config.ts
+  s_d191c402f4f23a::t_65469d15c8f3ed 1-9
+15.yahtzee/c#/Yahtzee.Tests/Original/YahtzeeCalculatorTests.cs
+  h_0a88d9aba8622a 1-180
+15.yahtzee/c#/Yahtzee.Tests/Constrain.Input/RollBuilder.cs
+  h_0a88d9aba8622a 1-19
+15.yahtzee/ts/tests/hollywood-principle/yahtzee.spec.ts
+  s_d191c402f4f23a::t_5a43d9b6a9e416 1-147
+15.yahtzee/ts/package-lock.json
+  s_d191c402f4f23a::t_8811580fb3478e 1-2027
+15.yahtzee/c#/Yahtzee.sln.DotSettings.user
+  h_0a88d9aba8622a 1-4
+15.yahtzee/c#/Yahtzee.slnx
+  h_0a88d9aba8622a 1-4
+15.yahtzee/c#/Yahtzee/Yahtzee.csproj
+  h_0a88d9aba8622a 1-14
+15.yahtzee/java/src/main/java/domain/yahtzee/constrain/input/Error.java
+  h_0a88d9aba8622a 1-7
+15.yahtzee/java/src/main/java/domain/yahtzee/constrain/input/Roll.java
+  h_0a88d9aba8622a 1-61
+15.yahtzee/java/src/main/java/domain/yahtzee/constrain/input/YahtzeeCalculator.java
+  h_0a88d9aba8622a 1-77
+15.yahtzee/java/src/main/java/domain/yahtzee/hollywood/principle/YahtzeeCalculator.java
+  h_0a88d9aba8622a 1-159
+15.yahtzee/java/src/main/java/domain/yahtzee/original/YahtzeeCalculator.java
+  h_0a88d9aba8622a 1-123
+15.yahtzee/java/src/test/java/builders/DiceBuilder.java
+  h_0a88d9aba8622a 1-24
+15.yahtzee/java/src/test/java/constrain/input/YahtzeeTests.java
+  h_0a88d9aba8622a 1-190
+15.yahtzee/java/src/test/java/hollywood/principle/YahtzeeCalculatorTests.java
+  h_0a88d9aba8622a 1-213
+15.yahtzee/java/src/test/java/original/YahtzeeCalculatorTests.java
+  h_0a88d9aba8622a 1-188
+15.yahtzee/kotlin/gradle/wrapper/gradle-wrapper.properties
+  h_0a88d9aba8622a 1-7
+15.yahtzee/kotlin/gradlew
+  h_0a88d9aba8622a 1-248
+15.yahtzee/kotlin/gradlew.bat
+  h_0a88d9aba8622a 1-93
+15.yahtzee/kotlin/src/main/kotlin/domain/yahtzee/constrain/input/Error.kt
+  h_0a88d9aba8622a 1-3
+15.yahtzee/kotlin/src/main/kotlin/domain/yahtzee/constrain/input/Roll.kt
+  h_0a88d9aba8622a 1-31
+15.yahtzee/kotlin/src/main/kotlin/domain/yahtzee/constrain/input/YahtzeeCalculator.kt
+  h_0a88d9aba8622a 1-61
+15.yahtzee/kotlin/src/main/kotlin/domain/yahtzee/hollywood/principle/YahtzeeCalculator.kt
+  h_0a88d9aba8622a 1-140
+15.yahtzee/kotlin/src/main/kotlin/domain/yahtzee/original/YahtzeeCalculator.kt
+  h_0a88d9aba8622a 1-82
+15.yahtzee/kotlin/src/test/kotlin/builders/DiceBuilder.kt
+  h_0a88d9aba8622a 1-14
+15.yahtzee/kotlin/src/test/kotlin/constrain/input/YahtzeeCalculatorTests.kt
+  h_0a88d9aba8622a 1-130
+15.yahtzee/kotlin/src/test/kotlin/hollywood/principle/YahtzeeCalculatorTests.kt
+  h_0a88d9aba8622a 1-221
+15.yahtzee/kotlin/src/test/kotlin/original/YahtzeeCalculatorTests.kt
+  h_0a88d9aba8622a 1-140
+15.yahtzee/kotlin/src/test/kotlin/parameters/ParameterizedTests.kt
+  h_0a88d9aba8622a 1-7
+15.yahtzee/ts/src/domain/yahtzee/constrain-input/roll.ts
+  h_0a88d9aba8622a 1-36
+15.yahtzee/ts/src/domain/yahtzee/constrain-input/yahtzeeCalculator.ts
+  h_0a88d9aba8622a 1-76
+15.yahtzee/ts/src/domain/yahtzee/hollywood-principle/yahtzeeCalculator.ts
+  h_0a88d9aba8622a 1-134
+15.yahtzee/ts/src/domain/yahtzee/original/yahtzeeCalculator.ts
+  h_0a88d9aba8622a 1-104
+15.yahtzee/ts/tests/constrain-input/yahtzee.spec.ts
+  h_0a88d9aba8622a 1-103
+15.yahtzee/ts/tests/diceBuilder.ts
+  h_0a88d9aba8622a 1-14
+15.yahtzee/ts/tests/original/yahtzee.spec.ts
+  h_0a88d9aba8622a 1-106
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3f1f6e5c7a28212f6c5d3046aa9a0eea313c7cd1",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_d191c402f4f23a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9ab93dbc-bcf4-4db1-a0e7-6692c5d2e1a5",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
