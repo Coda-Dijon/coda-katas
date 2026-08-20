@@ -1,0 +1,27 @@
+20.weather-resilience-kata/java/src/main/java/weather/UnreliableWeatherApi.java
+  s_b3e03b8064d26b::t_5a8596fcbae0e2 8-11,23-28
+20.weather-resilience-kata/facilitation/03.retry-simple.md
+  s_b3e03b8064d26b::t_e80fc8449c0ccf 13-25
+  s_b3e03b8064d26b::t_4f1649d99e15b4 32
+20.weather-resilience-kata/java/src/main/java/weather/WeatherApiException.java
+  s_b3e03b8064d26b::t_a95592dbc2ac04 4-5,7-10,12-21
+20.weather-resilience-kata/README.md
+  s_b3e03b8064d26b::t_d572f04e668c42 11
+  s_b3e03b8064d26b::t_cb0ed37b92e6cc 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "31266ed8a39b236d02dfbe3a0fc819c3444c3566",
+  "prompts": {},
+  "sessions": {
+    "s_b3e03b8064d26b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c184575-6a3b-4d95-8bbf-766cbe4567d1",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
