@@ -35,6 +35,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 ## Http
 - [curl-quests](https://github.com/lite-quests/curl-quests/)
 - [WTF Wars](10.wtf-http/README.md)
+- [DDoS Guard](21.ddos-guard-kata/README.md)
 
 ## Sql
 - [Les 3 enfants les plus sages](https://coda-dijon.github.io/advent-2025/?day=08)
