@@ -1,0 +1,30 @@
+21.ddos-guard-kata/README.md
+  s_e05733e1d8416b::t_55ca3bae1de125 203-204,208
+  s_e05733e1d8416b::t_644fc49becf873 4,7-12,15,17-18
+  s_e05733e1d8416b::t_9d97d63a63cfa1 1-3,5-6,13-14,16,54-57,61,65-87,90-94,98-122,125-126,130-131,134-156,159-161,165,168-186,189-192,196,202,205-207
+  s_e05733e1d8416b::t_4bf056b905a68a 19-53
+  s_e05733e1d8416b::t_b9c7184be8512d 58-60,62-64,88-89,95-97,123-124,127-129,132-133,157-158,162-164,166-167,187-188,193-195,197-201
+README.md
+  s_e05733e1d8416b::t_e593eafb8059f8 38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "273f8ab898db6d7e15af1555667e3ef36e1c1aeb",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_e05733e1d8416b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4fd0c680-12e0-45df-9444-f3144c84db1c",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
