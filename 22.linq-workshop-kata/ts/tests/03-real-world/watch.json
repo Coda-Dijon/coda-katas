@@ -1,0 +1,3626 @@
+{
+  "name": "Yellow Submarine",
+  "id": "WCH-0001",
+  "type": "Watch",
+  "components": [
+    {
+      "name": "Bezel 1",
+      "id": "BEZ-0001",
+      "type": "Bezel",
+      "components": [
+        {
+          "name": "Marker 2",
+          "id": "MKR-0001",
+          "type": "Marker",
+          "components": [
+            {
+              "name": "Dial 3",
+              "id": "DIA-0001",
+              "type": "Dial",
+              "components": [
+                {
+                  "name": "Jewel 4",
+                  "id": "JEW-0001",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 5",
+                  "id": "OSC-0001",
+                  "type": "Oscillator",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Arbor 6",
+              "id": "ARB-0001",
+              "type": "Arbor",
+              "components": [
+                {
+                  "name": "Oscillator 7",
+                  "id": "OSC-0002",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Dial 8",
+                  "id": "DIA-0002",
+                  "type": "Dial",
+                  "components": []
+                },
+                {
+                  "name": "Strap 9",
+                  "id": "STR-0001",
+                  "type": "Strap",
+                  "components": []
+                },
+                {
+                  "name": "Watch 10",
+                  "id": "WCH-0002",
+                  "type": "Watch",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hairspring 11",
+          "id": "HS-0001",
+          "type": "Hairspring",
+          "components": [
+            {
+              "name": "Crystal 12",
+              "id": "CRY-0001",
+              "type": "Crystal",
+              "components": [
+                {
+                  "name": "Screws 13",
+                  "id": "SCR-0001",
+                  "type": "Screws",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Spring 14",
+              "id": "SPR-0001",
+              "type": "Spring",
+              "components": [
+                {
+                  "name": "Arbor 15",
+                  "id": "ARB-0002",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Balance Wheel 16",
+                  "id": "BW-0001",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Gear Train 17",
+                  "id": "GT-0001",
+                  "type": "Gear Train",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Pin 18",
+              "id": "PN-0001",
+              "type": "Pin",
+              "components": [
+                {
+                  "name": "Link 19",
+                  "id": "LNK-0001",
+                  "type": "Link",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screw 20",
+              "id": "SCW-0001",
+              "type": "Screw",
+              "components": [
+                {
+                  "name": "Mainspring 21",
+                  "id": "MS-0001",
+                  "type": "Mainspring",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hand 22",
+          "id": "HND-0001",
+          "type": "Hand",
+          "components": [
+            {
+              "name": "Shock Absorber 23",
+              "id": "SA-0001",
+              "type": "Shock Absorber",
+              "components": [
+                {
+                  "name": "Pinion 24",
+                  "id": "PIN-0001",
+                  "type": "Pinion",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screw 25",
+              "id": "SCW-0002",
+              "type": "Screw",
+              "components": [
+                {
+                  "name": "Wheel 26",
+                  "id": "WHL-0001",
+                  "type": "Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Movement 27",
+                  "id": "MOV-0001",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Movement 28",
+                  "id": "MOV-0002",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Wheel 29",
+                  "id": "WHL-0002",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Mainspring 30",
+              "id": "MS-0002",
+              "type": "Mainspring",
+              "components": [
+                {
+                  "name": "Wheel 31",
+                  "id": "WHL-0003",
+                  "type": "Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Case 32",
+                  "id": "CAS-0001",
+                  "type": "Case",
+                  "components": []
+                },
+                {
+                  "name": "Cover 33",
+                  "id": "COV-0001",
+                  "type": "Cover",
+                  "components": []
+                },
+                {
+                  "name": "Barrel 34",
+                  "id": "BAR-0001",
+                  "type": "Barrel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Balance Wheel 35",
+          "id": "BW-0002",
+          "type": "Balance Wheel",
+          "components": [
+            {
+              "name": "Cover 36",
+              "id": "COV-0002",
+              "type": "Cover",
+              "components": [
+                {
+                  "name": "Clasp 37",
+                  "id": "CLA-0001",
+                  "type": "Clasp",
+                  "components": []
+                },
+                {
+                  "name": "Hands 38",
+                  "id": "HND-0001",
+                  "type": "Hands",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 39",
+                  "id": "ARB-0003",
+                  "type": "Arbor",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Screw 40",
+      "id": "SCW-0003",
+      "type": "Screw",
+      "components": [
+        {
+          "name": "Oscillator 41",
+          "id": "OSC-0003",
+          "type": "Oscillator",
+          "components": [
+            {
+              "name": "Marker 42",
+              "id": "MKR-0002",
+              "type": "Marker",
+              "components": [
+                {
+                  "name": "Watch 43",
+                  "id": "WCH-0003",
+                  "type": "Watch",
+                  "components": []
+                },
+                {
+                  "name": "Hand 44",
+                  "id": "HND-0002",
+                  "type": "Hand",
+                  "components": []
+                },
+                {
+                  "name": "Dial 45",
+                  "id": "DIA-0003",
+                  "type": "Dial",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pin 46",
+          "id": "PN-0002",
+          "type": "Pin",
+          "components": [
+            {
+              "name": "Seal 47",
+              "id": "SEA-0001",
+              "type": "Seal",
+              "components": [
+                {
+                  "name": "Strap 48",
+                  "id": "STR-0002",
+                  "type": "Strap",
+                  "components": []
+                },
+                {
+                  "name": "Hairspring 49",
+                  "id": "HS-0002",
+                  "type": "Hairspring",
+                  "components": []
+                },
+                {
+                  "name": "Pin 50",
+                  "id": "PN-0003",
+                  "type": "Pin",
+                  "components": []
+                },
+                {
+                  "name": "Watch 51",
+                  "id": "WCH-0004",
+                  "type": "Watch",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Strap 52",
+              "id": "STR-0003",
+              "type": "Strap",
+              "components": [
+                {
+                  "name": "Movement 53",
+                  "id": "MOV-0003",
+                  "type": "Movement",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Barrel 54",
+              "id": "BAR-0002",
+              "type": "Barrel",
+              "components": [
+                {
+                  "name": "Case 55",
+                  "id": "CAS-0002",
+                  "type": "Case",
+                  "components": []
+                },
+                {
+                  "name": "Crystal 56",
+                  "id": "CRY-0002",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Cover 57",
+                  "id": "COV-0003",
+                  "type": "Cover",
+                  "components": []
+                },
+                {
+                  "name": "Seal 58",
+                  "id": "SEA-0002",
+                  "type": "Seal",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screw 59",
+              "id": "SCW-0004",
+              "type": "Screw",
+              "components": [
+                {
+                  "name": "Arbor 60",
+                  "id": "ARB-0004",
+                  "type": "Arbor",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gear Train 61",
+      "id": "GT-0002",
+      "type": "Gear Train",
+      "components": [
+        {
+          "name": "Clasp 62",
+          "id": "CLA-0002",
+          "type": "Clasp",
+          "components": [
+            {
+              "name": "Strap 63",
+              "id": "STR-0004",
+              "type": "Strap",
+              "components": [
+                {
+                  "name": "Links 64",
+                  "id": "LNK-0001",
+                  "type": "Links",
+                  "components": []
+                },
+                {
+                  "name": "Crystal 65",
+                  "id": "CRY-0003",
+                  "type": "Crystal",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arbor 66",
+          "id": "ARB-0005",
+          "type": "Arbor",
+          "components": [
+            {
+              "name": "Clasp 67",
+              "id": "CLA-0003",
+              "type": "Clasp",
+              "components": [
+                {
+                  "name": "Crystal 68",
+                  "id": "CRY-0004",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Balance Wheel 69",
+                  "id": "BW-0003",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Links 70",
+                  "id": "LNK-0002",
+                  "type": "Links",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Crystal 71",
+          "id": "CRY-0005",
+          "type": "Crystal",
+          "components": [
+            {
+              "name": "Barrel 72",
+              "id": "BAR-0003",
+              "type": "Barrel",
+              "components": [
+                {
+                  "name": "Cover 73",
+                  "id": "COV-0004",
+                  "type": "Cover",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 74",
+                  "id": "OSC-0004",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Screw 75",
+                  "id": "SCW-0005",
+                  "type": "Screw",
+                  "components": []
+                },
+                {
+                  "name": "Case 76",
+                  "id": "CAS-0003",
+                  "type": "Case",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hairspring 77",
+              "id": "HS-0003",
+              "type": "Hairspring",
+              "components": [
+                {
+                  "name": "Hands 78",
+                  "id": "HND-0002",
+                  "type": "Hands",
+                  "components": []
+                },
+                {
+                  "name": "Strap 79",
+                  "id": "STR-0005",
+                  "type": "Strap",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Insert 80",
+              "id": "INS-0001",
+              "type": "Insert",
+              "components": [
+                {
+                  "name": "Arbor 81",
+                  "id": "ARB-0006",
+                  "type": "Arbor",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shock Absorber 82",
+      "id": "SA-0002",
+      "type": "Shock Absorber",
+      "components": [
+        {
+          "name": "Barrel 83",
+          "id": "BAR-0004",
+          "type": "Barrel",
+          "components": [
+            {
+              "name": "Cover 84",
+              "id": "COV-0005",
+              "type": "Cover",
+              "components": [
+                {
+                  "name": "Bridge 85",
+                  "id": "BRG-0001",
+                  "type": "Bridge",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seal 86",
+          "id": "SEA-0003",
+          "type": "Seal",
+          "components": [
+            {
+              "name": "Screw 87",
+              "id": "SCW-0006",
+              "type": "Screw",
+              "components": [
+                {
+                  "name": "Insert 88",
+                  "id": "INS-0002",
+                  "type": "Insert",
+                  "components": []
+                },
+                {
+                  "name": "Barrel 89",
+                  "id": "BAR-0005",
+                  "type": "Barrel",
+                  "components": []
+                },
+                {
+                  "name": "Insert 90",
+                  "id": "INS-0003",
+                  "type": "Insert",
+                  "components": []
+                },
+                {
+                  "name": "Bezel 91",
+                  "id": "BEZ-0002",
+                  "type": "Bezel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Spring 92",
+              "id": "SPR-0002",
+              "type": "Spring",
+              "components": [
+                {
+                  "name": "Dial 93",
+                  "id": "DIA-0004",
+                  "type": "Dial",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hands 94",
+          "id": "HND-0003",
+          "type": "Hands",
+          "components": [
+            {
+              "name": "Movement 95",
+              "id": "MOV-0004",
+              "type": "Movement",
+              "components": [
+                {
+                  "name": "Mainspring 96",
+                  "id": "MS-0003",
+                  "type": "Mainspring",
+                  "components": []
+                },
+                {
+                  "name": "Hand 97",
+                  "id": "HND-0003",
+                  "type": "Hand",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Oscillator 98",
+              "id": "OSC-0005",
+              "type": "Oscillator",
+              "components": [
+                {
+                  "name": "Bezel 99",
+                  "id": "BEZ-0003",
+                  "type": "Bezel",
+                  "components": []
+                },
+                {
+                  "name": "Balance Wheel 100",
+                  "id": "BW-0004",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Link 101",
+                  "id": "LNK-0002",
+                  "type": "Link",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hairspring 102",
+              "id": "HS-0004",
+              "type": "Hairspring",
+              "components": [
+                {
+                  "name": "Crystal 103",
+                  "id": "CRY-0006",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Watch 104",
+                  "id": "WCH-0005",
+                  "type": "Watch",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Links 105",
+              "id": "LNK-0003",
+              "type": "Links",
+              "components": [
+                {
+                  "name": "Pinion 106",
+                  "id": "PIN-0002",
+                  "type": "Pinion",
+                  "components": []
+                },
+                {
+                  "name": "Bridge 107",
+                  "id": "BRG-0002",
+                  "type": "Bridge",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 108",
+                  "id": "OSC-0006",
+                  "type": "Oscillator",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dial 109",
+      "id": "DIA-0005",
+      "type": "Dial",
+      "components": [
+        {
+          "name": "Shock Absorber 110",
+          "id": "SA-0003",
+          "type": "Shock Absorber",
+          "components": [
+            {
+              "name": "Barrel 111",
+              "id": "BAR-0006",
+              "type": "Barrel",
+              "components": [
+                {
+                  "name": "Gear Train 112",
+                  "id": "GT-0003",
+                  "type": "Gear Train",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Links 113",
+              "id": "LNK-0004",
+              "type": "Links",
+              "components": [
+                {
+                  "name": "Bridge 114",
+                  "id": "BRG-0003",
+                  "type": "Bridge",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dial 115",
+      "id": "DIA-0006",
+      "type": "Dial",
+      "components": [
+        {
+          "name": "Cover 116",
+          "id": "COV-0006",
+          "type": "Cover",
+          "components": [
+            {
+              "name": "Hand 117",
+              "id": "HND-0004",
+              "type": "Hand",
+              "components": [
+                {
+                  "name": "Clasp 118",
+                  "id": "CLA-0004",
+                  "type": "Clasp",
+                  "components": []
+                },
+                {
+                  "name": "Marker 119",
+                  "id": "MKR-0003",
+                  "type": "Marker",
+                  "components": []
+                },
+                {
+                  "name": "Cover 120",
+                  "id": "COV-0007",
+                  "type": "Cover",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Spring 121",
+              "id": "SPR-0003",
+              "type": "Spring",
+              "components": [
+                {
+                  "name": "Arbor 122",
+                  "id": "ARB-0007",
+                  "type": "Arbor",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Balance Wheel 123",
+              "id": "BW-0005",
+              "type": "Balance Wheel",
+              "components": [
+                {
+                  "name": "Mainspring 124",
+                  "id": "MS-0004",
+                  "type": "Mainspring",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hands 125",
+      "id": "HND-0004",
+      "type": "Hands",
+      "components": [
+        {
+          "name": "Arbor 126",
+          "id": "ARB-0008",
+          "type": "Arbor",
+          "components": [
+            {
+              "name": "Mainspring 127",
+              "id": "MS-0005",
+              "type": "Mainspring",
+              "components": [
+                {
+                  "name": "Crystal 128",
+                  "id": "CRY-0007",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 129",
+                  "id": "OSC-0007",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Screws 130",
+                  "id": "SCR-0002",
+                  "type": "Screws",
+                  "components": []
+                },
+                {
+                  "name": "Hairspring 131",
+                  "id": "HS-0005",
+                  "type": "Hairspring",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Shock Absorber 132",
+              "id": "SA-0004",
+              "type": "Shock Absorber",
+              "components": [
+                {
+                  "name": "Hands 133",
+                  "id": "HND-0005",
+                  "type": "Hands",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 134",
+                  "id": "JEW-0002",
+                  "type": "Jewel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pin 135",
+          "id": "PN-0004",
+          "type": "Pin",
+          "components": [
+            {
+              "name": "Pin 136",
+              "id": "PN-0005",
+              "type": "Pin",
+              "components": [
+                {
+                  "name": "Clasp 137",
+                  "id": "CLA-0005",
+                  "type": "Clasp",
+                  "components": []
+                },
+                {
+                  "name": "Gear Train 138",
+                  "id": "GT-0004",
+                  "type": "Gear Train",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Oscillator 139",
+              "id": "OSC-0008",
+              "type": "Oscillator",
+              "components": [
+                {
+                  "name": "Movement 140",
+                  "id": "MOV-0005",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 141",
+                  "id": "ARB-0009",
+                  "type": "Arbor",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Markers 142",
+              "id": "MRK-0001",
+              "type": "Markers",
+              "components": [
+                {
+                  "name": "Seal 143",
+                  "id": "SEA-0004",
+                  "type": "Seal",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hands 144",
+              "id": "HND-0006",
+              "type": "Hands",
+              "components": [
+                {
+                  "name": "Screw 145",
+                  "id": "SCW-0007",
+                  "type": "Screw",
+                  "components": []
+                },
+                {
+                  "name": "Case 146",
+                  "id": "CAS-0004",
+                  "type": "Case",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 147",
+                  "id": "CLA-0006",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pinion 148",
+          "id": "PIN-0003",
+          "type": "Pinion",
+          "components": [
+            {
+              "name": "Hand 149",
+              "id": "HND-0005",
+              "type": "Hand",
+              "components": [
+                {
+                  "name": "Links 150",
+                  "id": "LNK-0005",
+                  "type": "Links",
+                  "components": []
+                },
+                {
+                  "name": "Gear Train 151",
+                  "id": "GT-0005",
+                  "type": "Gear Train",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Movement 152",
+              "id": "MOV-0006",
+              "type": "Movement",
+              "components": [
+                {
+                  "name": "Mainspring 153",
+                  "id": "MS-0006",
+                  "type": "Mainspring",
+                  "components": []
+                },
+                {
+                  "name": "Dial 154",
+                  "id": "DIA-0007",
+                  "type": "Dial",
+                  "components": []
+                },
+                {
+                  "name": "Link 155",
+                  "id": "LNK-0003",
+                  "type": "Link",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strap 156",
+          "id": "STR-0006",
+          "type": "Strap",
+          "components": [
+            {
+              "name": "Bezel 157",
+              "id": "BEZ-0004",
+              "type": "Bezel",
+              "components": [
+                {
+                  "name": "Wheel 158",
+                  "id": "WHL-0004",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Strap 159",
+              "id": "STR-0007",
+              "type": "Strap",
+              "components": [
+                {
+                  "name": "Jewel 160",
+                  "id": "JEW-0003",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 161",
+                  "id": "OSC-0009",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 162",
+                  "id": "CLA-0007",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Shock Absorber 163",
+              "id": "SA-0005",
+              "type": "Shock Absorber",
+              "components": [
+                {
+                  "name": "Crystal 164",
+                  "id": "CRY-0008",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Hands 165",
+                  "id": "HND-0007",
+                  "type": "Hands",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Shock Absorber 166",
+              "id": "SA-0006",
+              "type": "Shock Absorber",
+              "components": [
+                {
+                  "name": "Shock Absorber 167",
+                  "id": "SA-0007",
+                  "type": "Shock Absorber",
+                  "components": []
+                },
+                {
+                  "name": "Mainspring 168",
+                  "id": "MS-0007",
+                  "type": "Mainspring",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crystal 169",
+      "id": "CRY-0009",
+      "type": "Crystal",
+      "components": [
+        {
+          "name": "Mainspring 170",
+          "id": "MS-0008",
+          "type": "Mainspring",
+          "components": [
+            {
+              "name": "Mainspring 171",
+              "id": "MS-0009",
+              "type": "Mainspring",
+              "components": [
+                {
+                  "name": "Movement 172",
+                  "id": "MOV-0007",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Barrel 173",
+                  "id": "BAR-0007",
+                  "type": "Barrel",
+                  "components": []
+                },
+                {
+                  "name": "Mainspring 174",
+                  "id": "MS-0010",
+                  "type": "Mainspring",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Seal 175",
+              "id": "SEA-0005",
+              "type": "Seal",
+              "components": [
+                {
+                  "name": "Barrel 176",
+                  "id": "BAR-0008",
+                  "type": "Barrel",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 177",
+                  "id": "JEW-0004",
+                  "type": "Jewel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Dial 178",
+              "id": "DIA-0008",
+              "type": "Dial",
+              "components": [
+                {
+                  "name": "Bezel 179",
+                  "id": "BEZ-0005",
+                  "type": "Bezel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Wheel 180",
+              "id": "WHL-0005",
+              "type": "Wheel",
+              "components": [
+                {
+                  "name": "Shock Absorber 181",
+                  "id": "SA-0008",
+                  "type": "Shock Absorber",
+                  "components": []
+                },
+                {
+                  "name": "Barrel 182",
+                  "id": "BAR-0009",
+                  "type": "Barrel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Link 183",
+          "id": "LNK-0004",
+          "type": "Link",
+          "components": [
+            {
+              "name": "Dial 184",
+              "id": "DIA-0009",
+              "type": "Dial",
+              "components": [
+                {
+                  "name": "Hands 185",
+                  "id": "HND-0008",
+                  "type": "Hands",
+                  "components": []
+                },
+                {
+                  "name": "Seal 186",
+                  "id": "SEA-0006",
+                  "type": "Seal",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 187",
+                  "id": "ARB-0010",
+                  "type": "Arbor",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hands 188",
+              "id": "HND-0009",
+              "type": "Hands",
+              "components": [
+                {
+                  "name": "Gear Train 189",
+                  "id": "GT-0006",
+                  "type": "Gear Train",
+                  "components": []
+                },
+                {
+                  "name": "Hands 190",
+                  "id": "HND-0010",
+                  "type": "Hands",
+                  "components": []
+                },
+                {
+                  "name": "Hand 191",
+                  "id": "HND-0006",
+                  "type": "Hand",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 192",
+                  "id": "ARB-0011",
+                  "type": "Arbor",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Marker 193",
+          "id": "MKR-0004",
+          "type": "Marker",
+          "components": [
+            {
+              "name": "Movement 194",
+              "id": "MOV-0008",
+              "type": "Movement",
+              "components": [
+                {
+                  "name": "Link 195",
+                  "id": "LNK-0005",
+                  "type": "Link",
+                  "components": []
+                },
+                {
+                  "name": "Crystal 196",
+                  "id": "CRY-0010",
+                  "type": "Crystal",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Strap 197",
+              "id": "STR-0008",
+              "type": "Strap",
+              "components": [
+                {
+                  "name": "Hands 198",
+                  "id": "HND-0011",
+                  "type": "Hands",
+                  "components": []
+                },
+                {
+                  "name": "Pinion 199",
+                  "id": "PIN-0004",
+                  "type": "Pinion",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 200",
+                  "id": "CLA-0008",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pin 201",
+      "id": "PN-0006",
+      "type": "Pin",
+      "components": [
+        {
+          "name": "Insert 202",
+          "id": "INS-0004",
+          "type": "Insert",
+          "components": [
+            {
+              "name": "Spring 203",
+              "id": "SPR-0004",
+              "type": "Spring",
+              "components": [
+                {
+                  "name": "Clasp 204",
+                  "id": "CLA-0009",
+                  "type": "Clasp",
+                  "components": []
+                },
+                {
+                  "name": "Strap 205",
+                  "id": "STR-0009",
+                  "type": "Strap",
+                  "components": []
+                },
+                {
+                  "name": "Gear Train 206",
+                  "id": "GT-0007",
+                  "type": "Gear Train",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Movement 207",
+              "id": "MOV-0009",
+              "type": "Movement",
+              "components": [
+                {
+                  "name": "Wheel 208",
+                  "id": "WHL-0006",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Arbor 209",
+              "id": "ARB-0012",
+              "type": "Arbor",
+              "components": [
+                {
+                  "name": "Pin 210",
+                  "id": "PN-0007",
+                  "type": "Pin",
+                  "components": []
+                },
+                {
+                  "name": "Wheel 211",
+                  "id": "WHL-0007",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bezel 212",
+          "id": "BEZ-0006",
+          "type": "Bezel",
+          "components": [
+            {
+              "name": "Screw 213",
+              "id": "SCW-0008",
+              "type": "Screw",
+              "components": [
+                {
+                  "name": "Arbor 214",
+                  "id": "ARB-0013",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 215",
+                  "id": "ARB-0014",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Marker 216",
+                  "id": "MKR-0005",
+                  "type": "Marker",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Links 217",
+              "id": "LNK-0006",
+              "type": "Links",
+              "components": [
+                {
+                  "name": "Balance Wheel 218",
+                  "id": "BW-0006",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Case 219",
+                  "id": "CAS-0005",
+                  "type": "Case",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 220",
+                  "id": "JEW-0005",
+                  "type": "Jewel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Link 221",
+              "id": "LNK-0006",
+              "type": "Link",
+              "components": [
+                {
+                  "name": "Hairspring 222",
+                  "id": "HS-0006",
+                  "type": "Hairspring",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Screws 223",
+          "id": "SCR-0003",
+          "type": "Screws",
+          "components": [
+            {
+              "name": "Link 224",
+              "id": "LNK-0007",
+              "type": "Link",
+              "components": [
+                {
+                  "name": "Arbor 225",
+                  "id": "ARB-0015",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Strap 226",
+                  "id": "STR-0010",
+                  "type": "Strap",
+                  "components": []
+                },
+                {
+                  "name": "Barrel 227",
+                  "id": "BAR-0010",
+                  "type": "Barrel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Jewel 228",
+              "id": "JEW-0006",
+              "type": "Jewel",
+              "components": [
+                {
+                  "name": "Jewel 229",
+                  "id": "JEW-0007",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 230",
+                  "id": "JEW-0008",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 231",
+                  "id": "CLA-0010",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Barrel 232",
+              "id": "BAR-0011",
+              "type": "Barrel",
+              "components": [
+                {
+                  "name": "Screw 233",
+                  "id": "SCW-0009",
+                  "type": "Screw",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 234",
+                  "id": "OSC-0010",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Gear Train 235",
+                  "id": "GT-0008",
+                  "type": "Gear Train",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Watch 236",
+          "id": "WCH-0006",
+          "type": "Watch",
+          "components": [
+            {
+              "name": "Arbor 237",
+              "id": "ARB-0016",
+              "type": "Arbor",
+              "components": [
+                {
+                  "name": "Hands 238",
+                  "id": "HND-0012",
+                  "type": "Hands",
+                  "components": []
+                },
+                {
+                  "name": "Crystal 239",
+                  "id": "CRY-0011",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Wheel 240",
+                  "id": "WHL-0008",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Mainspring 241",
+              "id": "MS-0011",
+              "type": "Mainspring",
+              "components": [
+                {
+                  "name": "Pin 242",
+                  "id": "PN-0008",
+                  "type": "Pin",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Markers 243",
+              "id": "MRK-0002",
+              "type": "Markers",
+              "components": [
+                {
+                  "name": "Hands 244",
+                  "id": "HND-0013",
+                  "type": "Hands",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screws 245",
+              "id": "SCR-0004",
+              "type": "Screws",
+              "components": [
+                {
+                  "name": "Strap 246",
+                  "id": "STR-0011",
+                  "type": "Strap",
+                  "components": []
+                },
+                {
+                  "name": "Hairspring 247",
+                  "id": "HS-0007",
+                  "type": "Hairspring",
+                  "components": []
+                },
+                {
+                  "name": "Wheel 248",
+                  "id": "WHL-0009",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hairspring 249",
+      "id": "HS-0008",
+      "type": "Hairspring",
+      "components": [
+        {
+          "name": "Crystal 250",
+          "id": "CRY-0012",
+          "type": "Crystal",
+          "components": [
+            {
+              "name": "Screws 251",
+              "id": "SCR-0005",
+              "type": "Screws",
+              "components": [
+                {
+                  "name": "Barrel 252",
+                  "id": "BAR-0012",
+                  "type": "Barrel",
+                  "components": []
+                },
+                {
+                  "name": "Balance Wheel 253",
+                  "id": "BW-0007",
+                  "type": "Balance Wheel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screw 254",
+              "id": "SCW-0010",
+              "type": "Screw",
+              "components": [
+                {
+                  "name": "Movement 255",
+                  "id": "MOV-0010",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Seal 256",
+                  "id": "SEA-0007",
+                  "type": "Seal",
+                  "components": []
+                },
+                {
+                  "name": "Balance Wheel 257",
+                  "id": "BW-0008",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Link 258",
+                  "id": "LNK-0008",
+                  "type": "Link",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Cover 259",
+              "id": "COV-0008",
+              "type": "Cover",
+              "components": [
+                {
+                  "name": "Mainspring 260",
+                  "id": "MS-0012",
+                  "type": "Mainspring",
+                  "components": []
+                },
+                {
+                  "name": "Insert 261",
+                  "id": "INS-0005",
+                  "type": "Insert",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Watch 262",
+              "id": "WCH-0007",
+              "type": "Watch",
+              "components": [
+                {
+                  "name": "Gear Train 263",
+                  "id": "GT-0009",
+                  "type": "Gear Train",
+                  "components": []
+                },
+                {
+                  "name": "Links 264",
+                  "id": "LNK-0007",
+                  "type": "Links",
+                  "components": []
+                },
+                {
+                  "name": "Watch 265",
+                  "id": "WCH-0008",
+                  "type": "Watch",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Balance Wheel 266",
+          "id": "BW-0009",
+          "type": "Balance Wheel",
+          "components": [
+            {
+              "name": "Balance Wheel 267",
+              "id": "BW-0010",
+              "type": "Balance Wheel",
+              "components": [
+                {
+                  "name": "Case 268",
+                  "id": "CAS-0006",
+                  "type": "Case",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Markers 269",
+              "id": "MRK-0003",
+              "type": "Markers",
+              "components": [
+                {
+                  "name": "Watch 270",
+                  "id": "WCH-0009",
+                  "type": "Watch",
+                  "components": []
+                },
+                {
+                  "name": "Hand 271",
+                  "id": "HND-0007",
+                  "type": "Hand",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 272",
+                  "id": "ARB-0017",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 273",
+                  "id": "CLA-0011",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seal 274",
+          "id": "SEA-0008",
+          "type": "Seal",
+          "components": [
+            {
+              "name": "Wheel 275",
+              "id": "WHL-0010",
+              "type": "Wheel",
+              "components": [
+                {
+                  "name": "Link 276",
+                  "id": "LNK-0009",
+                  "type": "Link",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Crystal 277",
+          "id": "CRY-0013",
+          "type": "Crystal",
+          "components": [
+            {
+              "name": "Gear Train 278",
+              "id": "GT-0010",
+              "type": "Gear Train",
+              "components": [
+                {
+                  "name": "Crystal 279",
+                  "id": "CRY-0014",
+                  "type": "Crystal",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pin 280",
+      "id": "PN-0009",
+      "type": "Pin",
+      "components": [
+        {
+          "name": "Jewel 281",
+          "id": "JEW-0009",
+          "type": "Jewel",
+          "components": [
+            {
+              "name": "Cover 282",
+              "id": "COV-0009",
+              "type": "Cover",
+              "components": [
+                {
+                  "name": "Cover 283",
+                  "id": "COV-0010",
+                  "type": "Cover",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 284",
+                  "id": "OSC-0011",
+                  "type": "Oscillator",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Link 285",
+          "id": "LNK-0010",
+          "type": "Link",
+          "components": [
+            {
+              "name": "Links 286",
+              "id": "LNK-0008",
+              "type": "Links",
+              "components": [
+                {
+                  "name": "Hairspring 287",
+                  "id": "HS-0009",
+                  "type": "Hairspring",
+                  "components": []
+                },
+                {
+                  "name": "Markers 288",
+                  "id": "MRK-0004",
+                  "type": "Markers",
+                  "components": []
+                },
+                {
+                  "name": "Screw 289",
+                  "id": "SCW-0011",
+                  "type": "Screw",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Gear Train 290",
+              "id": "GT-0011",
+              "type": "Gear Train",
+              "components": [
+                {
+                  "name": "Wheel 291",
+                  "id": "WHL-0011",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Gear Train 292",
+              "id": "GT-0012",
+              "type": "Gear Train",
+              "components": [
+                {
+                  "name": "Bezel 293",
+                  "id": "BEZ-0007",
+                  "type": "Bezel",
+                  "components": []
+                },
+                {
+                  "name": "Balance Wheel 294",
+                  "id": "BW-0011",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 295",
+                  "id": "OSC-0012",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Crystal 296",
+                  "id": "CRY-0015",
+                  "type": "Crystal",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Bezel 297",
+              "id": "BEZ-0008",
+              "type": "Bezel",
+              "components": [
+                {
+                  "name": "Marker 298",
+                  "id": "MKR-0006",
+                  "type": "Marker",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arbor 299",
+          "id": "ARB-0018",
+          "type": "Arbor",
+          "components": [
+            {
+              "name": "Bridge 300",
+              "id": "BRG-0004",
+              "type": "Bridge",
+              "components": [
+                {
+                  "name": "Strap 301",
+                  "id": "STR-0012",
+                  "type": "Strap",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Gear Train 302",
+              "id": "GT-0013",
+              "type": "Gear Train",
+              "components": [
+                {
+                  "name": "Bezel 303",
+                  "id": "BEZ-0009",
+                  "type": "Bezel",
+                  "components": []
+                },
+                {
+                  "name": "Barrel 304",
+                  "id": "BAR-0013",
+                  "type": "Barrel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Markers 305",
+      "id": "MRK-0005",
+      "type": "Markers",
+      "components": [
+        {
+          "name": "Bridge 306",
+          "id": "BRG-0005",
+          "type": "Bridge",
+          "components": [
+            {
+              "name": "Cover 307",
+              "id": "COV-0011",
+              "type": "Cover",
+              "components": [
+                {
+                  "name": "Movement 308",
+                  "id": "MOV-0011",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Link 309",
+                  "id": "LNK-0011",
+                  "type": "Link",
+                  "components": []
+                },
+                {
+                  "name": "Seal 310",
+                  "id": "SEA-0009",
+                  "type": "Seal",
+                  "components": []
+                },
+                {
+                  "name": "Bezel 311",
+                  "id": "BEZ-0010",
+                  "type": "Bezel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hands 312",
+              "id": "HND-0014",
+              "type": "Hands",
+              "components": [
+                {
+                  "name": "Cover 313",
+                  "id": "COV-0012",
+                  "type": "Cover",
+                  "components": []
+                },
+                {
+                  "name": "Crystal 314",
+                  "id": "CRY-0016",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Movement 315",
+                  "id": "MOV-0012",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Screws 316",
+                  "id": "SCR-0006",
+                  "type": "Screws",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Link 317",
+              "id": "LNK-0012",
+              "type": "Link",
+              "components": [
+                {
+                  "name": "Bezel 318",
+                  "id": "BEZ-0011",
+                  "type": "Bezel",
+                  "components": []
+                },
+                {
+                  "name": "Links 319",
+                  "id": "LNK-0009",
+                  "type": "Links",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 320",
+                  "id": "JEW-0010",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Crystal 321",
+                  "id": "CRY-0017",
+                  "type": "Crystal",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Clasp 322",
+              "id": "CLA-0012",
+              "type": "Clasp",
+              "components": [
+                {
+                  "name": "Balance Wheel 323",
+                  "id": "BW-0012",
+                  "type": "Balance Wheel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gear Train 324",
+      "id": "GT-0014",
+      "type": "Gear Train",
+      "components": [
+        {
+          "name": "Strap 325",
+          "id": "STR-0013",
+          "type": "Strap",
+          "components": [
+            {
+              "name": "Link 326",
+              "id": "LNK-0013",
+              "type": "Link",
+              "components": [
+                {
+                  "name": "Movement 327",
+                  "id": "MOV-0013",
+                  "type": "Movement",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oscillator 328",
+      "id": "OSC-0013",
+      "type": "Oscillator",
+      "components": [
+        {
+          "name": "Gear Train 329",
+          "id": "GT-0015",
+          "type": "Gear Train",
+          "components": [
+            {
+              "name": "Mainspring 330",
+              "id": "MS-0013",
+              "type": "Mainspring",
+              "components": [
+                {
+                  "name": "Seal 331",
+                  "id": "SEA-0010",
+                  "type": "Seal",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 332",
+                  "id": "JEW-0011",
+                  "type": "Jewel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Markers 333",
+              "id": "MRK-0006",
+              "type": "Markers",
+              "components": [
+                {
+                  "name": "Hairspring 334",
+                  "id": "HS-0010",
+                  "type": "Hairspring",
+                  "components": []
+                },
+                {
+                  "name": "Dial 335",
+                  "id": "DIA-0010",
+                  "type": "Dial",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 336",
+                  "id": "CLA-0013",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hairspring 337",
+          "id": "HS-0011",
+          "type": "Hairspring",
+          "components": [
+            {
+              "name": "Markers 338",
+              "id": "MRK-0007",
+              "type": "Markers",
+              "components": [
+                {
+                  "name": "Gear Train 339",
+                  "id": "GT-0016",
+                  "type": "Gear Train",
+                  "components": []
+                },
+                {
+                  "name": "Pin 340",
+                  "id": "PN-0010",
+                  "type": "Pin",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Jewel 341",
+              "id": "JEW-0012",
+              "type": "Jewel",
+              "components": [
+                {
+                  "name": "Balance Wheel 342",
+                  "id": "BW-0013",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Pinion 343",
+                  "id": "PIN-0005",
+                  "type": "Pinion",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Clasp 344",
+              "id": "CLA-0014",
+              "type": "Clasp",
+              "components": [
+                {
+                  "name": "Markers 345",
+                  "id": "MRK-0008",
+                  "type": "Markers",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 346",
+                  "id": "ARB-0019",
+                  "type": "Arbor",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Links 347",
+      "id": "LNK-0010",
+      "type": "Links",
+      "components": [
+        {
+          "name": "Bridge 348",
+          "id": "BRG-0006",
+          "type": "Bridge",
+          "components": [
+            {
+              "name": "Shock Absorber 349",
+              "id": "SA-0009",
+              "type": "Shock Absorber",
+              "components": [
+                {
+                  "name": "Arbor 350",
+                  "id": "ARB-0020",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Link 351",
+                  "id": "LNK-0014",
+                  "type": "Link",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Links 352",
+              "id": "LNK-0011",
+              "type": "Links",
+              "components": [
+                {
+                  "name": "Pinion 353",
+                  "id": "PIN-0006",
+                  "type": "Pinion",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hands 354",
+          "id": "HND-0015",
+          "type": "Hands",
+          "components": [
+            {
+              "name": "Case 355",
+              "id": "CAS-0007",
+              "type": "Case",
+              "components": [
+                {
+                  "name": "Pinion 356",
+                  "id": "PIN-0007",
+                  "type": "Pinion",
+                  "components": []
+                },
+                {
+                  "name": "Spring 357",
+                  "id": "SPR-0005",
+                  "type": "Spring",
+                  "components": []
+                },
+                {
+                  "name": "Marker 358",
+                  "id": "MKR-0007",
+                  "type": "Marker",
+                  "components": []
+                },
+                {
+                  "name": "Watch 359",
+                  "id": "WCH-0010",
+                  "type": "Watch",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Screw 360",
+          "id": "SCW-0012",
+          "type": "Screw",
+          "components": [
+            {
+              "name": "Screws 361",
+              "id": "SCR-0007",
+              "type": "Screws",
+              "components": [
+                {
+                  "name": "Shock Absorber 362",
+                  "id": "SA-0010",
+                  "type": "Shock Absorber",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strap 363",
+      "id": "STR-0014",
+      "type": "Strap",
+      "components": [
+        {
+          "name": "Balance Wheel 364",
+          "id": "BW-0014",
+          "type": "Balance Wheel",
+          "components": [
+            {
+              "name": "Screw 365",
+              "id": "SCW-0013",
+              "type": "Screw",
+              "components": [
+                {
+                  "name": "Shock Absorber 366",
+                  "id": "SA-0011",
+                  "type": "Shock Absorber",
+                  "components": []
+                },
+                {
+                  "name": "Strap 367",
+                  "id": "STR-0015",
+                  "type": "Strap",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bridge 368",
+          "id": "BRG-0007",
+          "type": "Bridge",
+          "components": [
+            {
+              "name": "Oscillator 369",
+              "id": "OSC-0014",
+              "type": "Oscillator",
+              "components": [
+                {
+                  "name": "Marker 370",
+                  "id": "MKR-0008",
+                  "type": "Marker",
+                  "components": []
+                },
+                {
+                  "name": "Shock Absorber 371",
+                  "id": "SA-0012",
+                  "type": "Shock Absorber",
+                  "components": []
+                },
+                {
+                  "name": "Bridge 372",
+                  "id": "BRG-0008",
+                  "type": "Bridge",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screw 373",
+              "id": "SCW-0014",
+              "type": "Screw",
+              "components": [
+                {
+                  "name": "Marker 374",
+                  "id": "MKR-0009",
+                  "type": "Marker",
+                  "components": []
+                },
+                {
+                  "name": "Screws 375",
+                  "id": "SCR-0008",
+                  "type": "Screws",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Barrel 376",
+              "id": "BAR-0014",
+              "type": "Barrel",
+              "components": [
+                {
+                  "name": "Links 377",
+                  "id": "LNK-0012",
+                  "type": "Links",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 378",
+                  "id": "OSC-0015",
+                  "type": "Oscillator",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bezel 379",
+          "id": "BEZ-0012",
+          "type": "Bezel",
+          "components": [
+            {
+              "name": "Gear Train 380",
+              "id": "GT-0017",
+              "type": "Gear Train",
+              "components": [
+                {
+                  "name": "Watch 381",
+                  "id": "WCH-0011",
+                  "type": "Watch",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 382",
+                  "id": "ARB-0021",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Case 383",
+                  "id": "CAS-0008",
+                  "type": "Case",
+                  "components": []
+                },
+                {
+                  "name": "Link 384",
+                  "id": "LNK-0015",
+                  "type": "Link",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screws 385",
+              "id": "SCR-0009",
+              "type": "Screws",
+              "components": [
+                {
+                  "name": "Movement 386",
+                  "id": "MOV-0014",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Balance Wheel 387",
+                  "id": "BW-0015",
+                  "type": "Balance Wheel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Cover 388",
+              "id": "COV-0013",
+              "type": "Cover",
+              "components": [
+                {
+                  "name": "Marker 389",
+                  "id": "MKR-0010",
+                  "type": "Marker",
+                  "components": []
+                },
+                {
+                  "name": "Screw 390",
+                  "id": "SCW-0015",
+                  "type": "Screw",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strap 391",
+          "id": "STR-0016",
+          "type": "Strap",
+          "components": [
+            {
+              "name": "Clasp 392",
+              "id": "CLA-0015",
+              "type": "Clasp",
+              "components": [
+                {
+                  "name": "Jewel 393",
+                  "id": "JEW-0013",
+                  "type": "Jewel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cover 394",
+      "id": "COV-0014",
+      "type": "Cover",
+      "components": [
+        {
+          "name": "Dial 395",
+          "id": "DIA-0011",
+          "type": "Dial",
+          "components": [
+            {
+              "name": "Dial 396",
+              "id": "DIA-0012",
+              "type": "Dial",
+              "components": [
+                {
+                  "name": "Clasp 397",
+                  "id": "CLA-0016",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Watch 398",
+              "id": "WCH-0012",
+              "type": "Watch",
+              "components": [
+                {
+                  "name": "Barrel 399",
+                  "id": "BAR-0015",
+                  "type": "Barrel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Wheel 400",
+              "id": "WHL-0012",
+              "type": "Wheel",
+              "components": [
+                {
+                  "name": "Crystal 401",
+                  "id": "CRY-0018",
+                  "type": "Crystal",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hairspring 402",
+      "id": "HS-0012",
+      "type": "Hairspring",
+      "components": [
+        {
+          "name": "Clasp 403",
+          "id": "CLA-0017",
+          "type": "Clasp",
+          "components": [
+            {
+              "name": "Wheel 404",
+              "id": "WHL-0013",
+              "type": "Wheel",
+              "components": [
+                {
+                  "name": "Clasp 405",
+                  "id": "CLA-0018",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Watch 406",
+      "id": "WCH-0013",
+      "type": "Watch",
+      "components": [
+        {
+          "name": "Hand 407",
+          "id": "HND-0008",
+          "type": "Hand",
+          "components": [
+            {
+              "name": "Wheel 408",
+              "id": "WHL-0014",
+              "type": "Wheel",
+              "components": [
+                {
+                  "name": "Oscillator 409",
+                  "id": "OSC-0016",
+                  "type": "Oscillator",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Links 410",
+          "id": "LNK-0013",
+          "type": "Links",
+          "components": [
+            {
+              "name": "Balance Wheel 411",
+              "id": "BW-0016",
+              "type": "Balance Wheel",
+              "components": [
+                {
+                  "name": "Oscillator 412",
+                  "id": "OSC-0017",
+                  "type": "Oscillator",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Links 413",
+          "id": "LNK-0014",
+          "type": "Links",
+          "components": [
+            {
+              "name": "Case 414",
+              "id": "CAS-0009",
+              "type": "Case",
+              "components": [
+                {
+                  "name": "Gear Train 415",
+                  "id": "GT-0018",
+                  "type": "Gear Train",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 416",
+                  "id": "CLA-0019",
+                  "type": "Clasp",
+                  "components": []
+                },
+                {
+                  "name": "Mainspring 417",
+                  "id": "MS-0014",
+                  "type": "Mainspring",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Shock Absorber 418",
+              "id": "SA-0013",
+              "type": "Shock Absorber",
+              "components": [
+                {
+                  "name": "Jewel 419",
+                  "id": "JEW-0014",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 420",
+                  "id": "ARB-0022",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Bezel 421",
+                  "id": "BEZ-0013",
+                  "type": "Bezel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Marker 422",
+              "id": "MKR-0011",
+              "type": "Marker",
+              "components": [
+                {
+                  "name": "Movement 423",
+                  "id": "MOV-0015",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Dial 424",
+                  "id": "DIA-0013",
+                  "type": "Dial",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Links 425",
+              "id": "LNK-0015",
+              "type": "Links",
+              "components": [
+                {
+                  "name": "Markers 426",
+                  "id": "MRK-0009",
+                  "type": "Markers",
+                  "components": []
+                },
+                {
+                  "name": "Strap 427",
+                  "id": "STR-0017",
+                  "type": "Strap",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spring 428",
+          "id": "SPR-0006",
+          "type": "Spring",
+          "components": [
+            {
+              "name": "Dial 429",
+              "id": "DIA-0014",
+              "type": "Dial",
+              "components": [
+                {
+                  "name": "Oscillator 430",
+                  "id": "OSC-0018",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Bezel 431",
+                  "id": "BEZ-0014",
+                  "type": "Bezel",
+                  "components": []
+                },
+                {
+                  "name": "Hands 432",
+                  "id": "HND-0016",
+                  "type": "Hands",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Arbor 433",
+              "id": "ARB-0023",
+              "type": "Arbor",
+              "components": [
+                {
+                  "name": "Balance Wheel 434",
+                  "id": "BW-0017",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Case 435",
+                  "id": "CAS-0010",
+                  "type": "Case",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spring 436",
+      "id": "SPR-0007",
+      "type": "Spring",
+      "components": [
+        {
+          "name": "Marker 437",
+          "id": "MKR-0012",
+          "type": "Marker",
+          "components": [
+            {
+              "name": "Barrel 438",
+              "id": "BAR-0016",
+              "type": "Barrel",
+              "components": [
+                {
+                  "name": "Balance Wheel 439",
+                  "id": "BW-0018",
+                  "type": "Balance Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Mainspring 440",
+                  "id": "MS-0015",
+                  "type": "Mainspring",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hairspring 441",
+              "id": "HS-0013",
+              "type": "Hairspring",
+              "components": [
+                {
+                  "name": "Mainspring 442",
+                  "id": "MS-0016",
+                  "type": "Mainspring",
+                  "components": []
+                },
+                {
+                  "name": "Dial 443",
+                  "id": "DIA-0015",
+                  "type": "Dial",
+                  "components": []
+                },
+                {
+                  "name": "Screw 444",
+                  "id": "SCW-0016",
+                  "type": "Screw",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Crystal 445",
+              "id": "CRY-0019",
+              "type": "Crystal",
+              "components": [
+                {
+                  "name": "Watch 446",
+                  "id": "WCH-0014",
+                  "type": "Watch",
+                  "components": []
+                },
+                {
+                  "name": "Gear Train 447",
+                  "id": "GT-0019",
+                  "type": "Gear Train",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hands 448",
+              "id": "HND-0017",
+              "type": "Hands",
+              "components": [
+                {
+                  "name": "Spring 449",
+                  "id": "SPR-0008",
+                  "type": "Spring",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 450",
+                  "id": "JEW-0015",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 451",
+                  "id": "JEW-0016",
+                  "type": "Jewel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spring 452",
+          "id": "SPR-0009",
+          "type": "Spring",
+          "components": [
+            {
+              "name": "Barrel 453",
+              "id": "BAR-0017",
+              "type": "Barrel",
+              "components": [
+                {
+                  "name": "Crystal 454",
+                  "id": "CRY-0020",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Bridge 455",
+                  "id": "BRG-0009",
+                  "type": "Bridge",
+                  "components": []
+                },
+                {
+                  "name": "Case 456",
+                  "id": "CAS-0011",
+                  "type": "Case",
+                  "components": []
+                },
+                {
+                  "name": "Markers 457",
+                  "id": "MRK-0010",
+                  "type": "Markers",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Jewel 458",
+              "id": "JEW-0017",
+              "type": "Jewel",
+              "components": [
+                {
+                  "name": "Oscillator 459",
+                  "id": "OSC-0019",
+                  "type": "Oscillator",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Wheel 460",
+              "id": "WHL-0015",
+              "type": "Wheel",
+              "components": [
+                {
+                  "name": "Gear Train 461",
+                  "id": "GT-0020",
+                  "type": "Gear Train",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Dial 462",
+              "id": "DIA-0016",
+              "type": "Dial",
+              "components": [
+                {
+                  "name": "Pinion 463",
+                  "id": "PIN-0008",
+                  "type": "Pinion",
+                  "components": []
+                },
+                {
+                  "name": "Wheel 464",
+                  "id": "WHL-0016",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Watch 465",
+      "id": "WCH-0015",
+      "type": "Watch",
+      "components": [
+        {
+          "name": "Marker 466",
+          "id": "MKR-0013",
+          "type": "Marker",
+          "components": [
+            {
+              "name": "Hairspring 467",
+              "id": "HS-0014",
+              "type": "Hairspring",
+              "components": [
+                {
+                  "name": "Markers 468",
+                  "id": "MRK-0011",
+                  "type": "Markers",
+                  "components": []
+                },
+                {
+                  "name": "Barrel 469",
+                  "id": "BAR-0018",
+                  "type": "Barrel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Insert 470",
+              "id": "INS-0006",
+              "type": "Insert",
+              "components": [
+                {
+                  "name": "Movement 471",
+                  "id": "MOV-0016",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Markers 472",
+                  "id": "MRK-0012",
+                  "type": "Markers",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Screw 473",
+      "id": "SCW-0017",
+      "type": "Screw",
+      "components": [
+        {
+          "name": "Pin 474",
+          "id": "PN-0011",
+          "type": "Pin",
+          "components": [
+            {
+              "name": "Bezel 475",
+              "id": "BEZ-0015",
+              "type": "Bezel",
+              "components": [
+                {
+                  "name": "Pinion 476",
+                  "id": "PIN-0009",
+                  "type": "Pinion",
+                  "components": []
+                },
+                {
+                  "name": "Insert 477",
+                  "id": "INS-0007",
+                  "type": "Insert",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mainspring 478",
+          "id": "MS-0017",
+          "type": "Mainspring",
+          "components": [
+            {
+              "name": "Watch 479",
+              "id": "WCH-0016",
+              "type": "Watch",
+              "components": [
+                {
+                  "name": "Barrel 480",
+                  "id": "BAR-0019",
+                  "type": "Barrel",
+                  "components": []
+                },
+                {
+                  "name": "Links 481",
+                  "id": "LNK-0016",
+                  "type": "Links",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 482",
+                  "id": "CLA-0020",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Movement 483",
+              "id": "MOV-0017",
+              "type": "Movement",
+              "components": [
+                {
+                  "name": "Links 484",
+                  "id": "LNK-0017",
+                  "type": "Links",
+                  "components": []
+                },
+                {
+                  "name": "Case 485",
+                  "id": "CAS-0012",
+                  "type": "Case",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barrel 486",
+          "id": "BAR-0020",
+          "type": "Barrel",
+          "components": [
+            {
+              "name": "Oscillator 487",
+              "id": "OSC-0020",
+              "type": "Oscillator",
+              "components": [
+                {
+                  "name": "Mainspring 488",
+                  "id": "MS-0018",
+                  "type": "Mainspring",
+                  "components": []
+                },
+                {
+                  "name": "Mainspring 489",
+                  "id": "MS-0019",
+                  "type": "Mainspring",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 490",
+                  "id": "CLA-0021",
+                  "type": "Clasp",
+                  "components": []
+                },
+                {
+                  "name": "Wheel 491",
+                  "id": "WHL-0017",
+                  "type": "Wheel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Insert 492",
+              "id": "INS-0008",
+              "type": "Insert",
+              "components": [
+                {
+                  "name": "Marker 493",
+                  "id": "MKR-0014",
+                  "type": "Marker",
+                  "components": []
+                },
+                {
+                  "name": "Markers 494",
+                  "id": "MRK-0013",
+                  "type": "Markers",
+                  "components": []
+                },
+                {
+                  "name": "Watch 495",
+                  "id": "WCH-0017",
+                  "type": "Watch",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screws 496",
+              "id": "SCR-0010",
+              "type": "Screws",
+              "components": [
+                {
+                  "name": "Hands 497",
+                  "id": "HND-0018",
+                  "type": "Hands",
+                  "components": []
+                },
+                {
+                  "name": "Shock Absorber 498",
+                  "id": "SA-0014",
+                  "type": "Shock Absorber",
+                  "components": []
+                },
+                {
+                  "name": "Cover 499",
+                  "id": "COV-0015",
+                  "type": "Cover",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bezel 500",
+          "id": "BEZ-0016",
+          "type": "Bezel",
+          "components": [
+            {
+              "name": "Clasp 501",
+              "id": "CLA-0022",
+              "type": "Clasp",
+              "components": [
+                {
+                  "name": "Spring 502",
+                  "id": "SPR-0010",
+                  "type": "Spring",
+                  "components": []
+                },
+                {
+                  "name": "Arbor 503",
+                  "id": "ARB-0024",
+                  "type": "Arbor",
+                  "components": []
+                },
+                {
+                  "name": "Crystal 504",
+                  "id": "CRY-0021",
+                  "type": "Crystal",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Strap 505",
+              "id": "STR-0018",
+              "type": "Strap",
+              "components": [
+                {
+                  "name": "Mainspring 506",
+                  "id": "MS-0020",
+                  "type": "Mainspring",
+                  "components": []
+                },
+                {
+                  "name": "Bridge 507",
+                  "id": "BRG-0010",
+                  "type": "Bridge",
+                  "components": []
+                },
+                {
+                  "name": "Pin 508",
+                  "id": "PN-0012",
+                  "type": "Pin",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Insert 509",
+              "id": "INS-0009",
+              "type": "Insert",
+              "components": [
+                {
+                  "name": "Strap 510",
+                  "id": "STR-0019",
+                  "type": "Strap",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crystal 511",
+      "id": "CRY-0022",
+      "type": "Crystal",
+      "components": [
+        {
+          "name": "Bezel 512",
+          "id": "BEZ-0017",
+          "type": "Bezel",
+          "components": [
+            {
+              "name": "Arbor 513",
+              "id": "ARB-0025",
+              "type": "Arbor",
+              "components": [
+                {
+                  "name": "Pinion 514",
+                  "id": "PIN-0010",
+                  "type": "Pinion",
+                  "components": []
+                },
+                {
+                  "name": "Watch 515",
+                  "id": "WCH-0018",
+                  "type": "Watch",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shock Absorber 516",
+      "id": "SA-0015",
+      "type": "Shock Absorber",
+      "components": [
+        {
+          "name": "Gear Train 517",
+          "id": "GT-0021",
+          "type": "Gear Train",
+          "components": [
+            {
+              "name": "Strap 518",
+              "id": "STR-0020",
+              "type": "Strap",
+              "components": [
+                {
+                  "name": "Hand 519",
+                  "id": "HND-0009",
+                  "type": "Hand",
+                  "components": []
+                },
+                {
+                  "name": "Gear Train 520",
+                  "id": "GT-0022",
+                  "type": "Gear Train",
+                  "components": []
+                },
+                {
+                  "name": "Jewel 521",
+                  "id": "JEW-0018",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 522",
+                  "id": "OSC-0021",
+                  "type": "Oscillator",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Jewel 523",
+              "id": "JEW-0019",
+              "type": "Jewel",
+              "components": [
+                {
+                  "name": "Crystal 524",
+                  "id": "CRY-0023",
+                  "type": "Crystal",
+                  "components": []
+                },
+                {
+                  "name": "Watch 525",
+                  "id": "WCH-0019",
+                  "type": "Watch",
+                  "components": []
+                },
+                {
+                  "name": "Screw 526",
+                  "id": "SCW-0018",
+                  "type": "Screw",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clasp 527",
+          "id": "CLA-0023",
+          "type": "Clasp",
+          "components": [
+            {
+              "name": "Wheel 528",
+              "id": "WHL-0018",
+              "type": "Wheel",
+              "components": [
+                {
+                  "name": "Wheel 529",
+                  "id": "WHL-0019",
+                  "type": "Wheel",
+                  "components": []
+                },
+                {
+                  "name": "Pinion 530",
+                  "id": "PIN-0011",
+                  "type": "Pinion",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Shock Absorber 531",
+              "id": "SA-0016",
+              "type": "Shock Absorber",
+              "components": [
+                {
+                  "name": "Pin 532",
+                  "id": "PN-0013",
+                  "type": "Pin",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 533",
+                  "id": "OSC-0022",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Case 534",
+                  "id": "CAS-0013",
+                  "type": "Case",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Screws 535",
+              "id": "SCR-0011",
+              "type": "Screws",
+              "components": [
+                {
+                  "name": "Jewel 536",
+                  "id": "JEW-0020",
+                  "type": "Jewel",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Pin 537",
+              "id": "PN-0014",
+              "type": "Pin",
+              "components": [
+                {
+                  "name": "Jewel 538",
+                  "id": "JEW-0021",
+                  "type": "Jewel",
+                  "components": []
+                },
+                {
+                  "name": "Oscillator 539",
+                  "id": "OSC-0023",
+                  "type": "Oscillator",
+                  "components": []
+                },
+                {
+                  "name": "Markers 540",
+                  "id": "MRK-0014",
+                  "type": "Markers",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jewel 541",
+          "id": "JEW-0022",
+          "type": "Jewel",
+          "components": [
+            {
+              "name": "Crystal 542",
+              "id": "CRY-0024",
+              "type": "Crystal",
+              "components": [
+                {
+                  "name": "Dial 543",
+                  "id": "DIA-0017",
+                  "type": "Dial",
+                  "components": []
+                },
+                {
+                  "name": "Seal 544",
+                  "id": "SEA-0011",
+                  "type": "Seal",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hairspring 545",
+              "id": "HS-0015",
+              "type": "Hairspring",
+              "components": [
+                {
+                  "name": "Movement 546",
+                  "id": "MOV-0018",
+                  "type": "Movement",
+                  "components": []
+                },
+                {
+                  "name": "Dial 547",
+                  "id": "DIA-0018",
+                  "type": "Dial",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Hairspring 548",
+              "id": "HS-0016",
+              "type": "Hairspring",
+              "components": [
+                {
+                  "name": "Gear Train 549",
+                  "id": "GT-0023",
+                  "type": "Gear Train",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 550",
+                  "id": "CLA-0024",
+                  "type": "Clasp",
+                  "components": []
+                },
+                {
+                  "name": "Clasp 551",
+                  "id": "CLA-0025",
+                  "type": "Clasp",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barrel 552",
+          "id": "BAR-0021",
+          "type": "Barrel",
+          "components": [
+            {
+              "name": "Oscillator 553",
+              "id": "OSC-0024",
+              "type": "Oscillator",
+              "components": [
+                {
+                  "name": "Pinion 554",
+                  "id": "PIN-0012",
+                  "type": "Pinion",
+                  "components": []
+                }
+              ]
+            },
+            {
+              "name": "Seal 555",
+              "id": "SEA-0012",
+              "type": "Seal",
+              "components": [
+                {
+                  "name": "Spring 556",
+                  "id": "SPR-0011",
+                  "type": "Spring",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Case 557",
+      "id": "CAS-0014",
+      "type": "Case",
+      "components": [
+        {
+          "name": "Hairspring 558",
+          "id": "HS-0017",
+          "type": "Hairspring",
+          "components": [
+            {
+              "name": "Cover 559",
+              "id": "COV-0016",
+              "type": "Cover",
+              "components": [
+                {
+                  "name": "Shock Absorber 560",
+                  "id": "SA-0017",
+                  "type": "Shock Absorber",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bezel 561",
+          "id": "BEZ-0018",
+          "type": "Bezel",
+          "components": [
+            {
+              "name": "Oscillator 562",
+              "id": "OSC-0025",
+              "type": "Oscillator",
+              "components": [
+                {
+                  "name": "Barrel 563",
+                  "id": "BAR-0022",
+                  "type": "Barrel",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Watch 564",
+          "id": "WCH-0020",
+          "type": "Watch",
+          "components": []
+        }
+      ]
+    }
+  ]
+}

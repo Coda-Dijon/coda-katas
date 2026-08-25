@@ -8,6 +8,9 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [Pricing](03.pricing/README.md)
 - [Manhattan Distance](06.manhattan-distance/README.md)
 
+## Collections
+- [Manipuler des collections](22.linq-workshop-kata/README.md)
+
 ## T.D.D
 - [CodaBuzz](01.coda-buzz/README.md)
 - [String Calculator](05.stringCalculator/README.md)
