@@ -1,0 +1,131 @@
+README.md
+  h_0a88d9aba8622a 12
+  s_e05733e1d8416b::t_11282b021c9604 11,13
+22.linq-workshop-kata/c#/01-fundamentals/PlayWithFunctions.cs
+  s_e05733e1d8416b::t_6dd5888dac678c 1,4-12,14-15,17-18,20-24
+  s_e05733e1d8416b::t_6c643df47bee99 2-3,13,16,19
+22.linq-workshop-kata/java/src/test/java/linq_workshop/realworld/watch/ComponentTypeDeserializer.java
+  s_e05733e1d8416b::t_3bdd3627959545 1-21
+22.linq-workshop-kata/ts/tests/support/collections.ts
+  s_e05733e1d8416b::t_fea6ec05122740 1-9
+22.linq-workshop-kata/c#/03-real-world/Watch/Component.cs
+  s_e05733e1d8416b::t_b9fd7b5ed98a57 1-15
+22.linq-workshop-kata/java/src/test/java/linq_workshop/fundamentals/PlayWithFunctionsTest.java
+  s_e05733e1d8416b::t_168c187cf08df9 1-25
+22.linq-workshop-kata/java/src/test/java/linq_workshop/fundamentals/BasicsTest.java
+  s_e05733e1d8416b::t_e492efbd5276f5 1-74
+22.linq-workshop-kata/java/pom.xml
+  s_e05733e1d8416b::t_52073a9367a2ce 1-55
+22.linq-workshop-kata/c#/03-real-world/RealWorld.cs
+  s_e05733e1d8416b::t_498a077f23319f 1-3,6-11,13,15,19-21,30,32-33,37-38,40-41,62-63,65-67,70-71,73-74,80-81,83-84,86-87,90-91,93-94,96-97
+  s_e05733e1d8416b::t_52b370f5152be6 4-5,12,14,16-18,22-29,31,34-36,39,42-61,64,68-69,72,75-79,82,85,88-89,92,95
+22.linq-workshop-kata/ts/src/03-real-world/watch/component.ts
+  s_e05733e1d8416b::t_a214a1e68f0c89 1-24
+22.linq-workshop-kata/ts/tests/02-queries/part2.test.ts
+  s_e05733e1d8416b::t_5af63fa6fc91d4 1-77
+22.linq-workshop-kata/java/src/test/java/linq_workshop/realworld/watch/ComponentType.java
+  s_e05733e1d8416b::t_9eef38aed64370 1-37
+22.linq-workshop-kata/java/src/test/java/linq_workshop/realworld/RealWorldTest.java
+  s_e05733e1d8416b::t_79c4888b3a2e95 1-94
+22.linq-workshop-kata/ts/tests/01-fundamentals/basics.test.ts
+  s_e05733e1d8416b::t_2bca2ecd9b7f59 1-23
+22.linq-workshop-kata/c#/02-queries/Part2.cs
+  s_e05733e1d8416b::t_f5a88a80d14965 2-3,10,15,17,20,24,27,32,35,40-41,44,49-50,53,58-59,62,67,70,75,78,83,86,91-92,94-95
+  s_e05733e1d8416b::t_cb73c8d9f03c7b 1,4-9,11-14,16,18-19,21-23,25-26,28-31,33-34,36-39,42-43,45-48,51-52,54-57,60-61,63-66,68-69,71-74,76-77,79-82,84-85,87-90,93,96-98
+22.linq-workshop-kata/java/src/test/java/linq_workshop/queries/data/PetType.java
+  s_e05733e1d8416b::t_c5ccc9e27b96bf 1-10
+22.linq-workshop-kata/c#/LinqWorkshop.Tests.csproj
+  s_e05733e1d8416b::t_7399db3b82b3ee 1-3,5-10,22-30
+  s_e05733e1d8416b::t_7b9ca6024ba9a7 4,11-21
+22.linq-workshop-kata/java/src/test/resources/watch.json
+  s_e05733e1d8416b::t_59b719c15f7889 1-3626
+22.linq-workshop-kata/README.md
+  s_e05733e1d8416b::t_76c760368d5067 1-25,29-51,54-55,59-67
+  s_e05733e1d8416b::t_a8946e8afcfaed 52-53,56-58
+  s_e05733e1d8416b::t_3e30f0040f5e41 26-28
+22.linq-workshop-kata/c#/01-fundamentals/Extensions.cs
+  s_e05733e1d8416b::t_489983d8668928 1-3,9,12-14,17,20-21,24,27-30,32-46
+  s_e05733e1d8416b::t_239d51edc74ca5 4-8,10-11,15-16,18-19,22-23,25-26,31,47-60
+22.linq-workshop-kata/ts/src/02-queries/data/park.ts
+  s_e05733e1d8416b::t_9679493b4a1d24 1-15
+22.linq-workshop-kata/ts/src/02-queries/data/persons.ts
+  s_e05733e1d8416b::t_bfacda8ea2437a 1-48
+22.linq-workshop-kata/ts/tsconfig.json
+  s_e05733e1d8416b::t_276e1582ec44f2 1-13
+22.linq-workshop-kata/c#/02-queries/Data/Pet.cs
+  s_e05733e1d8416b::t_e477a603c91b9d 1-9
+22.linq-workshop-kata/ts/tests/02-queries/part1.test.ts
+  s_e05733e1d8416b::t_ae6a919c62495a 1-64
+22.linq-workshop-kata/ts/tests/01-fundamentals/play-with-functions.test.ts
+  s_e05733e1d8416b::t_2b4ab36de590fa 1-17
+22.linq-workshop-kata/java/src/test/java/linq_workshop/queries/Part2Test.java
+  s_e05733e1d8416b::t_cdf9690cee1a74 1-92
+22.linq-workshop-kata/java/src/test/java/linq_workshop/realworld/watch/Component.java
+  s_e05733e1d8416b::t_33e060bd52183a 1-15
+22.linq-workshop-kata/c#/02-queries/Data/Person.cs
+  s_e05733e1d8416b::t_6291eefed135a5 1-46
+22.linq-workshop-kata/java/src/test/java/linq_workshop/queries/data/Park.java
+  s_e05733e1d8416b::t_3b677b01e8a28d 1-33
+22.linq-workshop-kata/ts/src/03-real-world/watch/component-type.ts
+  s_e05733e1d8416b::t_dcd785a5b0ee31 1-45
+22.linq-workshop-kata/ts/package.json
+  s_e05733e1d8416b::t_b18d72675d2395 1-15
+22.linq-workshop-kata/c#/02-queries/Data/Persons.cs
+  s_e05733e1d8416b::t_d5d481e85d5bda 1-51
+22.linq-workshop-kata/java/src/test/java/linq_workshop/queries/data/Person.java
+  s_e05733e1d8416b::t_722836bda6c08d 1-62
+22.linq-workshop-kata/c#/02-queries/Part1.cs
+  s_e05733e1d8416b::t_2c138604df85be 1-3,6-12,14-17,20-22,24-27,30-32,34-39,41-42,44-47,49-50,52-55,57-58,60-63,65-66,68-72,74-75,77-79,81-82,84-87,90-91,93-96,98-100
+  s_e05733e1d8416b::t_355b037e46ce88 4-5,13,18-19,23,28-29,33,40,43,48,51,56,59,64,67,73,76,80,83,88-89,92,97
+22.linq-workshop-kata/ts/tests/03-real-world/watch.json
+  s_e05733e1d8416b::t_59b719c15f7889 1-3626
+22.linq-workshop-kata/c#/03-real-world/Watch/ComponentType.cs
+  s_e05733e1d8416b::t_96b94113b36fae 1-38
+22.linq-workshop-kata/c#/02-queries/Data/Park.cs
+  s_e05733e1d8416b::t_5520d838d304e8 1-23
+22.linq-workshop-kata/ts/src/01-fundamentals/angle.ts
+  s_e05733e1d8416b::t_edfe7ea3ed49de 1-23
+22.linq-workshop-kata/java/src/test/java/linq_workshop/queries/Part1Test.java
+  s_e05733e1d8416b::t_dced99f30219d5 1-84
+22.linq-workshop-kata/c#/02-queries/Data/PetType.cs
+  s_e05733e1d8416b::t_45ddb4364a734d 1-12
+22.linq-workshop-kata/ts/src/02-queries/data/person.ts
+  s_e05733e1d8416b::t_ce937115032a50 1-30
+22.linq-workshop-kata/c#/03-real-world/Watch/ComponentTypeConverter.cs
+  s_e05733e1d8416b::t_9e06d04dd40433 1-29
+22.linq-workshop-kata/java/src/test/java/linq_workshop/queries/data/Persons.java
+  s_e05733e1d8416b::t_f8b3f61a13901e 1-54
+22.linq-workshop-kata/ts/src/01-fundamentals/basics.ts
+  s_e05733e1d8416b::t_fbc19a5519370f 1-13
+22.linq-workshop-kata/java/src/test/java/linq_workshop/queries/data/Pet.java
+  s_e05733e1d8416b::t_4374e0710ec5bc 1-4
+22.linq-workshop-kata/ts/tests/03-real-world/real-world.test.ts
+  s_e05733e1d8416b::t_2678f83d5a08d2 1-75
+22.linq-workshop-kata/ts/src/02-queries/data/pet-type.ts
+  s_e05733e1d8416b::t_fe228bb83a9689 1-8
+22.linq-workshop-kata/ts/src/02-queries/data/pet.ts
+  s_e05733e1d8416b::t_b508ad91d44b24 1-7
+22.linq-workshop-kata/c#/03-real-world/watch.json
+  s_e05733e1d8416b::t_59b719c15f7889 1-3626
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "ca63431b69bff61b7618c98aa8f897ecd9ba2c5b",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_e05733e1d8416b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4fd0c680-12e0-45df-9444-f3144c84db1c",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
