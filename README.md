@@ -30,6 +30,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [Gilded Rose](13.gilded-rose/README.md)
 - [Pizzeria du Coin - Inversion de Dépendance & IoC](19.pizzeria-ioc-kata/README.md)
 - [Météo Express - Circuit Breaker & Résilience](20.weather-resilience-kata/README.md)
+- [Tell Don't Ask](23.tell-dont-ask/README.md)
 
 ## Autre
 - [Écrire ses premiers tests](04.unit-tests/README.md)
