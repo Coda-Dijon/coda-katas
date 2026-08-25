@@ -8,8 +8,14 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [Pricing](03.pricing/README.md)
 - [Manhattan Distance](06.manhattan-distance/README.md)
 
-## Collections
+## Basics
 - [Manipuler des collections](22.linq-workshop-kata/README.md)
+- [Écrire ses premiers tests](04.unit-tests/README.md)
+
+## Sql
+- [Les 3 enfants les plus sages](https://coda-dijon.github.io/advent-2025/?day=08)
+- [Démasquer l'elfe malveillant](https://coda-dijon.github.io/advent-2025/?day=21)
+- [SQL Murder Mystery](https://mystery.knightlab.com/)
 
 ## T.D.D
 - [CodaBuzz](01.coda-buzz/README.md)
@@ -28,23 +34,17 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 
 ## Refactoring
 - [Gilded Rose](13.gilded-rose/README.md)
-- [Pizzeria du Coin - Inversion de Dépendance & IoC](19.pizzeria-ioc-kata/README.md)
-- [Météo Express - Circuit Breaker & Résilience](20.weather-resilience-kata/README.md)
 - [Tell Don't Ask](23.tell-dont-ask/README.md)
-
-## Autre
-- [Écrire ses premiers tests](04.unit-tests/README.md)
-- [Refactoring du Bouchonnois](17.refactoring-du-bouchonnois/README.md)
 
 ## Http
 - [curl-quests](https://github.com/lite-quests/curl-quests/)
 - [WTF Wars](10.wtf-http/README.md)
 - [DDoS Guard](21.ddos-guard-kata/README.md)
 
-## Sql
-- [Les 3 enfants les plus sages](https://coda-dijon.github.io/advent-2025/?day=08)
-- [Démasquer l'elfe malveillant](https://coda-dijon.github.io/advent-2025/?day=21)
-- [SQL Murder Mystery](https://mystery.knightlab.com/)
+## Avancé
+- [Pizzeria du Coin - Inversion de Dépendance & IoC](19.pizzeria-ioc-kata/README.md)
+- [Météo Express - Circuit Breaker & Résilience](20.weather-resilience-kata/README.md)
+- [Refactoring du Bouchonnois](17.refactoring-du-bouchonnois/README.md)
 
 ## Autres sources
 - [Calendrier de l'Avent Coda - 2025](https://coda-dijon.github.io/advent-2025/)
