@@ -1,0 +1,185 @@
+README.md
+  s_e1b2aba202ba88::t_be605bd90f11ff 33
+23.tell-dont-ask/src/typescript/package-lock.json
+  s_e1b2aba202ba88::t_b07fd420b0ab14 1-1405
+23.tell-dont-ask/README.md
+  s_e1b2aba202ba88::t_12e0ebfde663ad 1-39
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/Domain/Category.cs
+  s_e1b2aba202ba88::t_f4c97bd5ac984b 1-8
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/Domain/Order.cs
+  s_e1b2aba202ba88::t_c624966ffd9862 1-14
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/Domain/OrderItem.cs
+  s_e1b2aba202ba88::t_a5e933b50e68d6 1-10
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/Domain/OrderStatus.cs
+  s_e1b2aba202ba88::t_19def7a4101f60 1-10
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/Domain/Product.cs
+  s_e1b2aba202ba88::t_2fdb6f0fd80bb1 1-9
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/Repository/IOrderRepository.cs
+  s_e1b2aba202ba88::t_25bd5738272069 1-11
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/Repository/IProductCatalog.cs
+  s_e1b2aba202ba88::t_f96c28c10339d6 1-9
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/Service/IShipmentService.cs
+  s_e1b2aba202ba88::t_81ad9294c4bdfc 1-9
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/TellDontAskKata.Main.csproj
+  s_e1b2aba202ba88::t_15d4ee2be6a525 1-9
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/ApprovedOrderCannotBeRejectedException.cs
+  s_e1b2aba202ba88::t_84d658f8e0d3d3 1-8
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/OrderApprovalRequest.cs
+  s_e1b2aba202ba88::t_b846821b7f1f45 1-8
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/OrderApprovalUseCase.cs
+  s_e1b2aba202ba88::t_fe19b08a14e7da 1-37
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/OrderCannotBeShippedException.cs
+  s_e1b2aba202ba88::t_d5273e1218080e 1-8
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/OrderCannotBeShippedTwiceException.cs
+  s_e1b2aba202ba88::t_32e1ebd5323f04 1-8
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/OrderCreationUseCase.cs
+  s_e1b2aba202ba88::t_c8b1bddba6243c 1-68
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/OrderShipmentRequest.cs
+  s_e1b2aba202ba88::t_d1052a6f988123 1-7
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/OrderShipmentUseCase.cs
+  s_e1b2aba202ba88::t_52c74aba757237 1-40
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/RejectedOrderCannotBeApprovedException.cs
+  s_e1b2aba202ba88::t_eed922a0425ce0 1-8
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/ShippedOrdersCannotBeChangedException.cs
+  s_e1b2aba202ba88::t_a5fd560e93ef44 1-8
+23.tell-dont-ask/src/c#/TellDontAskKata.Main/UseCase/UnknownProductException.cs
+  s_e1b2aba202ba88::t_415070b2979441 1-8
+23.tell-dont-ask/src/c#/TellDontAskKata.Tests/Doubles/InMemoryProductCatalog.cs
+  s_e1b2aba202ba88::t_56729469132c0d 1-22
+23.tell-dont-ask/src/c#/TellDontAskKata.Tests/Doubles/TestOrderRepository.cs
+  s_e1b2aba202ba88::t_fff2aa3eefe51d 1-33
+23.tell-dont-ask/src/c#/TellDontAskKata.Tests/Doubles/TestShipmentService.cs
+  s_e1b2aba202ba88::t_8fbe13fcf63d92 1-20
+23.tell-dont-ask/src/c#/TellDontAskKata.Tests/TellDontAskKata.Tests.csproj
+  s_e1b2aba202ba88::t_3911321ebeb54d 1-28
+23.tell-dont-ask/src/c#/TellDontAskKata.Tests/UseCase/OrderApprovalUseCaseTest.cs
+  s_e1b2aba202ba88::t_4a936449f3bc37 1-129
+23.tell-dont-ask/src/c#/TellDontAskKata.Tests/UseCase/OrderCreationUseCaseTest.cs
+  s_e1b2aba202ba88::t_61a5b09f93e303 1-88
+23.tell-dont-ask/src/c#/TellDontAskKata.Tests/UseCase/OrderShipmentUseCaseTest.cs
+  s_e1b2aba202ba88::t_b48beaa50c22b5 1-108
+23.tell-dont-ask/src/c#/TellDontAskKata.sln
+  s_e1b2aba202ba88::t_e03b80a134af56 1-28
+23.tell-dont-ask/src/java/pom.xml
+  s_e1b2aba202ba88::t_2832c802422af2 1-54
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/domain/Category.java
+  s_e1b2aba202ba88::t_ff50ddbb2192ae 1-21
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/domain/Order.java
+  s_e1b2aba202ba88::t_58f2141d5d942b 1-62
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/domain/OrderItem.java
+  s_e1b2aba202ba88::t_a90444da1ff2ab 1-33
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/domain/OrderStatus.java
+  s_e1b2aba202ba88::t_f2ab2956beab40 1-8
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/domain/Product.java
+  s_e1b2aba202ba88::t_df298e190776ae 1-27
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/repository/OrderRepository.java
+  s_e1b2aba202ba88::t_ab603527dac686 1-9
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/repository/ProductCatalog.java
+  s_e1b2aba202ba88::t_0a5b654f6aea28 1-7
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/service/ShipmentService.java
+  s_e1b2aba202ba88::t_4344e650401955 1-7
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/ApprovedOrderCannotBeRejectedException.java
+  s_e1b2aba202ba88::t_b7fd60d5c59e1f 1-4
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/OrderApprovalRequest.java
+  s_e1b2aba202ba88::t_571841b3b1ef50 1-19
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/OrderApprovalUseCase.java
+  s_e1b2aba202ba88::t_966f097b7c183c 1-32
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/OrderCannotBeShippedException.java
+  s_e1b2aba202ba88::t_f07a3bafd695a9 1-4
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/OrderCannotBeShippedTwiceException.java
+  s_e1b2aba202ba88::t_13bbd4d31dbf55 1-4
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/OrderCreationUseCase.java
+  s_e1b2aba202ba88::t_ae2a6271478fba 1-54
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/OrderShipmentRequest.java
+  s_e1b2aba202ba88::t_ef899286b167ad 1-13
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/OrderShipmentUseCase.java
+  s_e1b2aba202ba88::t_972ac51764e2c5 1-33
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/RejectedOrderCannotBeApprovedException.java
+  s_e1b2aba202ba88::t_cede1afdb6109f 1-4
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/ShippedOrdersCannotBeChangedException.java
+  s_e1b2aba202ba88::t_ca5d91f45b552c 1-4
+23.tell-dont-ask/src/java/src/main/java/com/telldontask/usecase/UnknownProductException.java
+  s_e1b2aba202ba88::t_63abba72562588 1-4
+23.tell-dont-ask/src/java/src/test/java/com/telldontask/doubles/InMemoryProductCatalog.java
+  s_e1b2aba202ba88::t_075f1d20782573 1-22
+23.tell-dont-ask/src/java/src/test/java/com/telldontask/doubles/TestOrderRepository.java
+  s_e1b2aba202ba88::t_093f249f57c6f0 1-33
+23.tell-dont-ask/src/java/src/test/java/com/telldontask/doubles/TestShipmentService.java
+  s_e1b2aba202ba88::t_7df7a5fd295cc7 1-17
+23.tell-dont-ask/src/java/src/test/java/com/telldontask/usecase/OrderApprovalUseCaseTest.java
+  s_e1b2aba202ba88::t_2894b3f23de233 1-66
+23.tell-dont-ask/src/java/src/test/java/com/telldontask/usecase/OrderCreationUseCaseTest.java
+  s_e1b2aba202ba88::t_8898b9b878145c 1-73
+23.tell-dont-ask/src/java/src/test/java/com/telldontask/usecase/OrderShipmentUseCaseTest.java
+  s_e1b2aba202ba88::t_3964ba72fe9c37 1-62
+23.tell-dont-ask/src/typescript/domain/category.ts
+  s_e1b2aba202ba88::t_85d676e1b59ca5 1-9
+23.tell-dont-ask/src/typescript/domain/order.ts
+  s_e1b2aba202ba88::t_95c96bd8d2a447 1-27
+23.tell-dont-ask/src/typescript/domain/orderItem.ts
+  s_e1b2aba202ba88::t_ce3bf49344c416 1-15
+23.tell-dont-ask/src/typescript/domain/orderStatus.ts
+  s_e1b2aba202ba88::t_2a4582630314f6 1-6
+23.tell-dont-ask/src/typescript/domain/product.ts
+  s_e1b2aba202ba88::t_abc4f027d9c545 1-13
+23.tell-dont-ask/src/typescript/package.json
+  s_e1b2aba202ba88::t_b6ed3f746a7e86 1-16
+23.tell-dont-ask/src/typescript/repository/orderRepository.ts
+  s_e1b2aba202ba88::t_ec9f526e4775f4 1-7
+23.tell-dont-ask/src/typescript/repository/productCatalog.ts
+  s_e1b2aba202ba88::t_0187c01079e4ef 1-5
+23.tell-dont-ask/src/typescript/service/shipmentService.ts
+  s_e1b2aba202ba88::t_52c4ae7774dadf 1-5
+23.tell-dont-ask/src/typescript/tests/doubles/inMemoryProductCatalog.ts
+  s_e1b2aba202ba88::t_f5ab351c5e12ab 1-10
+23.tell-dont-ask/src/typescript/tests/doubles/testOrderRepository.ts
+  s_e1b2aba202ba88::t_dc1a35a81581de 1-23
+23.tell-dont-ask/src/typescript/tests/doubles/testShipmentService.ts
+  s_e1b2aba202ba88::t_987d42bcbf5f08 1-14
+23.tell-dont-ask/src/typescript/tests/orderApprovalUseCase.spec.ts
+  s_e1b2aba202ba88::t_67570a36f22151 1-62
+23.tell-dont-ask/src/typescript/tests/orderCreationUseCase.spec.ts
+  s_e1b2aba202ba88::t_00f069433cd093 1-53
+23.tell-dont-ask/src/typescript/tests/orderShipmentUseCase.spec.ts
+  s_e1b2aba202ba88::t_fe4b027fa97069 1-61
+23.tell-dont-ask/src/typescript/tsconfig.json
+  s_e1b2aba202ba88::t_1d7bfb4a573f73 1-13
+23.tell-dont-ask/src/typescript/useCase/approvedOrderCannotBeRejectedException.ts
+  s_e1b2aba202ba88::t_227fd5264b2ca3 1
+23.tell-dont-ask/src/typescript/useCase/orderApprovalRequest.ts
+  s_e1b2aba202ba88::t_fbe874baaa0d89 1-9
+23.tell-dont-ask/src/typescript/useCase/orderApprovalUseCase.ts
+  s_e1b2aba202ba88::t_69e40530ae929d 1-29
+23.tell-dont-ask/src/typescript/useCase/orderCannotBeShippedException.ts
+  s_e1b2aba202ba88::t_c44e74eb27cab5 1
+23.tell-dont-ask/src/typescript/useCase/orderCannotBeShippedTwiceException.ts
+  s_e1b2aba202ba88::t_27ffdec74583c3 1
+23.tell-dont-ask/src/typescript/useCase/orderCreationUseCase.ts
+  s_e1b2aba202ba88::t_6d4ec872a17dbf 1-42
+23.tell-dont-ask/src/typescript/useCase/orderShipmentRequest.ts
+  s_e1b2aba202ba88::t_b510e1865beac4 1-7
+23.tell-dont-ask/src/typescript/useCase/orderShipmentUseCase.ts
+  s_e1b2aba202ba88::t_023cd19ba3c10d 1-30
+23.tell-dont-ask/src/typescript/useCase/rejectedOrderCannotBeApprovedException.ts
+  s_e1b2aba202ba88::t_b8728a662c2e3e 1
+23.tell-dont-ask/src/typescript/useCase/shippedOrdersCannotBeChangedException.ts
+  s_e1b2aba202ba88::t_016d7782fea6ac 1
+23.tell-dont-ask/src/typescript/useCase/unknownProductException.ts
+  s_e1b2aba202ba88::t_da5b9ea995a9ec 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "14a899cf71ac97a25de53ee49e592e3ba6117f38",
+  "prompts": {},
+  "sessions": {
+    "s_e1b2aba202ba88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60825a38-6f2a-46ed-9e5e-0b27afa33c77",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
