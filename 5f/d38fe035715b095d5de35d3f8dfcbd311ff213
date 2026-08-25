@@ -1,0 +1,94 @@
+"22.linq-workshop-kata/c#/Workshop.Answers/01. Fundamentals/Extensions.cs"
+  h_0a88d9aba8622a 1-2,4,8,11-13,16,19-20,23,26-29,36,41-42,56
+"22.linq-workshop-kata/c#/Workshop.Answers/01. Fundamentals/PlayWithFunctions.cs"
+  h_0a88d9aba8622a 1-35
+"22.linq-workshop-kata/c#/Workshop.Answers/02. Queries/Data/Park.cs"
+  h_0a88d9aba8622a 1-23
+"22.linq-workshop-kata/c#/Workshop.Answers/02. Queries/Data/Person.cs"
+  h_0a88d9aba8622a 1-46
+"22.linq-workshop-kata/c#/Workshop.Answers/02. Queries/Data/Persons.cs"
+  h_0a88d9aba8622a 1-51
+"22.linq-workshop-kata/c#/Workshop.Answers/02. Queries/Data/Pet.cs"
+  h_0a88d9aba8622a 1-9
+"22.linq-workshop-kata/c#/Workshop.Answers/02. Queries/Data/PetType.cs"
+  h_0a88d9aba8622a 1-12
+"22.linq-workshop-kata/c#/Workshop.Answers/02. Queries/Part1.cs"
+  h_0a88d9aba8622a 1-124
+"22.linq-workshop-kata/c#/Workshop.Answers/02. Queries/Part2.cs"
+  h_0a88d9aba8622a 1-144
+"22.linq-workshop-kata/c#/Workshop.Answers/03. Real World/ComponentExtensions.cs"
+  h_0a88d9aba8622a 1-30
+"22.linq-workshop-kata/c#/Workshop.Answers/03. Real World/RealWorld.cs"
+  h_0a88d9aba8622a 1-109
+"22.linq-workshop-kata/c#/Workshop.Answers/03. Real World/Watch/Component.cs"
+  h_0a88d9aba8622a 4,8-9,15
+"22.linq-workshop-kata/c#/Workshop.Answers/03. Real World/Watch/ComponentType.cs"
+  h_0a88d9aba8622a 1-38
+"22.linq-workshop-kata/c#/Workshop.Answers/03. Real World/Watch/ComponentTypeConverter.cs"
+  h_0a88d9aba8622a 1-29
+22.linq-workshop-kata/c#/Workshop.Answers/Workshop.Answers.csproj
+  h_0a88d9aba8622a 3-4,6,8-22
+22.linq-workshop-kata/c#/Workshop.Benchmark/ComponentExtensions.cs
+  h_0a88d9aba8622a 1-78
+22.linq-workshop-kata/c#/Workshop.Benchmark/Program.cs
+  h_0a88d9aba8622a 1-4
+22.linq-workshop-kata/c#/Workshop.Benchmark/Watch/Component.cs
+  h_0a88d9aba8622a 1-14
+22.linq-workshop-kata/c#/Workshop.Benchmark/Watch/ComponentType.cs
+  h_0a88d9aba8622a 1,38
+22.linq-workshop-kata/c#/Workshop.Benchmark/Watch/ComponentTypeConverter.cs
+  h_0a88d9aba8622a 1-28
+22.linq-workshop-kata/c#/Workshop.Benchmark/WatchBenchmark.cs
+  h_0a88d9aba8622a 1-38
+22.linq-workshop-kata/c#/Workshop.Benchmark/Workshop.Benchmark.csproj
+  h_0a88d9aba8622a 1-20
+22.linq-workshop-kata/c#/Workshop.Benchmark/benchmark.md
+  h_0a88d9aba8622a 1-17
+22.linq-workshop-kata/c#/Workshop.Benchmark/watch.json
+  h_0a88d9aba8622a 1-31916
+"22.linq-workshop-kata/c#/Workshop.Tests/01. Fundamentals/Extensions.cs"
+  h_0a88d9aba8622a 1-46
+"22.linq-workshop-kata/c#/Workshop.Tests/01. Fundamentals/PlayWithFunctions.cs"
+  h_0a88d9aba8622a 2,4,12,15-18,21,24-25,27-28,30
+"22.linq-workshop-kata/c#/Workshop.Tests/01. Fundamentals/TODO.txt"
+  h_0a88d9aba8622a 1-3
+"22.linq-workshop-kata/c#/Workshop.Tests/02. Queries/Data/Park.cs"
+  h_0a88d9aba8622a 1,3,23
+"22.linq-workshop-kata/c#/Workshop.Tests/02. Queries/Data/Person.cs"
+  h_0a88d9aba8622a 1,5,46
+"22.linq-workshop-kata/c#/Workshop.Tests/02. Queries/Data/Persons.cs"
+  h_0a88d9aba8622a 4,51
+"22.linq-workshop-kata/c#/Workshop.Tests/02. Queries/Data/Pet.cs"
+  h_0a88d9aba8622a 1,9
+"22.linq-workshop-kata/c#/Workshop.Tests/02. Queries/Data/PetType.cs"
+  h_0a88d9aba8622a 1,12
+"22.linq-workshop-kata/c#/Workshop.Tests/02. Queries/Part1.cs"
+  h_0a88d9aba8622a 4-6,8,10,13,16,19-21,25,28,31-33,37,42,45,48,51,54,57,60,63,66,69,72,75,79,82,85,88,90,93,98-99,102,105,108,111
+"22.linq-workshop-kata/c#/Workshop.Tests/02. Queries/Part2.cs"
+  h_0a88d9aba8622a 2-3,5,9,14,16,19,23,26,31,34,37,40-41,44,47,50-51,54,57,60-61,64,67,70,73,76,79,82,85,88,91,94,97-98,100-101,104
+"22.linq-workshop-kata/c#/Workshop.Tests/03. Real World/RealWorld.cs"
+  h_0a88d9aba8622a 4-5,9,11,13,15-16,18-22,24,27-29,32,35-36,39-59,62,65,67,70,73-74,77-79,82,85,89-90,93,96-97,99-102,104
+"22.linq-workshop-kata/c#/Workshop.Tests/03. Real World/Watch/Component.cs"
+  h_0a88d9aba8622a 1-15
+"22.linq-workshop-kata/c#/Workshop.Tests/03. Real World/Watch/ComponentType.cs"
+  h_0a88d9aba8622a 1-38
+"22.linq-workshop-kata/c#/Workshop.Tests/03. Real World/Watch/ComponentTypeConverter.cs"
+  h_0a88d9aba8622a 5,29
+"22.linq-workshop-kata/c#/Workshop.Tests/03. Real World/watch.json"
+  h_0a88d9aba8622a 1-3626
+22.linq-workshop-kata/c#/Workshop.Tests/Workshop.Tests.csproj
+  h_0a88d9aba8622a 1-24
+22.linq-workshop-kata/c#/linq-workshop.sln
+  h_0a88d9aba8622a 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "5fd38fe035715b095d5de35d3f8dfcbd311ff213",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
