@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop.Tests", "Workshop.Tests\Workshop.Tests.csproj", "{524EFE3E-BA85-489A-8E31-3C1E916A5A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop.Answers", "Workshop.Answers\Workshop.Answers.csproj", "{682CD1A3-359C-40FC-843B-BA627FD1948F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions", "Solutions", "{A3B69369-0B24-47E0-ACAD-01E028DF5A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop.Benchmark", "Workshop.Benchmark\Workshop.Benchmark.csproj", "{45204DCB-BD85-4C8D-9DF0-C95CD20AD377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524EFE3E-BA85-489A-8E31-3C1E916A5A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524EFE3E-BA85-489A-8E31-3C1E916A5A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524EFE3E-BA85-489A-8E31-3C1E916A5A16}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{524EFE3E-BA85-489A-8E31-3C1E916A5A16}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{682CD1A3-359C-40FC-843B-BA627FD1948F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682CD1A3-359C-40FC-843B-BA627FD1948F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682CD1A3-359C-40FC-843B-BA627FD1948F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{682CD1A3-359C-40FC-843B-BA627FD1948F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{45204DCB-BD85-4C8D-9DF0-C95CD20AD377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45204DCB-BD85-4C8D-9DF0-C95CD20AD377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45204DCB-BD85-4C8D-9DF0-C95CD20AD377}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{45204DCB-BD85-4C8D-9DF0-C95CD20AD377}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{682CD1A3-359C-40FC-843B-BA627FD1948F} = {A3B69369-0B24-47E0-ACAD-01E028DF5A49}
+		{45204DCB-BD85-4C8D-9DF0-C95CD20AD377} = {A3B69369-0B24-47E0-ACAD-01E028DF5A49}
+	EndGlobalSection
+EndGlobal

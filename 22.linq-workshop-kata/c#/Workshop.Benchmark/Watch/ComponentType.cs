@@ -1,0 +1,38 @@
+namespace Workshop.Benchmark.Watch;
+
+public enum ComponentType
+{
+    Case,
+    Cover,
+    Screws,
+    Screw,
+    Bezel,
+    Insert,
+    Spring,
+    Crystal,
+    Seal,
+    Movement,
+    Oscillator,
+    BalanceWheel,
+    Hairspring,
+    ShockAbsorber,
+    Jewel,
+    GearTrain,
+    Wheel,
+    Pinion,
+    Barrel,
+    Mainspring,
+    Arbor,
+    Bridge,
+    Dial,
+    Markers,
+    Marker,
+    Hands,
+    Hand,
+    Strap,
+    Links,
+    Link,
+    Clasp,
+    Pin,
+    Watch
+}

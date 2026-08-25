@@ -1,0 +1,3 @@
+- Lambda expressions
+- One Liner LinQ expressions
+- Pattern Matching
