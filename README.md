@@ -11,6 +11,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 ## Basics
 - [Manipuler des collections](22.linq-workshop-kata/README.md)
 - [Écrire ses premiers tests](04.unit-tests/README.md)
+- [No More Loops](24.no-more-loops/README.md)
 
 ## Sql
 - [Les 3 enfants les plus sages](https://coda-dijon.github.io/advent-2025/?day=08)
