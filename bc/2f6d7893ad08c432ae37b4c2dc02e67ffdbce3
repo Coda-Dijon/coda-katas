@@ -1,0 +1,16 @@
+24.no-more-loops/src/main/java/loops/LoopUtils.java
+  h_0a88d9aba8622a 1-49
+24.no-more-loops/src/test/java/loops/LoopsTest.java
+  h_0a88d9aba8622a 14-15,20-24,29-34,39-43,48-52,57-62,64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "bc2f6d7893ad08c432ae37b4c2dc02e67ffdbce3",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
