@@ -36,6 +36,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 ## Refactoring
 - [Gilded Rose](13.gilded-rose/README.md)
 - [Tell Don't Ask](23.tell-dont-ask/README.md)
+- [Employee Onboarding](25.employee-onboarding/README.md) - Monads / Railway
 
 ## Http
 - [curl-quests](https://github.com/lite-quests/curl-quests/)
