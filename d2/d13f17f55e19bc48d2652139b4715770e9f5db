@@ -1,0 +1,91 @@
+25.employee-onboarding/src/typescript/package.json
+  s_e1b2aba202ba88::t_0d85b390996713 1-15
+25.employee-onboarding/src/c#/EmployeeOnboarding/Models/Models.cs
+  s_e1b2aba202ba88::t_31818e427e33c3 1-46
+25.employee-onboarding/src/java/src/main/java/com/onboarding/externals/ItProvisioning.java
+  s_e1b2aba202ba88::t_aee6e353548b0e 1-8
+25.employee-onboarding/src/java/src/main/java/com/onboarding/externals/Payroll.java
+  s_e1b2aba202ba88::t_084bf6906317d9 1-8
+25.employee-onboarding/README.md
+  s_e1b2aba202ba88::t_5084bd5de205a5 1-48
+25.employee-onboarding/src/typescript/src/externals/ports.ts
+  s_e1b2aba202ba88::t_54f1162fb716d6 1-23
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/exceptions/AccountProvisioningException.java
+  s_e1b2aba202ba88::t_99527c721ab9c1 1-7
+25.employee-onboarding/src/c#/EmployeeOnboarding.sln
+  s_e1b2aba202ba88::t_0c3837d6290dfd 1-25
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/exceptions/BusinessException.java
+  s_e1b2aba202ba88::t_b4fbbda198f8de 1-7
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/exceptions/ContractGenerationException.java
+  s_e1b2aba202ba88::t_7f49a104a948e8 1-7
+25.employee-onboarding/src/java/pom.xml
+  s_e1b2aba202ba88::t_0d448e51da34c2 1-57
+25.employee-onboarding/src/c#/EmployeeOnboarding.Tests/OnboardingTests.cs
+  s_e1b2aba202ba88::t_979381daac2471 1-99
+25.employee-onboarding/src/java/src/main/java/com/onboarding/externals/EmployeeRepository.java
+  s_e1b2aba202ba88::t_28375a55e99420 1-8
+25.employee-onboarding/src/typescript/src/onboarding.ts
+  s_e1b2aba202ba88::t_2d906de681c426 1-47
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/AcceptedOffer.java
+  s_e1b2aba202ba88::t_ff43ed32fb15df 1-6
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/OnboardingResult.java
+  s_e1b2aba202ba88::t_4fe66c4ead31ac 1-6
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/exceptions/EmployeeRegistrationException.java
+  s_e1b2aba202ba88::t_d50192f60ac236 1-7
+25.employee-onboarding/src/typescript/vitest.config.ts
+  s_e1b2aba202ba88::t_66ed3037dc9f50 1-7
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/Contract.java
+  s_e1b2aba202ba88::t_906f031a2d2c8a 1-6
+25.employee-onboarding/src/java/src/main/java/com/onboarding/Onboarding.java
+  s_e1b2aba202ba88::t_16d736bee863e0 1-44
+25.employee-onboarding/src/typescript/tsconfig.json
+  s_e1b2aba202ba88::t_c70f5e183acbca 1-13
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/Employee.java
+  s_e1b2aba202ba88::t_63d5200b0a7c97 1-4
+25.employee-onboarding/src/java/src/test/java/com/onboarding/OnboardingTest.java
+  s_e1b2aba202ba88::t_7f397266166f11 1-88,90-107
+  h_0a88d9aba8622a 89
+README.md
+  h_0a88d9aba8622a 39
+25.employee-onboarding/src/c#/EmployeeOnboarding.Tests/EmployeeOnboarding.Tests.csproj
+  s_e1b2aba202ba88::t_83a8ff18f0f034 1-26
+25.employee-onboarding/src/typescript/tests/onboarding.test.ts
+  s_e1b2aba202ba88::t_a5ad0fc74da395 1-119
+25.employee-onboarding/src/c#/EmployeeOnboarding/Externals/Ports.cs
+  s_e1b2aba202ba88::t_4528eba546511b 1-23
+25.employee-onboarding/src/java/src/main/java/com/onboarding/externals/HrSystem.java
+  s_e1b2aba202ba88::t_c116dd99592204 1-8
+25.employee-onboarding/src/c#/EmployeeOnboarding/Onboarding.cs
+  s_e1b2aba202ba88::t_76b1e34fed73fa 1-35
+25.employee-onboarding/src/c#/EmployeeOnboarding/EmployeeOnboarding.csproj
+  s_e1b2aba202ba88::t_181caa80a502ad 1-14
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/exceptions/PayrollEnrollmentException.java
+  s_e1b2aba202ba88::t_225a5ca662fb03 1-7
+25.employee-onboarding/src/java/src/main/java/com/onboarding/models/Account.java
+  s_e1b2aba202ba88::t_6014e4b706820f 1-4
+25.employee-onboarding/src/typescript/src/models.ts
+  s_e1b2aba202ba88::t_8e1a09ef1e2705 1-39
+25.employee-onboarding/src/typescript/package-lock.json
+  s_e1b2aba202ba88::t_c967282dd9e447 1-1454
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d2d13f17f55e19bc48d2652139b4715770e9f5db",
+  "prompts": {},
+  "humans": {
+    "h_0a88d9aba8622a": {
+      "author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_e1b2aba202ba88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60825a38-6f2a-46ed-9e5e-0b27afa33c77",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
