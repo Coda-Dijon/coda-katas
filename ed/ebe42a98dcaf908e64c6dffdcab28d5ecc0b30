@@ -1,0 +1,48 @@
+26.algos-avengers/episode02/c/tesseractEnergy.c
+  s_e1b2aba202ba88::t_79c5208d4db9d4 4-8
+26.algos-avengers/episode04/c/strongestAvenger.c
+  s_e1b2aba202ba88::t_943f4d3be55a93 6-15
+26.algos-avengers/episode03/c/avengersScanner.c
+  s_e1b2aba202ba88::t_2d8b794104915f 1-2,6-10
+26.algos-avengers/episode01/c/main.c
+  s_e1b2aba202ba88::t_02455bf51d5a03 4-6
+26.algos-avengers/episode14/c/repairStack.c
+  s_e1b2aba202ba88::t_50bb8e6e4f0418 1,13-15,19,23-24,28-32
+26.algos-avengers/episode00/c/main.c
+  s_e1b2aba202ba88::t_5a9ea6fc5d7060 4
+26.algos-avengers/episode08/c/warCry.c
+  s_e1b2aba202ba88::t_78c8fdabf8b84f 1-2,6-10
+26.algos-avengers/episode06/c/alertThreshold.c
+  s_e1b2aba202ba88::t_d53845181a88e9 4-10
+26.algos-avengers/episode05/c/averagePower.c
+  s_e1b2aba202ba88::t_07f3ea24b2ddec 4-11
+26.algos-avengers/episode12/c/pymSequence.c
+  s_e1b2aba202ba88::t_c99d9b55524c9a 3-11
+26.algos-avengers/episode13/c/lokiCode.c
+  s_e1b2aba202ba88::t_16f23e2401a780 1-3,6-15,17
+26.algos-avengers/episode09/c/invertedMessage.c
+  s_e1b2aba202ba88::t_3fc396b22c7f16 1-2,6-14
+26.algos-avengers/episode11/c/avengersCensus.c
+  s_e1b2aba202ba88::t_f4b9b3456dbbb9 1-2,5-13,15-26
+26.algos-avengers/episode07/c/avengersRanking.c
+  s_e1b2aba202ba88::t_3a41e86f0830d4 3-8,10-16
+26.algos-avengers/episode10/c/avengersUniqueness.c
+  s_e1b2aba202ba88::t_6a86005175579e 1-2,5-10,13-22
+  s_e1b2aba202ba88::t_0836ec28ba3379 23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "edebe42a98dcaf908e64c6dffdcab28d5ecc0b30",
+  "prompts": {},
+  "sessions": {
+    "s_e1b2aba202ba88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60825a38-6f2a-46ed-9e5e-0b27afa33c77",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
