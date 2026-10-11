@@ -1,5 +1,11 @@
 #include "alertThreshold.h"
 
 int count_above_threshold(const Avenger *team, const int count, const int threshold) {
-    return 0;
+    int total = 0;
+    for (int i = 0; i < count; i++) {
+        if (team[i].power > threshold) {
+            total++;
+        }
+    }
+    return total;
 }

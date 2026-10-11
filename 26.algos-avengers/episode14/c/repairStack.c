@@ -1,4 +1,4 @@
-#include <stddef.h>
+#include <stdlib.h>
 
 #include "repairStack.h"
 
@@ -10,15 +10,24 @@ struct RepairStack {
 };
 
 RepairStack *repair_stack_create(void) {
-    return NULL;
+    RepairStack *stack = malloc(sizeof(RepairStack));
+    stack->count = 0;
+    return stack;
 }
 
 void repair_stack_destroy(RepairStack *stack) {
+    free(stack);
 }
 
 void repair_stack_push(RepairStack *stack, const char *suit_name) {
+    stack->items[stack->count] = suit_name;
+    stack->count++;
 }
 
 const char *repair_stack_pop(RepairStack *stack) {
-    return NULL;
+    if (stack->count == 0) {
+        return NULL;
+    }
+    stack->count--;
+    return stack->items[stack->count];
 }

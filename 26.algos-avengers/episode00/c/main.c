@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-    // TODO: afficher "Avengers, assemble !"
+    printf("Avengers, assemble !\n");
     return 0;
 }
