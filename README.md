@@ -27,6 +27,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [Money Problem](16.money-problem/README.md)
 
 ## Algorithmique
+- [Avengers: CDays](26.algos-avengers/README.md)
 - [Algorithmique Wars](09.algos-star-wars/README.md)
 - [Goat Numeral](14.goat-numeral/README.md)
 - [Diamond Kata (PBT)](18.diamond-kata/README.md)
