@@ -19,3 +19,4 @@ Une série d'exercices en C pour découvrir à la fois l'algorithmique et le lan
 - [Episode 12 : La Séquence des Particules Pym](episode12/README.md)
 - [Episode 13 : Le Code Secret de Loki](episode13/README.md)
 - [Episode 14 : La Pile de Réparation de Stark](episode14/README.md)
+- [Episode 15 : Le Mainframe de Doom](episode15/README.md)
