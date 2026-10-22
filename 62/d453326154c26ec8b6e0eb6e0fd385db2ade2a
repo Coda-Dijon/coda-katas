@@ -1,0 +1,21 @@
+26.algos-avengers/episode02bis/c/Makefile
+  s_c228d6efcaae1a::t_3221c984e9bd4f 1-28
+26.algos-avengers/episode02bis/README.md
+  s_c228d6efcaae1a::t_d1ce5f83d8799d 25-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "62d453326154c26ec8b6e0eb6e0fd385db2ade2a",
+  "prompts": {},
+  "sessions": {
+    "s_c228d6efcaae1a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4d1bf144-726e-48a1-be88-f3840f4d876b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
