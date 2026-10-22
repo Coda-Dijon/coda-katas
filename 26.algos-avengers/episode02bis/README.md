@@ -22,3 +22,13 @@ cmake --build build
 ./build/bin/visionProtocol
 ./build/bin/visionProtocol_tests
 ```
+
+Ou avec `make` :
+
+```bash
+cd episode02bis/c
+make        # compile le programme et les tests
+make run    # exécute le programme
+make test   # exécute les tests unitaires
+make clean  # supprime les binaires
+```
