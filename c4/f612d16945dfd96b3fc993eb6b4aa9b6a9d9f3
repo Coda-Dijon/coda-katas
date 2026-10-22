@@ -1,0 +1,35 @@
+.gitignore
+  s_e1b2aba202ba88::t_ef05da7bb695ba 53-56
+26.algos-avengers/README.md
+  s_e1b2aba202ba88::t_75dffb65be90be 10
+26.algos-avengers/episode02bis/README.md
+  s_e1b2aba202ba88::t_692420dda74a55 1-24
+26.algos-avengers/episode02bis/c/CMakeLists.txt
+  s_e1b2aba202ba88::t_a67dea1197ebf9 1-20
+26.algos-avengers/episode02bis/c/main.c
+  s_e1b2aba202ba88::t_73e55ea1884c71 1-18
+26.algos-avengers/episode02bis/c/test_visionProtocol.c
+  s_e1b2aba202ba88::t_3582a94b899a2e 1-40
+26.algos-avengers/episode02bis/c/visionProtocol.c
+  s_e1b2aba202ba88::t_ec5cdf080bc16d 1-5
+26.algos-avengers/episode02bis/c/visionProtocol.h
+  s_e1b2aba202ba88::t_1666f3c4516fac 1-8
+26.algos-avengers/episode01/c/main.c
+  s_e1b2aba202ba88::t_9d68f1b6deec70 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c4f612d16945dfd96b3fc993eb6b4aa9b6a9d9f3",
+  "prompts": {},
+  "sessions": {
+    "s_e1b2aba202ba88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60825a38-6f2a-46ed-9e5e-0b27afa33c77",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
