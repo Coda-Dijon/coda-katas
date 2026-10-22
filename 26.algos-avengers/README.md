@@ -7,6 +7,7 @@ Une série d'exercices en C pour découvrir à la fois l'algorithmique et le lan
 - [Episode 0 : Avengers, Assemble !](episode00/README.md)
 - [Episode 1 : L'Appel des Vengeurs](episode01/README.md)
 - [Episode 2 : Le Compteur du Tesseract](episode02/README.md)
+- [Episode 2 bis : Le Protocole de Vision](episode02bis/README.md)
 - [Episode 3 : Le Scanner des Vengeurs](episode03/README.md)
 - [Episode 4 : Le Détecteur du Plus Fort](episode04/README.md)
 - [Episode 5 : La Moyenne de Puissance du Groupe](episode05/README.md)

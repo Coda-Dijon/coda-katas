@@ -51,3 +51,6 @@ obj/
 
 # java
 target/
+
+# C
+build/
