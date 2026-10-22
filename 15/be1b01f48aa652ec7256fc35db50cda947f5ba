@@ -1,0 +1,19 @@
+26.algos-avengers/episode02bis/c/visionProtocol.c
+  s_e1b2aba202ba88::t_2b73674c2eeb1f 4-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "15be1b01f48aa652ec7256fc35db50cda947f5ba",
+  "prompts": {},
+  "sessions": {
+    "s_e1b2aba202ba88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60825a38-6f2a-46ed-9e5e-0b27afa33c77",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
