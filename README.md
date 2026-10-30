@@ -33,6 +33,7 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [Diamond Kata (PBT)](18.diamond-kata/README.md)
 - [Algorithme de Luhn](11.luhn/README.md)
 - [Watermarking de texte](12.watermarking/README.md)
+- [DOOM Fire](27.doom-fire/README.md)
 
 ## Refactoring
 - [Gilded Rose](13.gilded-rose/README.md)

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOOM Fire - Coda Katas</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>DOOM Fire</h1>
+      <p>Visualisation de votre implémentation de <code>src/fire.ts</code></p>
+    </header>
+
+    <main>
+      <section class="stage">
+        <canvas id="fire" aria-label="Rendu du feu"></canvas>
+        <p class="frame">Frame <span id="frame-count">0</span></p>
+      </section>
+
+      <aside class="panel">
+        <fieldset>
+          <legend>Contrôles</legend>
+          <div class="buttons">
+            <button id="play" type="button">⏸ Pause</button>
+            <button id="step" type="button">⏭ Pas à pas</button>
+            <button id="toggle-fire" type="button">💨 Éteindre</button>
+            <button id="reset" type="button">↺ Reset</button>
+          </div>
+
+          <label>
+            Taille de la grille
+            <select id="size">
+              <option value="16x10">Debug 16 × 10 (valeurs affichées)</option>
+              <option value="80x50">Moyen 80 × 50</option>
+              <option value="320x168" selected>DOOM 320 × 168</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Vitesse : <span id="fps-value">30</span> images/s</span>
+            <input id="fps" type="range" min="1" max="60" value="30" />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Votre code</legend>
+          <ul id="status"></ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>Les 37 nombres</legend>
+          <div id="palette" class="palette"></div>
+        </fieldset>
+      </aside>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
