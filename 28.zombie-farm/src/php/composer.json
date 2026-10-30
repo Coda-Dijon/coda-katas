@@ -1,0 +1,21 @@
+{
+  "name": "coda/zombie-farm",
+  "require": {
+    "php": ">=8.3",
+    "pestphp/pest": "v4.2.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "ZombieFarm\\": "src",
+      "Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest"
+  }
+}
