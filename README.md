@@ -46,10 +46,10 @@ Sur ce repository, nous centralisons des code katas à destination de nos étudi
 - [DDoS Guard](21.ddos-guard-kata/README.md)
 
 ## Avancé
+- [L'Élevage de Zombies - Réflexion & sérialisation JSON](28.zombie-farm/README.md)
 - [Pizzeria du Coin - Inversion de Dépendance & IoC](19.pizzeria-ioc-kata/README.md)
 - [Météo Express - Circuit Breaker & Résilience](20.weather-resilience-kata/README.md)
 - [Refactoring du Bouchonnois](17.refactoring-du-bouchonnois/README.md)
-- [L'Élevage de Zombies - Réflexion & JSON](28.zombie-farm/README.md)
 
 ## Autres sources
 - [Calendrier de l'Avent Coda - 2025](https://coda-dijon.github.io/advent-2025/)
