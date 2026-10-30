@@ -1,0 +1,146 @@
+28.zombie-farm/src/c#/ZombieFarm/Json/JsonSerializer.cs
+  s_df948254553c41::t_506bf907c4b398 1-8,10-12
+  s_df948254553c41::t_b692c54804bc5d 9
+28.zombie-farm/src/java/src/main/java/com/zombiefarm/json/JsonParser.java
+  s_df948254553c41::t_7266d8505d065d 1-15,19-28,30-32,34-35,53-183
+  s_df948254553c41::t_5df4f0c4b3519f 16-18,29,33,36-52
+28.zombie-farm/src/c#/ZombieFarm/Json/JsonNameAttribute.cs
+  s_df948254553c41::t_506bf907c4b398 1-8
+28.zombie-farm/src/typescript/tests/models/coffin.ts
+  s_df948254553c41::t_7f5058092e3de4 1-2
+28.zombie-farm/src/php/phpunit.xml
+  s_df948254553c41::t_e842c35e8228ba 1-14
+28.zombie-farm/src/c#/ZombieFarm.Tests/ZombieFarm.Tests.csproj
+  s_df948254553c41::t_506bf907c4b398 1-25
+28.zombie-farm/src/java/src/main/java/com/zombiefarm/json/JsonMappingException.java
+  s_df948254553c41::t_e7d4ea9d683d6d 1-12
+28.zombie-farm/src/typescript/vitest.config.ts
+  s_df948254553c41::t_4bd2a72dd6af4d 1-7
+28.zombie-farm/src/php/tests/Models/Zombie.php
+  s_df948254553c41::t_b140024a336a11 1-31
+28.zombie-farm/src/php/src/Json/JsonMappingException.php
+  s_df948254553c41::t_e842c35e8228ba 1-10
+28.zombie-farm/src/php/src/Json/JsonParser.php
+  s_df948254553c41::t_e842c35e8228ba 1-20
+28.zombie-farm/src/java/src/test/java/com/zombiefarm/models/Brain.java
+  s_df948254553c41::t_5dee637a3d61d6 1-14
+28.zombie-farm/src/typescript/src/jsonMappingException.ts
+  s_df948254553c41::t_4bd2a72dd6af4d 1-7
+28.zombie-farm/src/java/src/test/java/com/zombiefarm/models/Zombie.java
+  s_df948254553c41::t_5dee637a3d61d6 1-45
+28.zombie-farm/src/php/tests/Models/Coffin.php
+  s_df948254553c41::t_b140024a336a11 1-8
+28.zombie-farm/src/java/pom.xml
+  s_df948254553c41::t_e7d4ea9d683d6d 1-48
+28.zombie-farm/src/php/src/Json/ListOf.php
+  s_df948254553c41::t_e842c35e8228ba 1-16
+28.zombie-farm/src/typescript/src/jsonSerializer.ts
+  s_df948254553c41::t_4bd2a72dd6af4d 1-14
+28.zombie-farm/src/php/tests/Models/Brain.php
+  s_df948254553c41::t_b140024a336a11 1-12
+28.zombie-farm/README.md
+  s_df948254553c41::t_0f2976cb0f2c90 88-89
+  s_df948254553c41::t_a15261ce58a736 99
+  s_df948254553c41::t_2025f75aee9742 1-87,90-98,100-151
+28.zombie-farm/src/php/tests/Models/Necromancer.php
+  s_df948254553c41::t_b140024a336a11 1-16
+README.md
+  s_df948254553c41::t_45866baff557ce 52
+28.zombie-farm/src/c#/ZombieFarm/Json/JsonParser.cs
+  s_df948254553c41::t_b14bf4bd6cbe79 12-14,17,19,23,29-32
+  s_df948254553c41::t_bae657a4c93ccc 33,35-48
+  s_df948254553c41::t_506bf907c4b398 1-11,15-16,18,20-22,24-28,34,49-65
+28.zombie-farm/src/c#/ZombieFarm/ZombieFarm.csproj
+  s_df948254553c41::t_506bf907c4b398 1-10
+28.zombie-farm/src/java/src/main/java/com/zombiefarm/json/JsonIgnore.java
+  s_df948254553c41::t_e7d4ea9d683d6d 1-12
+28.zombie-farm/src/java/src/main/java/com/zombiefarm/json/JsonName.java
+  s_df948254553c41::t_e7d4ea9d683d6d 1-13
+28.zombie-farm/src/java/src/test/java/com/zombiefarm/json/JsonParserTest.java
+  s_df948254553c41::t_5dee637a3d61d6 1-14,16,21-29,31,42-44,49-52,54-56
+  s_df948254553c41::t_5df4f0c4b3519f 15,17-20,30,32-41,45-48,53
+28.zombie-farm/src/java/src/test/java/com/zombiefarm/json/JsonSerializerTest.java
+  s_df948254553c41::t_5dee637a3d61d6 1-143
+28.zombie-farm/src/c#/ZombieFarm/Json/JsonMappingException.cs
+  s_df948254553c41::t_506bf907c4b398 1-5
+28.zombie-farm/src/c#/ZombieFarm.sln
+  s_df948254553c41::t_d772387f0c35d7 1-48
+28.zombie-farm/src/c#/ZombieFarm/Json/JsonIgnoreAttribute.cs
+  s_df948254553c41::t_506bf907c4b398 1-5
+28.zombie-farm/src/typescript/src/annotations.ts
+  s_df948254553c41::t_4bd2a72dd6af4d 1-40
+28.zombie-farm/src/typescript/package.json
+  s_df948254553c41::t_4bd2a72dd6af4d 1-15
+28.zombie-farm/src/typescript/tsconfig.json
+  s_df948254553c41::t_4bd2a72dd6af4d 1-14
+28.zombie-farm/src/typescript/tests/models/bodyPart.ts
+  s_df948254553c41::t_7f5058092e3de4 1-4
+28.zombie-farm/src/typescript/tests/models/necromancer.ts
+  s_df948254553c41::t_7f5058092e3de4 1-7
+28.zombie-farm/src/php/composer.json
+  s_df948254553c41::t_e842c35e8228ba 1-21
+28.zombie-farm/src/php/src/Json/JsonName.php
+  s_df948254553c41::t_e842c35e8228ba 1-14
+28.zombie-farm/src/php/src/Json/JsonSerializer.php
+  s_df948254553c41::t_e842c35e8228ba 1-27
+28.zombie-farm/src/php/tests/JsonSerializerTest.php
+  s_df948254553c41::t_b140024a336a11 1-54
+28.zombie-farm/src/java/src/test/java/com/zombiefarm/models/BodyPart.java
+  s_df948254553c41::t_5dee637a3d61d6 1-14
+28.zombie-farm/src/java/src/test/java/com/zombiefarm/models/Coffin.java
+  s_df948254553c41::t_5dee637a3d61d6 1-5
+28.zombie-farm/src/typescript/tests/annotations.test.ts
+  s_df948254553c41::t_7f5058092e3de4 1-2,4-24,26-27
+  s_df948254553c41::t_d299fa9c239354 3,25
+28.zombie-farm/src/typescript/tests/models/brain.ts
+  s_df948254553c41::t_7f5058092e3de4 1-6
+28.zombie-farm/src/typescript/tests/models/zombie.ts
+  s_df948254553c41::t_7f5058092e3de4 1-19
+28.zombie-farm/src/java/src/test/java/com/zombiefarm/models/Necromancer.java
+  s_df948254553c41::t_5dee637a3d61d6 1-19
+28.zombie-farm/src/php/src/Json/JsonIgnore.php
+  s_df948254553c41::t_e842c35e8228ba 1-11
+28.zombie-farm/src/typescript/tests/jsonSerializer.test.ts
+  s_df948254553c41::t_7f5058092e3de4 1-60
+28.zombie-farm/src/java/src/main/java/com/zombiefarm/json/JsonSerializer.java
+  s_df948254553c41::t_5df4f0c4b3519f 9
+  s_df948254553c41::t_e7d4ea9d683d6d 1-8,10-13
+28.zombie-farm/src/php/tests/Models/BodyPart.php
+  s_df948254553c41::t_b140024a336a11 1-12
+28.zombie-farm/src/c#/ZombieFarm.Tests/JsonParserTests.cs
+  s_df948254553c41::t_b692c54804bc5d 48
+  s_df948254553c41::t_5deae6a56312be 10,12-47,49-54,57
+  s_df948254553c41::t_2076d20427da17 1-9,11,55-56,58
+28.zombie-farm/src/typescript/src/jsonParser.ts
+  s_df948254553c41::t_4bd2a72dd6af4d 1-15
+28.zombie-farm/src/c#/ZombieFarm.Tests/JsonSerializerTests.cs
+  s_df948254553c41::t_53588c8c2c6c0b 1-99
+28.zombie-farm/src/c#/ZombieFarm.Tests/Models/BodyPart.cs
+  s_df948254553c41::t_ac1ae7333baa00 1-7
+28.zombie-farm/src/c#/ZombieFarm.Tests/Models/Brain.cs
+  s_df948254553c41::t_39375b84900852 1-7
+28.zombie-farm/src/c#/ZombieFarm.Tests/Models/Coffin.cs
+  s_df948254553c41::t_2e3d982c387473 1-4
+28.zombie-farm/src/c#/ZombieFarm.Tests/Models/Necromancer.cs
+  s_df948254553c41::t_0dc4343397caeb 1-10
+28.zombie-farm/src/c#/ZombieFarm.Tests/Models/Zombie.cs
+  s_df948254553c41::t_f0112abb1f4dd1 1-20
+28.zombie-farm/src/typescript/package-lock.json
+  s_df948254553c41::t_53fec8d571d3f8 1-1461
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "97a8d13ac58af03a614693efd6af0d2a250e34dd",
+  "prompts": {},
+  "sessions": {
+    "s_df948254553c41": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8f0b21e4-4f70-423b-b9a0-3d25fcb5ae5a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
