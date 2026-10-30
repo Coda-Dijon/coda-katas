@@ -1,0 +1,21 @@
+27.doom-fire/src/typescript/src/fire.ts
+  s_df948254553c41::t_9c6f9826457a83 15-18,20-21,23-24,26-41,44-45,47-48
+27.doom-fire/src/typescript/tests/fire.test.ts
+  s_df948254553c41::t_2abb5ba0ba192d 3-4,13-27,38-45,49-150,154-177,181-190
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0944b41397af98ec61bacea7f69dfaef4cd48c15",
+  "prompts": {},
+  "sessions": {
+    "s_df948254553c41": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8f0b21e4-4f70-423b-b9a0-3d25fcb5ae5a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Yoan Thirion <yoan.thirion@gmail.com>"
+    }
+  }
+}
